@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: #1e1e1e;
+}
+
+/* ========== Header ========== */
+
+header {
+  display: flex;
+  padding: 20px 5%;
+  margin: 15px 5%;
+  align-items: center;
+  background-color: #e8e8e8;
+  border-radius: 60px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav a {
+  color: #1e1e1e;
+  font-size: 17px;
+  padding: 6px 20px;
+  font-weight: 300;
+}
+
+.giving-nav-link {
+  background-color: #f79e3d;
+  border-radius: 20px;
+  color: #fffaf0;
+}
+
+nav a i {
+  background-color: #f79e3d;
+  color: #fffaf0;
+  padding: 9px;
+  border-radius: 50%;
+  margin-left: -23px;
+}
+
+/* ========== Section 1 ========== */
+section {
+  margin: 20px 5%;
+}
+
+.first-part-section-1 {
+  position: relative;
+  min-height: 400px;
+  background: url("/assets/hero-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.arrow-image {
+  position: absolute;
+  bottom: 0;
+  right: 90%;
+  width: 100px;
+  background-color: #070658;
+  border-radius: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.second-part-section-1 {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.second-part-section-1-a h1 {
+  background-color: #d02a29;
+  border-radius: 40px;
+  padding: 40px;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.second-part-section-1-a div {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.second-part-section-1-a-btns {
+  background-color: #f79e3d;
+  color: #fffaf0;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+.second-part-section-1-a-btns i {
+  color: #fffaf0;
+}
+
+.second-part-section-1-b {
+  height: 188px;
+  width: 726px;
+  background: url("/assets/hero-copy-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.second-part-section-1-b p {
+  color: #fffaf0;
+  padding: 25px;
+  padding-top: 45px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+/* ========== Section 2 ========== */
+.section-2 {
+  margin-top: 60px;
+}
+
+.section-2-header {
+  display: flex;
+  align-items: center;
+}
+
+.section-2-header h1 {
+  margin-right: 15px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 34.85px;
+}
+
+.section-2-header hr {
+  width: 58%;
+}
+
+/* Event Boxes */
+.section-2-event-boxes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-2-event-box-a {
+  width: 330px;
+  height: 640px;
+  padding: 40px;
+  border: none;
+  border-radius: 40px;
+  background: url("/assets/event-1.png");
+}
+
+.section-2-event-box-b {
+    width: 330px;
+    height: 640px;
+    padding: 40px;
+    border: none;
+    border-radius: 40px;
+    background: url("/assets/event-2.png");
+  }
+
+  .section-2-event-box-c {
+    width: 330px;
+    height: 640px;
+    padding: 40px;
+    border: none;
+    border-radius: 40px;
+    background: url("/assets/event-3.png");
+  }
+
+.section-2-event-box-part-1 h6 {
+  color: #fffaf0;
+  font-size: 17px;
+  text-align: center;
+  border: 2px solid #fffaf0;
+  border-radius: 20px;
+  width: 170px;
+  padding: 5px;
+}
+
+.section-2-event-box-part-1 h2 {
+  color: #fffaf0;
+  font-size: 34.85px;
+}
+
+.section-2-event-box-part-1 div {
+  display: flex;
+  align-items: center;
+}
+
+.section-2-event-box-part-1 i{
+    margin-right: 8px;
+}
+
+.section-2-event-box-part-1 i,
+.section-2-event-box-part-1 p {
+  color: #fffaf0;
+  font-size: 15px;
+}
+
+.section-2-event-box-part-2-a,
+.section-2-event-box-part-2-b,
+.section-2-event-box-part-2-c {
+  text-align: center;
+  margin-top: 110%;
+}
+
+.section-2-event-box-part-2-a a {
+  color: #1e1e1e;
+  background-color: #f4e13d;
+  font-size: 17px;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+
+.section-2-event-box-part-2-b a {
+    color: #1e1e1e;
+    background-color: #03bf56;
+    font-size: 17px;
+    padding: 15px 20px;
+    border-radius: 30px;
+  }
+
+  .section-2-event-box-part-2-c a {
+    color: #1e1e1e;
+    background-color: #ed5608;
+    font-size: 17px;
+    padding: 15px 20px;
+    border-radius: 30px;
+  }
+
+  .section-2-event-boxes-arrow i{
+    color: #fffaf0;
+    background-color: #f79e3d;
+    width: 118px;
+    height: 118px;
+    padding: 20px;
+    border-radius: 50%;
+  }
