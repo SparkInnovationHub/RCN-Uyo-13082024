@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Heebo", sans-serif;
   scroll-behavior: smooth;
   color: #1e1e1e;
 }
@@ -47,7 +47,7 @@ nav a i {
 
 /* ========== Section 1 ========== */
 section {
-  margin: 20px 5%;
+  margin: 20px auto;
 }
 
 .first-part-section-1 {
@@ -124,7 +124,9 @@ section {
 
 /* ========== Section 2 ========== */
 .section-2 {
-  margin-top: 60px;
+  max-width: 1270px;
+  margin: 60px auto;
+  padding: 20px 2.5%;
 }
 
 .section-2-header {
@@ -144,10 +146,10 @@ section {
 }
 
 /* Event Boxes */
-.section-2-event-boxes{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.section-2-event-boxes {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .section-2-event-box-a {
@@ -160,22 +162,22 @@ section {
 }
 
 .section-2-event-box-b {
-    width: 330px;
-    height: 640px;
-    padding: 40px;
-    border: none;
-    border-radius: 40px;
-    background: url("/assets/event-2.png");
-  }
+  width: 330px;
+  height: 640px;
+  padding: 40px;
+  border: none;
+  border-radius: 40px;
+  background: url("/assets/event-2.png");
+}
 
-  .section-2-event-box-c {
-    width: 330px;
-    height: 640px;
-    padding: 40px;
-    border: none;
-    border-radius: 40px;
-    background: url("/assets/event-3.png");
-  }
+.section-2-event-box-c {
+  width: 330px;
+  height: 640px;
+  padding: 40px;
+  border: none;
+  border-radius: 40px;
+  background: url("/assets/event-3.png");
+}
 
 .section-2-event-box-part-1 h6 {
   color: #fffaf0;
@@ -197,8 +199,8 @@ section {
   align-items: center;
 }
 
-.section-2-event-box-part-1 i{
-    margin-right: 8px;
+.section-2-event-box-part-1 i {
+  margin-right: 8px;
 }
 
 .section-2-event-box-part-1 i,
@@ -223,26 +225,118 @@ section {
 }
 
 .section-2-event-box-part-2-b a {
-    color: #1e1e1e;
-    background-color: #03bf56;
-    font-size: 17px;
-    padding: 15px 20px;
-    border-radius: 30px;
-  }
+  color: #1e1e1e;
+  background-color: #03bf56;
+  font-size: 17px;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
 
-  .section-2-event-box-part-2-c a {
-    color: #1e1e1e;
-    background-color: #ed5608;
-    font-size: 17px;
-    padding: 15px 20px;
-    border-radius: 30px;
-  }
+.section-2-event-box-part-2-c a {
+  color: #1e1e1e;
+  background-color: #ed5608;
+  font-size: 17px;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
 
-  .section-2-event-boxes-arrow i{
-    color: #fffaf0;
-    background-color: #f79e3d;
-    width: 118px;
-    height: 118px;
-    padding: 20px;
-    border-radius: 50%;
-  }
+.section-2-event-boxes-arrow i {
+  color: #fffaf0;
+  background-color: #f79e3d;
+  width: 118px;
+  height: 118px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+/* ========== Section 3 ========== */
+.section-3 {
+  display: grid;
+  width: min(95%, 1300px);
+  grid-auto-columns: 280px;
+  gap: 15px;
+  grid-template-areas:
+    "grid-1 grid-2 grid-4 grid-5"
+    "grid-1 grid-3 grid-4 grid-8"
+    "grid-6 grid-7 grid-7 grid-8";
+}
+
+.grid-1 {
+  grid-area: grid-1;
+  background: url("/assets/grid-1-conference.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.item-1 h3,
+.item-1 p {
+  color: #fffaf0;
+}
+
+.grid-2 {
+  grid-area: grid-2;
+}
+
+.grid-3 {
+  grid-area: grid-3;
+}
+
+.item-3 img{
+  border-radius: 30px;
+}
+
+.grid-4 {
+  grid-area: grid-4;
+}
+
+.item-4 img {
+  width: 280px;
+  border-radius: 30px;
+}
+
+.grid-5 {
+  grid-area: grid-5;
+}
+
+.item-5 img{
+  width: 280px;
+  /* height: 300px; */
+}
+
+.grid-6 {
+  grid-area: grid-6;
+}
+
+.item-6 img{
+  width: 280px;
+}
+
+.grid-7 {
+  grid-area: grid-7;
+  background: url("/assets/grid-7.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.item-7 h3,
+.item-7 p {
+  color: #1e1e1e;
+}
+
+.grid-8 {
+  grid-area: grid-8;
+  background: url("/assets/grid-8.png");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.item-8 h3,
+.item-8 p {
+  color: #fffaf0;
+}
