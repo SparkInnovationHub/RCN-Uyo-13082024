@@ -13,7 +13,7 @@
 header {
   display: flex;
   padding: 20px 5%;
-  margin: 15px 3%;
+  margin: 15px 9%;
   align-items: center;
   background-color: #e8e8e8;
   border-radius: 60px;
@@ -598,7 +598,7 @@ a {
 .about-section-1 {
   max-width: 1400px;
   margin: 15px auto;
-  padding: 20px 2.5%;
+  padding: 20px 125px;
   position: relative;
 }
 
@@ -612,7 +612,7 @@ a {
   background-color: #d02a29;
   color: #fffaf0;
   font-weight: 200;
-  padding: 10px 75px;
+  padding: 10px 65px;
   border-radius: 30px;
   font-size: 60px;
 }
@@ -710,9 +710,11 @@ a {
 /* ========== About Section 3 ========== */
 .about-section-3 {
   max-width: 1400px;
+  width: fit-content;
   margin: 15px auto;
-  padding: 20px 2.5%;
-  display: flex;
+  padding: 20px 125px;
+  display: grid;
+  grid-template-columns: auto 300px;
   gap: 10px;
 }
 
@@ -729,6 +731,11 @@ a {
 .about-section-3-text-div li{
   font-weight: 400;
   font-size: 20px;
+  margin-left: 25px;
+}
+
+.about-section-3-image-div{
+  display: inline-block;
 }
 
 /* ========== About Section 4 ========== */
@@ -737,32 +744,83 @@ a {
   max-width: 1400px;
   margin: 15px auto;
   padding: 20px 2.5%;
+  position: relative;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(3, 370px);
+  grid-auto-rows: 400px;
+  gap: 10px;
+  margin-top: 120px;
 }
 
 .about-section-4 h1{
+  position: absolute;
+  top: -100px;
+  right: 58%;
   background-color: #d02a29;
-  color: #fffaf0;
-  padding: 20px;
+  color: hsl(40, 100%, 97%);
+  padding: 10px 40px;
   border-radius: 50px;
   display: inline;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 36px;
 }
 
-.about-section-4-divs-container{
-  display: flex;
-  gap: 10px;
-  margin-top: 5%;
+.about-section-4-div{
+  background-color: rgba(128, 128, 128, 0.076);
+  border-radius: 30px;
+  padding: 40px;
+  position: relative;
 }
 
-.about-section-4-div{
-  background-color: rgba(128, 128, 128, 0.187);
-  border-radius: 30px;
-  padding: 20px;
+.about-section-4-div p{
+  font-size: 20px;
 }
 
 .about-section-4-div div{
   display: flex;
   align-items: center;
   gap: 10px;
+  position: absolute;
+  bottom: 5%;
+  background-color: #fff;
+  width: 80%;
+}
+
+/* ========== Information Desk Page ========== */
+/* ========== Info Section 1 ========== */
+.info-section-1 {
+  width: 100%;
+  background-color: #1e1e1e;
+}
+
+@keyframes movingScroll {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+.info-section-1-slider{
+  display: flex;
+  justify-content: space-evenly;
+  white-space: nowrap;
+  padding: 15px 0;
+  overflow: hidden;
+  animation: movingScroll 10s linear infinite;
+}
+
+.info-section-1-slider:hover{
+  animation-play-state: paused;
+}
+
+.info-section-1-p{
+  font-size: 17px;
+  color: #fffaf0;
+}
+
+.info-section-1 img{
+  width: 24px;
 }
