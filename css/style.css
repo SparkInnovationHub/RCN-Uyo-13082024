@@ -789,38 +789,41 @@ a {
 
 /* ========== Information Desk Page ========== */
 /* ========== Info Section 1 ========== */
+
 .info-section-1 {
-  width: 100%;
+  overflow: clip;
+  max-width: 1440px;
+  margin-inline: auto;
   background-color: #1e1e1e;
 }
 
-@keyframes movingScroll {
-  from{
-    transform: translateX(0);
-  }
-  to{
-    transform: translateX(-100%);
-  }
-}
-
-.info-section-1-slider{
+.info-section-1-slider {
   display: flex;
-  justify-content: space-evenly;
-  white-space: nowrap;
-  padding: 15px 0;
-  overflow: hidden;
-  animation: movingScroll 10s linear infinite;
+  padding-left: 4.8rem;
+  padding-block: 1.5rem;
+  gap: 4.8rem;
+  width: max-content;
+  animation: marquee-move-text var(--speed, 10s) linear infinite var(
+      --direction,
+      forwards
+    );
 }
 
-.info-section-1-slider:hover{
-  animation-play-state: paused;
-}
-
-.info-section-1-p{
-  font-size: 17px;
+.info-section-1 p {
   color: #fffaf0;
+  font-size: 17px;
 }
 
 .info-section-1 img{
   width: 24px;
+}
+
+@keyframes marquee-move-text {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.info-section-1-slider:hover{
+  animation-play-state: paused;
 }
