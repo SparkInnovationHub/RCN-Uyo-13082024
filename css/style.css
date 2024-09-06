@@ -945,3 +945,61 @@ a {
   margin-top: 10px;
   cursor: pointer;
 }
+
+/* ========== Media Center Page ========== */
+/* ========== Media Section 1 ========== */
+.media-section-1{
+  max-width: 1400px;
+  margin: 15px auto;
+  padding: 20px 125px;
+}
+
+.media-section-1-embed-video-container iframe{
+  width: 100%;
+}
+
+.media-section-1-buttons-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.media-section-1-button{
+  background-color: #f79e3d;
+  color: #fffaf0;
+  padding: 12px 60px;
+  border-radius: 30px;
+}
+
+.media-section-1-first-button i,
+.media-section-1-second-button i,
+.media-section-1-third-button i{
+  background-color: #f79e3d;
+  color: #fffaf0;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.media-section-1-third-button i{
+  background-color: #f79e3d;
+  color: #fffaf0;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+/* ========== Media Section 2 ========== */
+.media-section-2{
+  max-width: 1400px;
+  margin: 15px auto;
+  padding: 20px 125px;
+  text-align: center;
+}
+
+.media-section-2 h1{
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.media-section-2 p{
+  font-size: 17px;
+}
