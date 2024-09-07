@@ -1136,3 +1136,103 @@ a {
   background-position: center;
   border-radius: 30px;
 }
+
+/* ========== Giving Page ========== */
+/* ========== Giving Section 1 ========== */
+.giving-section-1{
+  max-width: 1400px;
+  margin: 15px auto;
+  padding: 20px 125px;
+  position: relative;
+}
+
+.giving-section-1 img{
+  width: 100%;
+}
+
+.giving-section-1 h1{
+  position: absolute;
+  top: 80px;
+  left: 190px;
+  color: #fffaf0;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.giving-section-1 h1 span{
+  color: #f79e3d;
+}
+
+/* ========== Giving Section 2 ========== */
+.giving-section-2{
+  max-width: 1400px;
+  width: fit-content;
+  margin: 15px auto;
+  padding: 20px 125px;
+  display: grid;
+  grid-auto-columns: 325px;
+  gap: 15px;
+  grid-template-areas: 
+  "giving-grid-1 giving-grid-1 giving-grid-3"
+  "giving-grid-2 giving-grid-2 giving-grid-3";
+}
+
+
+.giving-grid-1{
+  grid-area: giving-grid-1;
+  background: url("/assets/give-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 25px;
+  border-radius: 30px;
+}
+
+.giving-grid-2{
+  grid-area: giving-grid-2;
+  background: url("/assets/give-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 25px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.giving-grid-2 a{
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  background-color: #fffaf0;
+  color: #1e1e1e;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.giving-grid-3{
+  grid-area: giving-grid-3;
+  background: url("/assets/give-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.giving-section-2 h1, p{
+  color: #fffaf0;
+}
+
+.giving-section-2 h1{
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.giving-section-2 p{
+  font-size: 17px;
+}
+
+.giving-grid-3 p{
+  font-size: 15px;
+}
