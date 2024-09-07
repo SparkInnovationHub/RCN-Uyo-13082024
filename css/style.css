@@ -290,6 +290,7 @@ section {
 .grid-1 {
   grid-area: grid-1;
   background: url("/assets/grid-1-conference.png");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -997,9 +998,141 @@ a {
 
 .media-section-2 h1{
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .media-section-2 p{
   font-size: 17px;
+}
+
+.media-section-2-headers{
+  margin-block: 25px;
+}
+
+.media-section-2-headers a{
+  color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 17px;
+  margin-inline: 15px;
+}
+
+.media-section-2-sermon-boxes{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.media-section-2-sermon-box{
+  border: 1px solid #1e1e1e;
+  border-radius: 30px;
+}
+
+.media-section-2-sermon-box h3{
+  font-size: 26px;
+  font-weight: 300;
+  padding-block: 25px;
+}
+
+.media-section-2-sermon-box p{
+  font-size: 17px;
+  padding-block: 25px;
+}
+
+.media-section-2-button,
+.media-section-2-button i{
+  color: #f79e3d;
+  font-size: 17px;
+}
+
+.media-section-2-button{
+  padding: 10px 20px;
+  border: 1px solid #f79e3d;
+  border-radius: 30px;
+}
+
+/* ========== Media Section 3 ========== */
+.media-section-3{
+  max-width: 1400px;
+  margin: 15px auto;
+  padding: 20px 125px;
+  text-align: center;
+}
+
+.media-section-3 h1{
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.media-section-3 p{
+  font-size: 17px;
+}
+
+.media-section-3-grid{
+  width: fit-content;
+  margin: 15px auto;
+  display: grid;
+  grid-auto-columns: 325px;
+  grid-auto-rows: minmax(250px, 1fr);
+  gap: 15px;
+  grid-template-areas: 
+  "media-grid-1 media-grid-4 media-grid-5"
+  "media-grid-2 media-grid-2 media-grid-5"
+  "media-grid-3 media-grid-3 media-grid-6";
+}
+
+.media-grid-1{
+  grid-area: media-grid-1;
+  background: url("/assets/media-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+.media-grid-2{
+  grid-area: media-grid-2;
+  background: url("/assets/media-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+.media-grid-3{
+  grid-area: media-grid-3;
+  background: url("/assets/media-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+.media-grid-4{
+  grid-area: media-grid-4;
+  background: url("/assets/media-5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+.media-grid-5{
+  grid-area: media-grid-5;
+  background: url("/assets/media-6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+
+.media-grid-6{
+  grid-area: media-grid-6;
+  background: url("/assets/media-7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
 }
