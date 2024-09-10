@@ -890,25 +890,25 @@ a {
 }
 
 /* ========== Info Section Form ========== */
-.info-section-form{
+.info-section-form {
   max-width: 1400px;
   margin: 15px auto;
   padding: 20px 125px;
 }
 
-.info-section-form form{
+.info-section-form form {
   border: 2px solid #1e1e1e;
   border-radius: 30px;
   padding: 20px;
 }
 
-.info-section-form label{
+.info-section-form label {
   display: block;
   font-size: 17px;
   padding: 10px 15px;
 }
 
-.info-section-form input{
+.info-section-form input {
   width: 100%;
   border-radius: 30px;
   padding: 15px;
@@ -916,14 +916,14 @@ a {
   margin-bottom: 10px;
 }
 
-.info-section-form select{
+.info-section-form select {
   width: 100%;
   border-radius: 30px;
   font-size: 17px;
   padding: 15px;
 }
 
-.info-section-form button{
+.info-section-form button {
   width: 94%;
   border-radius: 30px;
   font-size: 17px;
@@ -935,7 +935,7 @@ a {
   cursor: pointer;
 }
 
-.info-section-form i{
+.info-section-form i {
   width: 10%;
   border-radius: 30px;
   font-size: 19px;
@@ -949,23 +949,25 @@ a {
 
 /* ========== Media Center Page ========== */
 /* ========== Media Section 1 ========== */
-.media-section-1{
+.media-section-1 {
   max-width: 1400px;
   margin: 15px auto;
   padding: 20px 125px;
 }
 
-.media-section-1-embed-video-container iframe{
+.media-section-1-embed-video-container iframe {
   width: 100%;
+  height: 550px;
+  border-radius: 30px;
 }
 
-.media-section-1-buttons-container{
+.media-section-1-buttons-container {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
 
-.media-section-1-button{
+.media-section-1-button {
   background-color: #f79e3d;
   color: #fffaf0;
   padding: 12px 60px;
@@ -974,14 +976,14 @@ a {
 
 .media-section-1-first-button i,
 .media-section-1-second-button i,
-.media-section-1-third-button i{
+.media-section-1-third-button i {
   background-color: #f79e3d;
   color: #fffaf0;
   padding: 15px;
   border-radius: 30px;
 }
 
-.media-section-1-third-button i{
+.media-section-1-third-button i {
   background-color: #f79e3d;
   color: #fffaf0;
   padding: 15px;
@@ -989,27 +991,27 @@ a {
 }
 
 /* ========== Media Section 2 ========== */
-.media-section-2{
+.media-section-2 {
   max-width: 1400px;
   margin: 15px auto;
   padding: 20px 125px;
   text-align: center;
 }
 
-.media-section-2 h1{
+.media-section-2 h1 {
   font-size: 48px;
   font-weight: 300;
 }
 
-.media-section-2 p{
+.media-section-2 p {
   font-size: 17px;
 }
 
-.media-section-2-headers{
+.media-section-2-headers {
   margin-block: 25px;
 }
 
-.media-section-2-headers a{
+.media-section-2-headers a {
   color: #1e1e1e;
   border: 1px solid #1e1e1e;
   padding: 10px 20px;
@@ -1018,72 +1020,73 @@ a {
   margin-inline: 15px;
 }
 
-.media-section-2-sermon-boxes{
+.media-section-2-sermon-boxes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 10px;
   margin-bottom: 25px;
 }
 
-.media-section-2-sermon-box{
+.media-section-2-sermon-box {
   border: 1px solid #1e1e1e;
   border-radius: 30px;
 }
 
-.media-section-2-sermon-box h3{
+.media-section-2-sermon-box h3 {
   font-size: 26px;
   font-weight: 300;
   padding-block: 25px;
 }
 
-.media-section-2-sermon-box p{
+.media-section-2-sermon-box p {
   font-size: 17px;
   padding-block: 25px;
+  color: #1e1e1e;
 }
 
 .media-section-2-button,
-.media-section-2-button i{
+.media-section-2-button i {
   color: #f79e3d;
   font-size: 17px;
 }
 
-.media-section-2-button{
+.media-section-2-button {
   padding: 10px 20px;
   border: 1px solid #f79e3d;
   border-radius: 30px;
 }
 
 /* ========== Media Section 3 ========== */
-.media-section-3{
+.media-section-3 {
   max-width: 1400px;
   margin: 15px auto;
   padding: 20px 125px;
   text-align: center;
 }
 
-.media-section-3 h1{
+.media-section-3 h1 {
   font-size: 48px;
   font-weight: 300;
 }
 
-.media-section-3 p{
+.media-section-3 p {
   font-size: 17px;
 }
 
-.media-section-3-grid{
+.media-section-3-grid {
   width: fit-content;
   margin: 15px auto;
   display: grid;
   grid-auto-columns: 325px;
   grid-auto-rows: minmax(250px, 1fr);
   gap: 15px;
-  grid-template-areas: 
-  "media-grid-1 media-grid-4 media-grid-5"
-  "media-grid-2 media-grid-2 media-grid-5"
-  "media-grid-3 media-grid-3 media-grid-6";
+  grid-template-areas:
+    "media-grid-1 media-grid-4 media-grid-5"
+    "media-grid-2 media-grid-2 media-grid-5"
+    "media-grid-3 media-grid-3 media-grid-6";
 }
 
-.media-grid-1{
+.media-grid-1 {
   grid-area: media-grid-1;
   background: url("/assets/media-2.png");
   background-repeat: no-repeat;
@@ -1092,7 +1095,7 @@ a {
   border-radius: 30px;
 }
 
-.media-grid-2{
+.media-grid-2 {
   grid-area: media-grid-2;
   background: url("/assets/media-3.png");
   background-repeat: no-repeat;
@@ -1101,7 +1104,7 @@ a {
   border-radius: 30px;
 }
 
-.media-grid-3{
+.media-grid-3 {
   grid-area: media-grid-3;
   background: url("/assets/media-4.png");
   background-repeat: no-repeat;
@@ -1110,7 +1113,7 @@ a {
   border-radius: 30px;
 }
 
-.media-grid-4{
+.media-grid-4 {
   grid-area: media-grid-4;
   background: url("/assets/media-5.png");
   background-repeat: no-repeat;
@@ -1119,7 +1122,7 @@ a {
   border-radius: 30px;
 }
 
-.media-grid-5{
+.media-grid-5 {
   grid-area: media-grid-5;
   background: url("/assets/media-6.png");
   background-repeat: no-repeat;
@@ -1128,7 +1131,7 @@ a {
   border-radius: 30px;
 }
 
-.media-grid-6{
+.media-grid-6 {
   grid-area: media-grid-6;
   background: url("/assets/media-7.png");
   background-repeat: no-repeat;
@@ -1139,18 +1142,18 @@ a {
 
 /* ========== Giving Page ========== */
 /* ========== Giving Section 1 ========== */
-.giving-section-1{
+.giving-section-1 {
   max-width: 1400px;
   margin: 15px auto;
   padding: 20px 125px;
   position: relative;
 }
 
-.giving-section-1 img{
+.giving-section-1 img {
   width: 100%;
 }
 
-.giving-section-1 h1{
+.giving-section-1 h1 {
   position: absolute;
   top: 80px;
   left: 190px;
@@ -1159,12 +1162,12 @@ a {
   font-weight: 300;
 }
 
-.giving-section-1 h1 span{
+.giving-section-1 h1 span {
   color: #f79e3d;
 }
 
 /* ========== Giving Section 2 ========== */
-.giving-section-2{
+.giving-section-2 {
   max-width: 1400px;
   width: fit-content;
   margin: 15px auto;
@@ -1172,13 +1175,12 @@ a {
   display: grid;
   grid-auto-columns: 325px;
   gap: 15px;
-  grid-template-areas: 
-  "giving-grid-1 giving-grid-1 giving-grid-3"
-  "giving-grid-2 giving-grid-2 giving-grid-3";
+  grid-template-areas:
+    "giving-grid-1 giving-grid-1 giving-grid-3"
+    "giving-grid-2 giving-grid-2 giving-grid-3";
 }
 
-
-.giving-grid-1{
+.giving-grid-1 {
   grid-area: giving-grid-1;
   background: url("/assets/give-2.png");
   background-repeat: no-repeat;
@@ -1188,7 +1190,7 @@ a {
   border-radius: 30px;
 }
 
-.giving-grid-2{
+.giving-grid-2 {
   grid-area: giving-grid-2;
   background: url("/assets/give-3.png");
   background-repeat: no-repeat;
@@ -1199,18 +1201,18 @@ a {
   position: relative;
 }
 
-.giving-grid-2 a{
+.giving-grid-2 a {
   position: absolute;
   bottom: 30px;
   right: 20px;
   background-color: #fffaf0;
   color: #1e1e1e;
   padding: 20px;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 50%;
 }
 
-.giving-grid-3{
+.giving-grid-3 {
   grid-area: giving-grid-3;
   background: url("/assets/give-4.png");
   background-repeat: no-repeat;
@@ -1220,19 +1222,64 @@ a {
   border-radius: 30px;
 }
 
-.giving-section-2 h1, p{
+.giving-section-2 h1,
+p {
   color: #fffaf0;
 }
 
-.giving-section-2 h1{
+.giving-section-2 h1 {
   font-size: 36px;
   font-weight: 300;
 }
 
-.giving-section-2 p{
+.giving-section-2 p {
   font-size: 17px;
 }
 
-.giving-grid-3 p{
+.giving-grid-3 p {
   font-size: 15px;
+}
+
+/* ========== Giving Section 3 ========== */
+.giving-section-3 {
+  max-width: 1400px;
+  margin: 15px auto;
+  padding: 20px 125px;
+}
+
+.giving-section-3 h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.second-giving-grid {
+  max-width: 1400px;
+  width: fit-content;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 300px);
+}
+
+.second-giving-grid-child{
+  border-radius: 30px;
+  padding: 20px;
+  background-color: #a4a4a452;
+  border: 1px solid #1e1e1e;
+}
+
+.second-giving-grid-child p{
+  color: #1e1e1e;
+  padding-block: 10px;
+  font-size: 20px;
+}
+
+.second-giving-grid-child p span{
+  font-weight: 700;
+}
+
+.second-giving-grid-child-circle{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0673ce;
 }
