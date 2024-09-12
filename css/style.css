@@ -661,6 +661,16 @@ a {
     "about-grid-2 about-grid-2 about-grid-5 about-grid-6";
 }
 
+.about-section-2 h1{
+  color: #fffaf0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.about-section-2 p{
+  font-size: 20px;
+}
+
 .about-grid-1 {
   grid-area: about-grid-1;
   background: url("/assets/about-img-new08.png");
@@ -670,9 +680,13 @@ a {
   border-radius: 30px;
 }
 
+.about-grid-1{
+  padding: 20px;
+}
+
 .about-grid-2 {
   grid-area: about-grid-2;
-  background: url("/assets/about-img-new05.svg");
+  background: url("/assets/about-7.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -681,7 +695,7 @@ a {
 
 .about-grid-3 {
   grid-area: about-grid-3;
-  background: url("/assets/about-img-new06.svg");
+  background: url("/assets/about-8.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -690,7 +704,7 @@ a {
 
 .about-grid-4 {
   grid-area: about-grid-4;
-  background: url("/assets/about-img-new07.svg");
+  background: url("/assets/about-9.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -706,9 +720,17 @@ a {
   border-radius: 30px;
 }
 
+.about-grid-5{
+  padding: 20px;
+}
+
+.about-grid-5 h1{
+ margin-top: 50px;
+}
+
 .about-grid-6 {
   grid-area: about-grid-6;
-  background: url("/assets/about-img-new03.svg");
+  background: url("/assets/about-10.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
