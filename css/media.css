@@ -1,3 +1,14 @@
-@media (max-width: 1500px){
-    
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1280px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a-btns {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
+
+  .section-2-header h1 {
+    font-size: 32px;
+  }
 }
