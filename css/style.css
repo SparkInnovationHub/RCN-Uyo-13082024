@@ -82,10 +82,14 @@ nav a i {
 
 .second-part-section-1 {
   max-width: 1400px;
+  width: 100%;
   margin-top: 15px;
-  display: grid;
-  grid-template-columns: 35% 65%;
+  display: flex;
   gap: 20px;
+}
+
+.second-part-section-1-a{
+  width: 40%;
 }
 
 .second-part-section-1-a h1 {
@@ -130,22 +134,23 @@ nav a i {
 }
 
 .second-part-section-1-b {
-  /* max-width: 700px; */
   background: url("/assets/hero-copy-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 30px;
-  align-self: center;
-  justify-self: center;
+  width: 70%;
 }
 
 .second-part-section-1-b p {
   color: #fffaf0;
-  padding: 25px 35px;
-  font-size: 22px;
+  padding: 25px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ========== Section 2 ========== */
@@ -477,7 +482,7 @@ footer {
   width: fit-content;
   margin: 15px auto;
   padding: 20px 105px;
-  grid-auto-columns: 265px;
+  grid-auto-columns: 265px; 
   grid-auto-rows: minmax(60px, 1fr);
   gap: 15px;
   grid-template-areas:
@@ -658,9 +663,9 @@ a {
   background-color: #d02a29;
   color: #fffaf0;
   font-weight: 200;
-  padding: 10px 65px;
+  padding: 1% 6%;
   border-radius: 30px;
-  font-size: 55px;
+  font-size: clamp(1rem, 0.2778rem + 3.6111vw, 3.4375rem);
 }
 
 .about-section-1 div {
@@ -669,16 +674,15 @@ a {
 }
 
 .about-section-arrow-image {
-  width: 200px;
-  height: 50px;
+  width: 105px;
   background-color: #f79e3d;
-  padding: 10px;
   border-radius: 30px;
+  padding: 10px 20px;
 }
 
 .about-section-div {
   background-color: #17143d;
-  width: 80%;
+  width: 90%;
   padding: 20px;
   border-radius: 30px;
 }
@@ -948,8 +952,10 @@ a {
 
 .info-section-2-first-div a i {
   background-color: #fffaf0;
+  color: #25D366;
   border-radius: 50%;
-  padding: 20px;
+  padding: 10px;
+  font-size: 27px;
   position: absolute;
   bottom: 60px;
   right: 40px;
