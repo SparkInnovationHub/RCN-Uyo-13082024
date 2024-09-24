@@ -172,14 +172,88 @@
 }
 
 @media (max-width: 1210px){
-  /* header {
+  header {
     margin: 15px 4%;
-  } */
+  }
 
   /* ========== Home Page ========== */
   .section-1 {
     max-width: 1210px;
-    margin: 15px auto;
-    padding: 20px 125px;
+    padding: 20px 35px;
   }
+
+  .section-2 {
+    max-width: 1210px;
+    padding: 20px 35px;
+  }
+
+  .section-3 {
+    max-width: 1210px;
+    padding: 20px 35px;
+    grid-auto-columns: 270px;
+  }
+
+  footer {
+    max-width: 1210px;
+    padding: 20px 5px;
+    grid-auto-columns: 265px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1 {
+    max-width: 1210px;
+    padding: 20px 35px;
+  }
+
+  .about-section-2 {
+    max-width: 1210px;
+    padding: 20px 25px;
+    grid-auto-columns: 265px;
+  }
+
+  .about-section-2 p {
+    font-size: 18px;
+  }
+
+  .about-section-3 {
+    max-width: 1210px;
+    padding: 20px 35px;
+    gap: 20px;
+  }
+
+  .about-section-4 {
+    max-width: 1210px;
+    padding: 20px 35px;
+    grid-template-columns: repeat(3, 360px);
+  }
+
+  .about-section-4-div p {
+    font-size: 18px;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
+    max-width: 1210px;
+    padding: 20px 35px;
+  }
+
+  .info-section-form {
+    max-width: 1210px;
+    padding: 20px 35px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1 {
+    max-width: 1210px;
+    padding: 20px 35px;
+  }
+
+  .media-section-2 {
+    max-width: 1210px;
+    padding: 20px 35px;
+  }
+}
+
+@media (max-width: 1190px){
+  
 }
