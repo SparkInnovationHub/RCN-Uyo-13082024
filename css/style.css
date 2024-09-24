@@ -476,7 +476,6 @@ nav a i {
 
 /* ========== Footer ========== */
 footer {
-  position: relative;
   display: grid;
   max-width: 1400px;
   width: fit-content;
@@ -1359,6 +1358,7 @@ p {
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(3, 300px);
+  margin-inline: auto;
 }
 
 .second-giving-grid-child {

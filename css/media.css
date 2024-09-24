@@ -15,17 +15,40 @@
     margin-top: 30px;
   }
 
-  .about-section-2{
+  .about-section-2 {
     line-height: 1.2;
     grid-auto-columns: 260px;
   }
 
-  .about-section-4{
+  .about-section-4 {
     grid-template-columns: repeat(3, 340px);
   }
 
   .about-section-4 h1 {
     right: 55.5%;
+  }
+}
+
+@media (max-width: 1320px){
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    max-width: 1320px;
+    padding: 20px 125px;
+  }
+
+  .giving-section-2 {
+    max-width: 1320px;
+    padding: 20px 95px;
+  }
+
+  .giving-section-3 {
+    max-width: 1320px;
+    padding: 20px 95px;
+  }
+
+  footer {
+    /* max-width: 1320px; */
+    padding: 20px 15px;
   }
 }
 
@@ -37,8 +60,126 @@
   }
 
   .section-2-header h1 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
+  .section-3 {
+    max-width: 1280px;
+    grid-auto-columns: 247px;
+  }
+
+  .grid-1 h3 {
+    font-size: 33px;
+  }
+
+  .grid-7 h3 {
+    font-size: 33px;
+  }
+
+  .grid-7 p {
+    font-size: 18px;
+  }
+
+  .grid-8 h3 {
+    font-size: 33px;
+  }
+
+  .grid-8 p {
+    font-size: 19px;
+  }
+
+  .grid-8-btn i {
+    position: absolute;
+    right: 10%;
+    bottom: 6%;
+  }
+
+  footer {
+    max-width: 1280px;
+    padding: 20px 15px;
+    grid-auto-columns: 247px;
+    gap: 10px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1 {
+    max-width: 1280px;
+  }
+
+  .about-section-div {
+    background-color: #17143d;
+    width: 87%;
+  }
+
+  .about-section-2 {
+    max-width: 1280px;
+    grid-auto-columns: 247px;
+    grid-auto-rows: minmax(110px, 1fr);
+    line-height: 1.5;
+    padding: 20px 105px;
+  }
+
+  .about-section-2 h1 {
+    font-size: 28px;
+  }
+
+  .about-section-2 p {
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .about-section-4 {
+    max-width: 1280px;
+    grid-template-columns: repeat(3, 320px);
+    padding: 20px 105px;
+  }
+
+  .about-section-4-div p {
+    font-size: 16px;
+  }
+
+  /* ========== Media Page ========== */
+  .media-section-3 {
+    max-width: 1280px;
+    padding: 20px 105px;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 330px;
+  }
+
+  /* ========== Giving Page ========== */
+  .second-giving-grid {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1250px){
+  /* ========== About Page ========== */
+  .about-section-2 {
+    max-width: 1250px;
+    grid-auto-columns: 240px;
+    padding: 20px 95px;
+  }
+  /* ========== Giving Page ========== */
+  .giving-section-2{
+    grid-auto-columns: 315px;
+  }
+
+  .giving-section-2 h1 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 1210px){
+  /* header {
+    margin: 15px 4%;
+  } */
+
   /* ========== Home Page ========== */
+  .section-1 {
+    max-width: 1210px;
+    margin: 15px auto;
+    padding: 20px 125px;
+  }
 }
