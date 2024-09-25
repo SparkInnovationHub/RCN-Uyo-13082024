@@ -9,7 +9,6 @@
 }
 
 /* ========== Header ========== */
-
 header {
   display: flex;
   padding: 40px 4%;
@@ -46,7 +45,7 @@ nav a i {
   margin-left: -23px;
 }
 
-.logo img{
+.logo img {
   position: absolute;
   top: -20%;
   width: 150px;
@@ -95,14 +94,14 @@ nav a i {
   gap: 20px;
 }
 
-.second-part-section-1-a{
+.second-part-section-1-a {
   width: 40%;
 }
 
 .second-part-section-1-a h1 {
   background-color: #d02a29;
   border-radius: 40px;
-  padding: 20px 20px;
+  padding: 20px;
   color: #ffffff;
   font-size: 35px;
   font-weight: 200;
@@ -197,6 +196,9 @@ nav a i {
   border: none;
   border-radius: 40px;
   background: url("/assets/event-1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section-2-event-box-b {
@@ -206,6 +208,9 @@ nav a i {
   border: none;
   border-radius: 40px;
   background: url("/assets/event-2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section-2-event-box-c {
@@ -215,6 +220,9 @@ nav a i {
   border: none;
   border-radius: 40px;
   background: url("/assets/event-3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section-2-event-box-part-1 h6 {
@@ -488,7 +496,7 @@ footer {
   width: fit-content;
   margin: 15px auto;
   padding: 20px 105px;
-  grid-auto-columns: 265px; 
+  grid-auto-columns: 265px;
   grid-auto-rows: minmax(60px, 1fr);
   gap: 15px;
   grid-template-areas:
@@ -639,12 +647,12 @@ a {
   bottom: 20%;
 }
 
-.footer-credit{
+.footer-credit {
   text-align: center;
   background-color: #171717;
 }
 
-.footer-credit h3{
+.footer-credit h3 {
   color: #f79e3d;
   padding: 20px;
   font-size: 12px;
@@ -699,7 +707,7 @@ a {
   max-width: 1400px;
   width: fit-content;
   margin: 15px auto;
-  padding: 20px 125px;  
+  padding: 20px 125px;
   grid-auto-columns: 280px;
   grid-auto-rows: minmax(120px, 1fr);
   gap: 10px;
@@ -958,7 +966,7 @@ a {
 
 .info-section-2-first-div a i {
   background-color: #fffaf0;
-  color: #25D366;
+  color: #25d366;
   border-radius: 50%;
   padding: 10px;
   font-size: 27px;
@@ -1389,5 +1397,34 @@ p {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #0673ce;
 }
+
+.ngn-circle {
+  background: url("/assets/nigeria.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.usd-circle {
+  background: url("/assets/united-states-of-america.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.gbp-circle {
+  background: url("/assets/united-kingdom.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.euro-circle {
+  background: url("/assets/round.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+/* THANK YOU JESUS */
