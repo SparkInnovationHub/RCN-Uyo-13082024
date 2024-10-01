@@ -284,9 +284,6 @@
 }
 
 @media (max-width: 1190px) {
-}
-
-@media (max-width: 1000px) {
   /* ========== Header ========== */
   header {
     margin: 15px 65px;
@@ -556,9 +553,9 @@
     max-width: 1000px;
     padding: 20px 65px;
     grid-template-areas:
-    "giving-grid-1 giving-grid-1"
-    "giving-grid-2 giving-grid-2"
-    "giving-grid-3 giving-grid-3";
+      "giving-grid-1 giving-grid-1"
+      "giving-grid-2 giving-grid-2"
+      "giving-grid-3 giving-grid-3";
   }
 
   .giving-section-3 {
@@ -575,45 +572,122 @@
 @media (max-width: 945px) {
   /* ========== Header ========== */
   header {
-    margin: 15px 35px;
+    margin: 15px 20px;
+  }
+
+  nav a {
+    font-size: 15px;
+    padding: 6px 10px;
+    font-weight: 300;
   }
 
   /* ========== Home Page ========== */
   .section-1 {
-    padding: 20px 35px;
+    padding: 20px 20px;
   }
 
   .section-2 {
-    padding: 20px 25px;
+    padding: 20px 1px;
+  }
+
+  .section-2-header h1 {
+    padding-left: 5px;
   }
 
   .section-2-header hr {
-    width: 58%;
+    width: 55%;
   }
 
   .section-2-event-box-a,
   .section-2-event-box-b,
   .section-2-event-box-c {
-    width: 250px;
+    width: 240px;
     padding: 40px 19px;
+  }
+
+  .section-2-event-box-part-2-a,
+  .section-2-event-box-part-2-b,
+  .section-2-event-box-part-2-c {
+    margin-top: 130%;
   }
 
   .section-3 {
     max-width: 945px;
     padding: 20px 5px;
-    grid-auto-columns: 250px;
+    grid-auto-columns: 230px;
+    grid-auto-rows: 200px;
     gap: 10px;
+  }
+
+  .grid-1 {
+    line-height: 1.2;
+  }
+
+  .grid-btns i {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .grid-1-btn i {
+    bottom: 5%;
+  }
+
+  .grid-7-btn i {
+    bottom: 9%;
   }
 
   footer {
     padding: 20px 5px;
-    grid-auto-columns: 250px;
+    grid-auto-columns: 230px;
     gap: 10px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1 {
+    padding: 20px;
+  }
+
+  .about-section-1 h1 {
+    padding: 1% 6%;
+    border-radius: 20px;
+    font-size: 2rem;
+  }
+
+  .about-section-3 {
+    padding: 20px 20px;
+    display: block;
+  }
+
+  .about-section-3-image-div {
+    display: none;
+  }
+
+  .about-section-4 {
+    max-width: 945px;
+    padding: 20px 5px;
+    grid-template-columns: repeat(auto-fit, 360px);
+    gap: 10px;
+  }
+
+  .about-section-4 h1 {
+    right: 30%;
   }
 
   /* ========== Information Desk Page ========== */
   .info-section-2 {
     padding: 20px 35px;
+  }
+
+  .info-section-2 {
+    flex-direction: column;
+  }
+
+  .info-section-2-first-div {
+    width: 100%;
+  }
+
+  .info-section-2-second-div {
+    width: 100%;
   }
 
   .info-section-form {
@@ -623,14 +697,119 @@
   /* ========== Media Center Page ========== */
   .media-section-1 {
     max-width: 1000px;
-    padding: 20px 35px;
+    padding: 20px 20px;
+  }
+
+  .media-section-1-embed-video-container iframe {
+    height: 540px;
+  }
+
+  .media-section-1-button {
+    padding: 12px 40px;
+  }
+
+  .media-section-1-first-button i,
+  .media-section-1-second-button i,
+  .media-section-1-third-button i {
+    font-size: 10px;
+  }
+
+  .media-section-2-headers a {
+    font-size: 15px;
+  }
+
+  .media-section-3 {
+    padding: 20px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 20px;
+  }
+
+  .giving-section-1 h1 {
+    left: 60px;
+    font-size: 30px;
+  }
+
+  .giving-section-2 {
+    max-width: 945px;
+    padding: 20px;
+  }
+
+  .giving-section-3 {
+    padding: 20px;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 871px) {
+  .about-section-2 {
+    grid-template-areas:
+      "about-grid-1 about-grid-3"
+      "about-grid-1 about-grid-3"
+      "about-grid-4 about-grid-5"
+      "about-grid-4 about-grid-5"
+      "about-grid-4 about-grid-5"
+      "about-grid-2 about-grid-2"
+      "about-grid-2 about-grid-2";
+  }
+}
+
+@media (max-width: 755px) {
+  /* ========== Header ========== */
+  header {
+    padding: 10px 4%;
+    margin: 15px 9%;
+  }
+
+  .logo img {
+    position: absolute;
+    top: -12%;
+    width: 100px;
+  }
+
+  .desk-link {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    width: 25px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.836),
+        rgba(0, 0, 0, 0),
+        rgba(0, 153, 248, 0.5)
+      ),
+      #032b44;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+    z-index: 111;
+    display: none;
+  }
+
+  .sidebar a{
+    color: #fff;
+    padding: 15px 40px;
+  }
+}
+
+@media (max-width: 500px) {
+}
+
+/* @media (max-width: 850px) {
   .section-2-event-box-a,
   .section-2-event-box-b,
   .section-2-event-box-c {
     width: 240px;
   }
-}
+} */

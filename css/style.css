@@ -51,6 +51,14 @@ nav a i {
   width: 150px;
 }
 
+.hamburger-menu{
+  display: none;
+}
+
+.sidebar{
+  display: none;
+}
+
 /* ========== Home Page ========== */
 /* ========== Section 1 ========== */
 
@@ -1186,6 +1194,7 @@ a {
 
 .media-section-3 p {
   font-size: 17px;
+  color: #1e1e1e;
 }
 
 .media-section-3-grid {
