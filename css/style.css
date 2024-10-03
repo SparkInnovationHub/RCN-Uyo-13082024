@@ -172,6 +172,7 @@ nav a i {
   max-width: 1400px;
   margin: 15px auto;
   padding: 20px 125px;
+  position: relative;
 }
 
 .section-2-header {
@@ -190,6 +191,10 @@ nav a i {
 }
 
 /* Event Boxes */
+.show-below-755{
+  display: none;
+}
+
 .section-2-event-boxes {
   display: flex;
   align-items: center;

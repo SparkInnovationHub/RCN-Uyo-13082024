@@ -605,12 +605,6 @@
     padding: 40px 19px;
   }
 
-  .section-2-event-box-part-2-a,
-  .section-2-event-box-part-2-b,
-  .section-2-event-box-part-2-c {
-    margin-top: 130%;
-  }
-
   .section-3 {
     max-width: 945px;
     padding: 20px 5px;
@@ -633,7 +627,7 @@
   }
 
   .grid-7-btn i {
-    bottom: 9%;
+    bottom: 6%;
   }
 
   footer {
@@ -758,13 +752,13 @@
 @media (max-width: 755px) {
   /* ========== Header ========== */
   header {
-    padding: 10px 4%;
-    margin: 15px 9%;
+    padding: 5px 4%;
+    margin: 15px 4%;
   }
 
   .logo img {
     position: absolute;
-    top: -12%;
+    top: -17%;
     width: 100px;
   }
 
@@ -797,9 +791,234 @@
     display: none;
   }
 
-  .sidebar a{
+  .sidebar a {
     color: #fff;
     padding: 15px 40px;
+  }
+
+  /* ========== Home Page ========== */
+  .section-1 {
+    max-width: 755px;
+    padding: 20px 4%;
+  }
+
+  .arrow-image {
+    width: 55px;
+    padding: 5px 10px;
+  }
+
+  .second-part-section-1-a h1 {
+    font-size: 24px;
+    padding: 20px 3px;
+  }
+
+  .second-part-section-1 {
+    gap: 5px;
+  }
+
+  .second-part-section-1-a-btns {
+    padding: 10px 10px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    padding: 10px;
+  }
+
+  .second-part-section-1-b p {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .section-2-header {
+    display: block;
+  }
+
+  .section-2-header hr {
+    width: 100%;
+  }
+
+  .show-below-755 {
+    display: block;
+  }
+
+  .section-2-event-boxes {
+    position: absolute;
+    width: max-content;
+    animation: marquee-move-text var(--speed, 10s) linear infinite
+      var(--direction, forwards);
+  }
+
+  .section-3 {
+    max-width: 755px;
+    margin-top: 550px;
+    padding: 20px 4%;
+    gap: 10px;
+    grid-template-areas:
+      "grid-1 grid-2"
+      "grid-1 grid-3"
+      "grid-4 grid-8"
+      "grid-4 grid-8"
+      "grid-6 grid-5"
+      "grid-7 grid-7";
+  }
+
+  footer {
+    max-width: 755px;
+    gap: 10px;
+    padding: 20px 4%;
+    grid-template-areas:
+      "footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1"
+      "footer-grid-2 footer-grid-4"
+      "footer-grid-2 footer-grid-5"
+      "footer-grid-2 footer-grid-6"
+      "footer-grid-2 footer-grid-3"
+      "footer-grid-7 footer-grid-7"
+      "footer-grid-7 footer-grid-7";
+  }
+
+  .footer-grid-2 {
+    padding: 20px 25px;
+  }
+
+  .footer-grid-7 img {
+    left: 5%;
+    bottom: 10%;
+  }
+
+  .footer-grid-7 p {
+    font-size: 22px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1 {
+    padding: 20px 4%;
+  }
+
+  .about-section-div {
+    width: 80%;
+  }
+
+  .about-section-1 h1{
+    padding: 1.5% 5%;
+  }
+
+  .about-section-2 {
+    padding: 20px 4%;
+  }
+
+  .about-section-3 {
+    padding: 20px 4%;
+    /* margin-bottom: 100px; */
+  }
+
+  .about-section-3-text-div h1 {
+    font-size: 44px;
+  }
+
+  .about-section-3-text-div p, .about-section-3-text-div li {
+    font-size: 15px;
+  }
+
+  .about-section-4 {
+    max-width: 755px;
+    padding: 20px 4%;
+    /* position: absolute; */
+    display: flex;
+    animation: marquee-move-text var(--speed, 10s) linear infinite
+      var(--direction, forwards);
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-form button {
+    width: 90%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1 {
+    max-width: 755px;
+    padding: 20px 4%;
+  }
+
+  .media-section-1-embed-video-container iframe {
+    height: 400px;
+  }
+
+  .media-section-1-button {
+    padding: 12px 20px;
+  }
+
+  .media-section-2 {
+    max-width: 755px;
+    padding: 20px 4%;
+  }
+
+  .media-section-2-headers a {
+    font-size: 10px;
+  }
+
+  .media-section-3 {
+    max-width: 755px;
+    padding: 20px 4%;
+  }
+
+  .media-section-3-grid{
+    grid-auto-columns: 290px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    max-width: 755px;
+    padding: 20px 4%;
+  }
+
+  .giving-section-1 h1 {
+    top: 40px;
+    left: 60px;
+    font-size: 28px;
+  }
+
+  .giving-section-2 {
+    max-width: 755px;
+    padding: 20px 4%;
+    grid-auto-columns: 275px;
+  }
+
+  .second-giving-grid {
+    max-width: 755px;
+    padding: 20px 1%;
+    gap: 7px;
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+
+  .giving-grid-2{
+    padding: 40px 15px;
+  }
+
+  .giving-grid-2 a {
+    bottom: 10px;
+    padding: 10px;
+  }
+
+  .giving-section-2 p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 680px) {
+  .second-part-section-1-a-btns {
+    font-size: 9px; 
+  }
+}
+
+@media (max-width: 650px) {
+}
+
+@media (max-width: 550px) {
+  .arrow-image {
+    width: 50px;
   }
 }
 

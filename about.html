@@ -58,12 +58,26 @@
       /></a>
 
       <nav>
-        <a href="about.html" class="nav__link">Who We Are</a>
-        <a href="info.html" class="nav__link">Information Desk</a>
-        <a href="media.html" class="nav__link">Media Center</a>
-        <a href="blog.html" class="nav__link">Blog</a>
-        <a href="giving.html" class="giving-nav-link">Give</a>
-        <a href="giving.html"><i class="ri-arrow-right-up-line"></i></a>
+        <a href="#" onclick="showSidebar()"
+            ><img
+              src="./assets/burger.png"
+              alt="Menu icon"
+              class="hamburger-menu"
+          /></a>
+        <div class="sidebar">
+          <a href="#" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+          <a href="about.html" class="nav__link">Who We Are</a>
+          <a href="info.html" class="nav__link">Information Desk</a>
+          <a href="media.html" class="nav__link">Media Center</a>
+          <a href="blog.html" class="nav__link">Blog</a>
+          <a href="giving.html" class="nav__link">Give</a>
+        </div>
+        <a href="about.html" class="nav__link desk-link">Who We Are</a>
+        <a href="info.html" class="nav__link desk-link">Information Desk</a>
+        <a href="media.html" class="nav__link desk-link">Media Center</a>
+        <a href="blog.html" class="nav__link desk-link">Blog</a>
+        <a href="giving.html" class="giving-nav-link desk-link">Give</a>
+        <a href="giving.html"><i class="ri-arrow-right-up-line desk-link"></i></a>
       </nav>
     </header>
 
@@ -249,5 +263,16 @@
         <a href="https://sparkinnovationhub.com/">Spark Innovation Hub</a>
       </h3>
     </div>
+
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
   </body>
 </html>

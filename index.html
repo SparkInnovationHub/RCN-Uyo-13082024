@@ -65,7 +65,7 @@
               class="hamburger-menu"
           /></a>
         <div class="sidebar">
-          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+          <a href="#" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
           <a href="about.html" class="nav__link">Who We Are</a>
           <a href="info.html" class="nav__link">Information Desk</a>
           <a href="media.html" class="nav__link">Media Center</a>
@@ -156,6 +156,45 @@
           </div>
         </div>
         <div class="section-2-event-box-c">
+          <div class="section-2-event-box-part-1">
+            <h6>Conference</h6>
+            <h2>Children's Timeout with Jesus</h2>
+            <div>
+              <i class="ri-calendar-event-line"></i>
+              <p>28 Nov 2024</p>
+            </div>
+          </div>
+          <div class="section-2-event-box-part-2-c">
+            <a href="#">Add to your calendar</a>
+          </div>
+        </div>
+        <div class="section-2-event-box-a show-below-755">
+          <div class="section-2-event-box-part-1">
+            <h6>Prayer Contact</h6>
+            <h2>International Gathering of Eagles</h2>
+            <div>
+              <i class="ri-calendar-event-line"></i>
+              <p>28 Aug 2024</p>
+            </div>
+          </div>
+          <div class="section-2-event-box-part-2-a">
+            <a href="#">Add to your calendar</a>
+          </div>
+        </div>
+        <div class="section-2-event-box-b show-below-755">
+          <div class="section-2-event-box-part-1">
+            <h6>Worship Service</h6>
+            <h2>The God who sees and hears me</h2>
+            <div>
+              <i class="ri-calendar-event-line"></i>
+              <p>28 Sep 2024</p>
+            </div>
+          </div>
+          <div class="section-2-event-box-part-2-b">
+            <a href="#">Add to your calendar</a>
+          </div>
+        </div>
+        <div class="section-2-event-box-c show-below-755">
           <div class="section-2-event-box-part-1">
             <h6>Conference</h6>
             <h2>Children's Timeout with Jesus</h2>
@@ -278,5 +317,16 @@
         <a href="https://sparkinnovationhub.com/">Spark Innovation Hub</a>
       </h3>
     </div>
+
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
   </body>
 </html>
