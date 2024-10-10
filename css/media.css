@@ -841,7 +841,12 @@
     display: block;
   }
 
+  .section-2 {
+    max-width: 755px;
+  }
+
   .section-2-event-boxes {
+    max-width: 755px;
     position: absolute;
     width: max-content;
     animation: marquee-move-text var(--speed, 10s) linear infinite
@@ -901,8 +906,8 @@
     width: 80%;
   }
 
-  .about-section-1 h1{
-    padding: 1.5% 5%;
+  .about-section-1 h1 {
+    padding: 1% 5%;
   }
 
   .about-section-2 {
@@ -918,17 +923,19 @@
     font-size: 44px;
   }
 
-  .about-section-3-text-div p, .about-section-3-text-div li {
+  .about-section-3-text-div p,
+  .about-section-3-text-div li {
     font-size: 15px;
   }
 
   .about-section-4 {
+    display: none;
     max-width: 755px;
     padding: 20px 4%;
     /* position: absolute; */
-    display: flex;
+    /* display: flex;
     animation: marquee-move-text var(--speed, 10s) linear infinite
-      var(--direction, forwards);
+      var(--direction, forwards); */
   }
 
   /* ========== Information Desk Page ========== */
@@ -943,7 +950,7 @@
   }
 
   .media-section-1-embed-video-container iframe {
-    height: 400px;
+    height: 380px;
   }
 
   .media-section-1-button {
@@ -964,7 +971,7 @@
     padding: 20px 4%;
   }
 
-  .media-section-3-grid{
+  .media-section-3-grid {
     grid-auto-columns: 290px;
   }
 
@@ -993,7 +1000,7 @@
     grid-template-columns: repeat(auto-fit, 300px);
   }
 
-  .giving-grid-2{
+  .giving-grid-2 {
     padding: 40px 15px;
   }
 
@@ -1009,11 +1016,159 @@
 
 @media (max-width: 680px) {
   .second-part-section-1-a-btns {
-    font-size: 9px; 
+    font-size: 9px;
+  }
+
+  .media-section-1-embed-video-container iframe {
+    height: 350px;
   }
 }
 
 @media (max-width: 650px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1 {
+    max-width: 650px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .second-part-section-1-a {
+    width: 100%;
+  }
+
+  .second-part-section-1-b {
+    width: 100%;
+  }
+
+  .second-part-section-1-a h1 {
+    padding: 20px;
+    font-size: 45px;
+  }
+
+  .second-part-section-1-a-btns {
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    padding: 15px;
+  }
+
+  .second-part-section-1-b p {
+    padding: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 100;
+  }
+
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    width: 300px;
+    height: 500px;
+    padding: 40px 17px;
+  }
+
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-2 {
+    padding: 20px 2%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2-first-div {
+    padding-right: 30px;
+  }
+
+  .info-section-2-first-div a i {
+    bottom: 72%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1 {
+    max-width: 650px;
+    padding: 20px 2%;
+  }
+
+  .media-section-1-embed-video-container iframe {
+    height: 340px;
+  }
+
+  .media-section-1-buttons-container {
+    gap: 10px;
+  }
+
+  .media-section-1-button {
+    padding: 12px 15px;
+    font-size: 9px;
+  }
+
+  .media-section-1-first-button i,
+  .media-section-1-second-button i,
+  .media-section-1-third-button i {
+    font-size: 9px;
+    padding: 13px;
+  }
+
+  .media-section-2 {
+    max-width: 650px;
+    padding: 20px 2%;
+  }
+
+  .media-section-3 {
+    max-width: 650px;
+    padding: 20px 2%;
+  }
+
+  .media-section-3 h1 {
+    line-height: 1;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 250px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    max-width: 650px;
+    padding: 20px 2%;
+  }
+
+  .giving-section-1 h1 {
+    
+   
+    
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 620px) {
+  .about-section-1 h1 {
+    font-size: 26px;
+  }
+
+  .about-section-div {
+    width: 75%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-form button {
+    width: 87%;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section-2 {
+    max-width: 600px;
+    grid-auto-columns: 250px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -1023,6 +1178,40 @@
 }
 
 @media (max-width: 500px) {
+  /* ========== Home Page ========== */
+  .section-2 {
+    display: none;
+  }
+
+  .section-3 {
+    margin: 15px auto;
+    padding: 20px 2%;
+  }
+
+  footer {
+    padding: 20px 2%;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1 h1 {
+    font-size: 22px;
+    border-radius: 10px;
+  }
+
+  .about-section-arrow-image {
+    width: 75px;
+    padding: 10px 20px;
+  }
+
+  .about-section-div {
+    padding: 10px;
+  }
+
+  .about-section-2 {
+    max-width: 500px;
+    padding: 20px 2%;
+    grid-auto-columns: 200px;
+  }
 }
 
 /* @media (max-width: 850px) {
