@@ -1061,6 +1061,10 @@
     font-weight: 100;
   }
 
+  .section-2 {
+    display: none;
+  }
+
   .section-2-event-box-a,
   .section-2-event-box-b,
   .section-2-event-box-c {
@@ -1074,6 +1078,10 @@
   .section-2-event-box-part-2-c a {
     font-size: 10px;
     padding: 10px;
+  }
+
+  .section-3 {
+    margin-top: 15px;
   }
 
   /* ========== About Page ========== */
@@ -1141,10 +1149,40 @@
   }
 
   .giving-section-1 h1 {
-    
-   
-    
-    font-size: 30px;
+    font-size: 22px;
+  }
+
+  .giving-section-2 {
+    max-width: 550px;
+    padding: 20px 2%;
+    grid-auto-columns: 255px;
+  }
+
+  .giving-grid-1 h1{
+    font-size: 28px;
+  }
+
+  .giving-grid-2 h1{
+    font-size: 28px;
+  }
+
+  .giving-section-3 {
+    max-width: 550px;
+    padding: 20px 2%;
+  }
+
+  .second-giving-grid {
+    max-width: 650px;
+    grid-template-columns: repeat(2, 250px);
+  }
+
+  .second-giving-grid-child p {
+    font-size: 15px;
+  }
+
+  .second-giving-grid-child-circle {
+    width: 40px;
+    height: 40px;
   }
 }
 
