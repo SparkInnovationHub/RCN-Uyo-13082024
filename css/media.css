@@ -817,7 +817,7 @@
   }
 
   .second-part-section-1-a-btns {
-    padding: 10px 10px;
+    padding: 10px;
   }
 
   .second-part-section-1-a-btns-div i {
@@ -1210,13 +1210,74 @@
 }
 
 @media (max-width: 550px) {
+  /* ========== Home Page ========== */
+  /* .section-1 {
+    max-width: 550px;
+  } */
+
+  header {
+    padding: 10px;
+  }
+
+  nav a {
+    padding: 0px 0px;
+  }
+
+  .logo img {
+    top: -30%;
+    width: 75px;
+  }
+
+  .hero-image{
+    width: 100%;
+  }
+
   .arrow-image {
     width: 50px;
+  }
+
+  .second-part-section-1-a h1 {
+    font-size: 35px;
+    padding: 20px 3px;
+  }
+
+  .second-part-section-1-a-btns{
+    font-size: 10px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    font-size: 10px;
+  }
+
+  .second-part-section-1-b p{
+    margin-top: 0;
+  }
+
+  .showAbove550{
+    display: none;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1{
+    padding-bottom: 0;
+  }
+  .about-section-1 h1 {
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 1% 6%;
+  }
+
+  .about-section-1 div{
+    display: none;
   }
 }
 
 @media (max-width: 500px) {
   /* ========== Home Page ========== */
+  .arrow-image {
+    width: 40px;
+  }
+
   .section-2 {
     display: none;
   }
