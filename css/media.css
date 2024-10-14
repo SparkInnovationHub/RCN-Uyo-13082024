@@ -1158,11 +1158,11 @@
     grid-auto-columns: 255px;
   }
 
-  .giving-grid-1 h1{
+  .giving-grid-1 h1 {
     font-size: 28px;
   }
 
-  .giving-grid-2 h1{
+  .giving-grid-2 h1 {
     font-size: 28px;
   }
 
@@ -1228,7 +1228,7 @@
     width: 75px;
   }
 
-  .hero-image{
+  .hero-image {
     width: 100%;
   }
 
@@ -1241,7 +1241,7 @@
     padding: 20px 3px;
   }
 
-  .second-part-section-1-a-btns{
+  .second-part-section-1-a-btns {
     font-size: 10px;
   }
 
@@ -1249,20 +1249,20 @@
     font-size: 10px;
   }
 
-  .second-part-section-1-b p{
+  .second-part-section-1-b p {
     margin-top: 0;
   }
 
-  .showAbove550{
+  .showAbove550 {
     display: none;
   }
 
-  .section-3{
+  .section-3 {
     padding: 20px 2%;
   }
 
   /* ========== About Page ========== */
-  .about-section-1{
+  .about-section-1 {
     padding-bottom: 0;
   }
   .about-section-1 h1 {
@@ -1271,7 +1271,7 @@
     padding: 1% 6%;
   }
 
-  .about-section-1 div{
+  .about-section-1 div {
     display: none;
   }
 
@@ -1279,7 +1279,7 @@
     grid-auto-columns: 220px;
   }
 
-  .about-section-3-text-div h1{
+  .about-section-3-text-div h1 {
     font-size: 34px;
   }
 
@@ -1288,36 +1288,36 @@
     height: 275px;
   }
 
-  .media-section-1-buttons-container{
+  .media-section-1-buttons-container {
     margin-top: 10px;
   }
 
-  .media-section-2{
+  .media-section-2 {
     margin-top: 0;
   }
 
-  .media-section-2 h1{
+  .media-section-2 h1 {
     margin-top: 0;
   }
 
-  .media-section-2 p{
+  .media-section-2 p {
     margin-bottom: 5px;
   }
 
-  .media-section-2-headers a{
+  .media-section-2-headers a {
     margin-inline: 0;
   }
 
-  .media-section-3 h1{
+  .media-section-3 h1 {
     font-size: 34px;
     line-height: 1.5;
   }
 
-  .media-section-3 p{
+  .media-section-3 p {
     font-size: 15px;
   }
 
-  .media-section-3-grid{
+  .media-section-3-grid {
     max-width: 550px;
     grid-template-columns: 200px;
     padding-inline: 2%;
@@ -1327,28 +1327,28 @@
     width: 200px;
   } */
 
-/* ========== Giving Page ========== */
-  .giving-section-1 h1{
+  /* ========== Giving Page ========== */
+  .giving-section-1 h1 {
     left: 45px;
   }
 
-  .giving-section-2{
+  .giving-section-2 {
     grid-auto-columns: 230px;
   }
 
-  .giving-grid-1 h1{
+  .giving-grid-1 h1 {
     font-size: 24px;
   }
 
-  .hideBelow550{
+  .hideBelow550 {
     display: none;
   }
 
-  .second-giving-grid{
+  .second-giving-grid {
     grid-template-columns: repeat(2, 230px);
   }
 
-  footer{
+  footer {
     padding: 20px 2%;
   }
 }
@@ -1370,43 +1370,46 @@
     grid-auto-rows: 180px;
   }
 
-  .grid-1 p{
-    font-size: 15px;
-  }
-  
-  .grid-1 h3{
-    font-size: 25px;
-  }
-
-  .grid-8 h3{
-    font-size: 25px;
-  }
-
-  .grid-8 p{
+  .grid-1 p {
     font-size: 15px;
   }
 
-  .grid-7 h3{
+  .grid-1 h3 {
     font-size: 25px;
   }
 
-  .grid-7 p{
+  .grid-8 h3 {
+    font-size: 25px;
+  }
+
+  .grid-8 p {
     font-size: 15px;
   }
 
-  .grid-1-btn i{
+  .grid-7 h3 {
+    font-size: 25px;
+  }
+
+  .grid-7 p {
+    font-size: 15px;
+  }
+
+  .grid-1-btn i {
     bottom: 2%;
   }
 
-  .grid-3-first-p{
+  .grid-3-first-p {
     font-size: 60px;
   }
 
-  .footer-grid-2 p,.footer-grid-2 a, a{
+  .footer-grid-2 p,
+  .footer-grid-2 a,
+  a {
     font-size: 14px;
   }
 
-  .footer-credit h3{
+  .footer-credit h3,
+  .footer-credit a {
     font-size: 10px;
   }
 
@@ -1433,14 +1436,32 @@
   .about-section-2 {
     max-width: 500px;
     padding: 20px 2%;
-    grid-auto-columns: 200px;
+    grid-auto-columns: 180px;
+    grid-auto-rows: minmax(10px, 1fr);
+  }
+
+  .about-grid-5 h1,
+  .about-grid-1 h1 {
+    margin-top: 0;
+  }
+
+  .about-section-2 p {
+    font-size: 15px;
+  }
+
+  .about-grid-5{
+    padding: 15px;
   }
 }
 
-/* @media (max-width: 850px) {
-  .section-2-event-box-a,
-  .section-2-event-box-b,
-  .section-2-event-box-c {
-    width: 240px;
+@media (max-width: 450px) {
+  .about-section-1 h1 {
+    font-size: 20px;
   }
-} */
+}
+
+@media (max-width: 405px) {
+  .about-section-1 h1 {
+    font-size: 19px;
+  }
+}
