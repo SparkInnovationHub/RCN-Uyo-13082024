@@ -1323,10 +1323,6 @@
     padding-inline: 2%;
   }
 
-  /* .media-grid-4{
-    width: 200px;
-  } */
-
   /* ========== Giving Page ========== */
   .giving-section-1 h1 {
     left: 45px;
@@ -1359,6 +1355,10 @@
     width: 40px;
   }
 
+  .second-part-section-1-a-btns-div a {
+    font-size: 12px;
+  }
+
   .section-2 {
     display: none;
   }
@@ -1372,6 +1372,7 @@
 
   .grid-1 p {
     font-size: 15px;
+    margin-top: 2px;
   }
 
   .grid-1 h3 {
@@ -1398,14 +1399,29 @@
     bottom: 2%;
   }
 
+  .grid-btns i {
+    padding: 10px;
+  }
+
   .grid-3-first-p {
     font-size: 60px;
+  }
+
+  /* ========== Footer ========== */
+  footer {
+    padding: 20px 2%;
+    grid-auto-columns: 180px;
+    grid-auto-rows: 50px;
   }
 
   .footer-grid-2 p,
   .footer-grid-2 a,
   a {
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .footer-grid-2 a {
+    font-size: 12px;
   }
 
   .footer-credit h3,
@@ -1413,9 +1429,39 @@
     font-size: 10px;
   }
 
-  footer {
-    padding: 20px 2%;
-    grid-auto-columns: 180px;
+  .footer-grid-4 p i,
+  .footer-grid-5 p i,
+  .footer-grid-6 p i {
+    padding: 5px;
+  }
+
+  .footer-grid-4 p,
+  .footer-grid-5 p,
+  .footer-grid-6 p {
+    font-size: 12px;
+  }
+
+  .footer-grid-4,
+  .footer-grid-5,
+  .footer-grid-6 {
+    line-height: 50px;
+  }
+
+  .footer-grid-7 {
+    padding: 20px;
+  }
+
+  .footer-grid-7 i {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .footer-grid-7 p {
+    font-size: 16px;
+  }
+
+  .footer-grid-7 img {
+    width: 70px;
   }
 
   /* ========== About Page ========== */
@@ -1452,125 +1498,263 @@
   .about-grid-5 {
     padding: 15px;
   }
-
-  footer {
-    grid-auto-rows: 50px;
-  }
-
-  .footer-grid-4,
-  .footer-grid-5,
-  .footer-grid-6 {
-    line-height: 50px;
-  }
-
-  .footer-grid-7 {
-    padding: 20px;
-  }
-
-  .footer-grid-7 i {
-    font-size: 15px;
-    padding: 10px;
-  }
-
-  .footer-grid-7 p {
-    font-size: 18px;
-  }
-
-  .footer-grid-7 img {
-    width: 70px;
-  }
-
-  .footer-grid-2{
-    padding-top: 10px;
-  }
-
-  /* ========== About Page ========== */
   .about-section-2 {
     grid-auto-rows: 70px;
   }
 
-  .about-section-2 h1{
+  .about-section-2 h1 {
     font-size: 24px;
   }
 
-  .about-section-2 p{
+  .about-section-2 p {
     font-size: 12px;
   }
 
-  .about-grid-5{
+  .about-grid-5 {
     padding-top: 25px;
   }
 
-  .about-grid-1{
+  .about-grid-1 {
     padding-top: 10px;
   }
 
-  .about-section-3-text-div h1{
+  .about-section-3-text-div h1 {
     font-size: 26px;
   }
 
-  .about-section-3-text-div p, .about-section-3-text-div li{
+  .about-section-3-text-div p,
+  .about-section-3-text-div li {
     font-size: 12px;
   }
 
-/* ========== Information Desk Page ========== */
-  .info-section-2{
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
     padding: 20px 4%;
   }
 
-  .info-section-1-slider{
+  .info-section-form form {
+    padding: 15px;
+  }
+
+  .info-section-1-slider {
     padding-block: 1rem;
   }
 
-  .info-section-1 p{
+  .info-section-1 p {
     font-size: 12px;
   }
 
-  .info-section-1 img{
+  .info-section-1 img {
     width: 20px;
   }
 
-  .info-section-2-first-div h1{
+  .info-section-2-first-div h1 {
     font-size: 28px;
     padding-bottom: 8px;
   }
 
-  .info-section-2-first-div p{
+  .info-section-2-first-div p {
     font-size: 12px;
   }
 
-  .info-section-2-first-div{
+  .info-section-2-first-div {
     padding: 20px;
   }
 
-  .info-section-2-first-div a i{
+  .info-section-2-first-div a i {
     font-size: 16px;
     padding: 7px;
   }
 
-  .info-section-2-second-div{
+  .info-section-2-second-div {
     padding: 20px;
   }
 
-  .info-section-2-second-div p{
+  .info-section-2-second-div p {
     font-size: 12px;
   }
 
-  .info-section-form{
+  .info-section-form {
     padding: 20px 4%;
   }
-  
-  .info-section-form label{
-    font-size: 14px;
+
+  .info-section-form label {
+    font-size: 12px;
+    padding: 10px 15px 1px 15px;
   }
 
-  .info-section-form input, .info-section-form select{
+  .info-section-form input,
+  .info-section-form select {
     font-size: 14px;
     padding: 7px 15px;
   }
 
-  .info-section-form input{
-    margin-bottom: 10px;
+  .info-section-form input {
+    margin-bottom: 0px;
+  }
+
+  .info-section-form button {
+    font-size: 12px;
+    width: 86%;
+    padding: 10px;
+  }
+
+  .info-section-form i {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 275px;
+  }
+
+  .media-section-1 {
+    padding-top: 0;
+    margin: 0 auto;
+  }
+
+  .media-section-1-button {
+    font-size: 8px;
+    padding: 8px 12px;
+  }
+
+  .media-section-1-first-button i,
+  .media-section-1-second-button i,
+  .media-section-1-third-button i {
+    padding: 8px;
+  }
+
+  .media-section-2 h1 {
+    font-size: 28px;
+  }
+
+  .media-section-2 p {
+    font-size: 12px;
+  }
+
+  .media-section-2-headers a {
+    padding: 5px 10px;
+  }
+
+  .media-section-2-headers {
+    margin-block: 10px;
+  }
+
+  .media-section-2-button{
+    padding: 5px 10px;
+  }
+
+  .media-section-2-button,
+  .media-section-2-button i {
+    font-size: 10px;
+  }
+
+  .media-section-3{
+    padding: 0 2% 10px 2%;
+    margin-top: 0;
+  }
+
+  .media-section-3 h1{
+    font-size: 28px;
+  }
+
+  .media-section-3 p{
+    font-size: 12px;
+  }
+
+  .media-section-3-grid{
+    grid-auto-columns: 150px;
+    grid-auto-rows: 150px;
+  }
+
+   /* ========== Giving Page ========== */
+   .giving-section-1 {
+    padding: 0px 2.5%;
+  }
+
+  .giving-section-1 h1{
+    font-size: 18px;
+    font-weight: 600;
+    top: 15px;
+    left: 25px;
+  }
+
+  .giving-section-2{
+    grid-auto-columns: 180px;
+  }
+
+  .giving-grid-1{
+    padding: 25px 15px;
+  }
+
+  .giving-grid-1 h1{
+    font-size: 18px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }
+
+  .giving-grid-1 p{
+    font-size: 11px;
+  }
+
+  .giving-grid-2{
+    padding: 20px 15px;
+  }
+
+  .giving-grid-2 h1{
+    font-size: 18px;
+  }
+
+  .giving-grid-2 p{
+    font-size: 11px;
+  }
+
+  .giving-grid-2 a{
+    padding: 6px;
+    font-size: 8px;
+  }
+
+  .giving-grid-3{
+    padding: 20px;
+  }
+
+  .giving-grid-3 h1{
+    font-size: 18px;
+  }
+
+  .giving-grid-3 p{
+    font-size: 11px;
+  }
+
+  .giving-section-3{
+    margin-top: 0 auto;
+    padding: 0 1%;
+  }
+
+  .giving-section-3 h1{
+    font-size: 28px;
+  }
+
+  .second-giving-grid{
+    grid-template-columns: repeat(2, 180px);
+  }
+
+  .second-giving-grid-child p{
+    font-size: 11px;
+    padding-block: 5px;
+  }
+
+  .second-giving-grid-child-circle{
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 260px;
   }
 }
 
@@ -1578,10 +1762,27 @@
   .about-section-1 h1 {
     font-size: 20px;
   }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 250px;
+  }
+}
+
+@media (max-width: 440px) {
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 230px;
+  }
 }
 
 @media (max-width: 405px) {
   .about-section-1 h1 {
     font-size: 19px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 220px;
   }
 }
