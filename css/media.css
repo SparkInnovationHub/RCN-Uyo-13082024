@@ -1777,6 +1777,36 @@
 }
 
 @media (max-width: 405px) {
+  /* ========== Home Page ========== */
+  .arrow-image {
+    display: none;
+  }
+
+  .section-3 {
+    grid-auto-columns: 145px;
+    grid-auto-rows: 145px;
+  }
+
+  .grid-1{
+    padding: 20px 10px;
+  }
+
+  .grid-1 h3{
+    font-size: 18px;
+  }
+
+  .grid-1 p{
+    font-size: 12px;
+  }
+
+  .grid-3-first-p{
+    font-size: 40px;
+  }
+
+  .grid-3-second-p{
+    font-size: 12px;
+  }
+
   .about-section-1 h1 {
     font-size: 19px;
   }
@@ -1785,4 +1815,8 @@
   .media-section-1-embed-video-container iframe {
     height: 220px;
   }
+}
+
+@media (max-width: 355px){
+
 }
