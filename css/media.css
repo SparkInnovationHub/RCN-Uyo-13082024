@@ -1449,8 +1449,128 @@
     font-size: 15px;
   }
 
-  .about-grid-5{
+  .about-grid-5 {
     padding: 15px;
+  }
+
+  footer {
+    grid-auto-rows: 50px;
+  }
+
+  .footer-grid-4,
+  .footer-grid-5,
+  .footer-grid-6 {
+    line-height: 50px;
+  }
+
+  .footer-grid-7 {
+    padding: 20px;
+  }
+
+  .footer-grid-7 i {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .footer-grid-7 p {
+    font-size: 18px;
+  }
+
+  .footer-grid-7 img {
+    width: 70px;
+  }
+
+  .footer-grid-2{
+    padding-top: 10px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-rows: 70px;
+  }
+
+  .about-section-2 h1{
+    font-size: 24px;
+  }
+
+  .about-section-2 p{
+    font-size: 12px;
+  }
+
+  .about-grid-5{
+    padding-top: 25px;
+  }
+
+  .about-grid-1{
+    padding-top: 10px;
+  }
+
+  .about-section-3-text-div h1{
+    font-size: 26px;
+  }
+
+  .about-section-3-text-div p, .about-section-3-text-div li{
+    font-size: 12px;
+  }
+
+/* ========== Information Desk Page ========== */
+  .info-section-2{
+    padding: 20px 4%;
+  }
+
+  .info-section-1-slider{
+    padding-block: 1rem;
+  }
+
+  .info-section-1 p{
+    font-size: 12px;
+  }
+
+  .info-section-1 img{
+    width: 20px;
+  }
+
+  .info-section-2-first-div h1{
+    font-size: 28px;
+    padding-bottom: 8px;
+  }
+
+  .info-section-2-first-div p{
+    font-size: 12px;
+  }
+
+  .info-section-2-first-div{
+    padding: 20px;
+  }
+
+  .info-section-2-first-div a i{
+    font-size: 16px;
+    padding: 7px;
+  }
+
+  .info-section-2-second-div{
+    padding: 20px;
+  }
+
+  .info-section-2-second-div p{
+    font-size: 12px;
+  }
+
+  .info-section-form{
+    padding: 20px 4%;
+  }
+  
+  .info-section-form label{
+    font-size: 14px;
+  }
+
+  .info-section-form input, .info-section-form select{
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+
+  .info-section-form input{
+    margin-bottom: 10px;
   }
 }
 
