@@ -1779,8 +1779,9 @@
 @media (max-width: 405px) {
   /* ========== Home Page ========== */
   .section-1 {
-    padding: 20px 0;
+    padding: 0 0 10px 0;
   }
+
   .arrow-image,
   .hero-image {
     display: none;
@@ -1788,7 +1789,7 @@
 
   .hero-image-two {
     display: block;
-    max-width: 100%;
+    width: 100%;
   }
 
   .second-part-section-1 {
@@ -1830,11 +1831,12 @@
   }
 
   .about-section-1 h1 {
-    font-size: 19px;
+    /* font-size: 19px; */
+    display: none;
   }
 
   .about-section-1 {
-    padding: 20px 0;
+    padding: 0px;
   }
 
   .about-section-image-1 {
@@ -1854,7 +1856,15 @@
     font-size: 11px;
   }
 
+  .about-section-3-text-div h1{
+    font-size: 24px;
+  }
+
   /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container{
+    margin-top: 15px;
+  }
+
   .media-section-1-embed-video-container iframe {
     height: 220px;
   }
