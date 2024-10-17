@@ -1319,7 +1319,7 @@
 
   .media-section-3-grid {
     max-width: 550px;
-    grid-template-columns: 200px;
+    grid-auto-columns: 200px;
     padding-inline: 2%;
   }
 
@@ -1641,7 +1641,7 @@
     margin-block: 10px;
   }
 
-  .media-section-2-button{
+  .media-section-2-button {
     padding: 5px 10px;
   }
 
@@ -1650,102 +1650,102 @@
     font-size: 10px;
   }
 
-  .media-section-3{
+  .media-section-3 {
     padding: 0 2% 10px 2%;
     margin-top: 0;
   }
 
-  .media-section-3 h1{
+  .media-section-3 h1 {
     font-size: 28px;
   }
 
-  .media-section-3 p{
+  .media-section-3 p {
     font-size: 12px;
   }
 
-  .media-section-3-grid{
+  .media-section-3-grid {
     grid-auto-columns: 150px;
     grid-auto-rows: 150px;
   }
 
-   /* ========== Giving Page ========== */
-   .giving-section-1 {
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
     padding: 0px 2.5%;
   }
 
-  .giving-section-1 h1{
+  .giving-section-1 h1 {
     font-size: 18px;
     font-weight: 600;
     top: 15px;
     left: 25px;
   }
 
-  .giving-section-2{
+  .giving-section-2 {
     grid-auto-columns: 180px;
   }
 
-  .giving-grid-1{
+  .giving-grid-1 {
     padding: 25px 15px;
   }
 
-  .giving-grid-1 h1{
+  .giving-grid-1 h1 {
     font-size: 18px;
     margin-top: -5px;
     margin-bottom: 5px;
   }
 
-  .giving-grid-1 p{
+  .giving-grid-1 p {
     font-size: 11px;
   }
 
-  .giving-grid-2{
+  .giving-grid-2 {
     padding: 20px 15px;
   }
 
-  .giving-grid-2 h1{
+  .giving-grid-2 h1 {
     font-size: 18px;
   }
 
-  .giving-grid-2 p{
+  .giving-grid-2 p {
     font-size: 11px;
   }
 
-  .giving-grid-2 a{
+  .giving-grid-2 a {
     padding: 6px;
     font-size: 8px;
   }
 
-  .giving-grid-3{
+  .giving-grid-3 {
     padding: 20px;
   }
 
-  .giving-grid-3 h1{
+  .giving-grid-3 h1 {
     font-size: 18px;
   }
 
-  .giving-grid-3 p{
+  .giving-grid-3 p {
     font-size: 11px;
   }
 
-  .giving-section-3{
+  .giving-section-3 {
     margin-top: 0 auto;
     padding: 0 1%;
   }
 
-  .giving-section-3 h1{
+  .giving-section-3 h1 {
     font-size: 28px;
   }
 
-  .second-giving-grid{
+  .second-giving-grid {
     grid-template-columns: repeat(2, 180px);
   }
 
-  .second-giving-grid-child p{
+  .second-giving-grid-child p {
     font-size: 11px;
     padding-block: 5px;
   }
 
-  .second-giving-grid-child-circle{
+  .second-giving-grid-child-circle {
     width: 20px;
     height: 20px;
   }
@@ -1778,45 +1778,151 @@
 
 @media (max-width: 405px) {
   /* ========== Home Page ========== */
-  .arrow-image {
+  .section-1 {
+    padding: 20px 0;
+  }
+  .arrow-image,
+  .hero-image {
     display: none;
   }
 
+  .hero-image-two {
+    display: block;
+    max-width: 100%;
+  }
+
+  .second-part-section-1 {
+    padding-inline: 4%;
+  }
+
   .section-3 {
-    grid-auto-columns: 145px;
-    grid-auto-rows: 145px;
+    grid-auto-columns: 160px;
+    grid-auto-rows: 160px;
   }
 
-  .grid-1{
-    padding: 20px 10px;
-  }
-
-  .grid-1 h3{
+  .grid-1 h3 {
     font-size: 18px;
   }
 
-  .grid-1 p{
-    font-size: 12px;
+  .grid-1 p {
+    font-size: 13px;
   }
 
-  .grid-3-first-p{
+  .grid-7 {
+    padding: 20px;
+  }
+
+  .grid-8 p,
+  .grid-7 p {
+    font-size: 13px;
+  }
+
+  .grid-3-first-p {
     font-size: 40px;
   }
 
-  .grid-3-second-p{
+  .grid-3-second-p {
     font-size: 12px;
+  }
+
+  footer {
+    grid-auto-columns: 155px;
   }
 
   .about-section-1 h1 {
     font-size: 19px;
   }
 
+  .about-section-1 {
+    padding: 20px 0;
+  }
+
+  .about-section-image-1 {
+    display: none;
+  }
+
+  .about-section-image-1-mobile {
+    display: inline;
+    width: 100%;
+  }
+
+  .about-section-2 {
+    grid-auto-columns: 160px;
+  }
+
+  .about-grid-1 p {
+    font-size: 11px;
+  }
+
   /* ========== Media Center Page ========== */
   .media-section-1-embed-video-container iframe {
     height: 220px;
   }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 h1{
+    font-size: 15px;
+  }
+
+  .giving-section-1{
+    padding: 0 4%;
+  }
+
+  .giving-section-2{
+    grid-auto-columns: 155px;
+  }
+
+  .giving-grid-1 h1{
+    font-size: 15px;
+  }
+
+  .second-giving-grid{
+    grid-template-columns: repeat(2, 150px);
+  }
+
+  .second-giving-grid-child{
+    padding: 10px;
+    border-radius: 20px;
+  }
 }
 
-@media (max-width: 355px){
+@media (max-width: 375px) {
+  .media-section-1-embed-video-container iframe {
+    height: 210px;
+  }
 
+  .media-section-1-button {
+    font-size: 7px;
+    padding: 6px 10px;
+  }
+
+  .media-section-1-buttons-container {
+    gap: 5px;
+  }
+
+  .media-section-1-first-button i,
+  .media-section-1-second-button i,
+  .media-section-1-third-button i {
+    font-size: 7px;
+    padding: 7px;
+  }
+
+  .media-section-2 h1{
+    font-size: 24px;
+  }
+
+  .media-section-3 h1{
+    font-size: 24px;
+  }
+
+  .media-section-3-grid{
+    /* grid-auto-columns: 150px; */
+  }
 }
+
+@media (max-width: 355px) {
+  .media-section-1-embed-video-container iframe {
+    height: 200px;
+  }
+}
+
