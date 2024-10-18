@@ -156,13 +156,14 @@ nav a i {
 
 .second-part-section-1-b p {
   color: #fffaf0;
-  padding: 25px;
+  padding: 25px 40px;
   font-size: 20px;
   line-height: 1.5;
   font-weight: 100;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.showAbove550 {
+  display: none;
 }
 
 /* ========== Section 2 ========== */
@@ -569,7 +570,7 @@ a {
   border-radius: 30px;
   text-align: center;
   line-height: 60px;
-  border: 2px solid #1e1e1e;
+  border: 1px solid #1e1e1e;
   font-size: 17px;
 }
 
@@ -583,7 +584,7 @@ a {
   border-radius: 30px;
   text-align: center;
   line-height: 60px;
-  border: 2px solid #1e1e1e;
+  border: 1px solid #1e1e1e;
   font-size: 17px;
 }
 
@@ -597,7 +598,7 @@ a {
   border-radius: 30px;
   text-align: center;
   line-height: 60px;
-  border: 2px solid #1e1e1e;
+  border: 1px solid #1e1e1e;
   font-size: 17px;
 }
 
@@ -1396,7 +1397,6 @@ p {
   border-radius: 30px;
   padding: 20px;
   background-color: #a4a4a452;
-  border: 1px solid #1e1e1e;
 }
 
 .second-giving-grid-child p {

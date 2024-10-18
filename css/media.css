@@ -1217,6 +1217,7 @@
 
   header {
     padding: 10px;
+    background: transparent;
   }
 
   nav a {
@@ -1778,7 +1779,6 @@
   /* ========== Home Page ========== */
   .section-1 {
     padding: 0;
-    text-align: justify;
   }
 
   .arrow-image,
