@@ -1,0 +1,3340 @@
+/* ========== KEY BREAKPOINTS ========== */
+/* 
+  
+     <= 479 Mobile View
+     480 - 767 Grid Collapse
+     768 - 959 Retain Desktop Site
+     960 - 1219
+     >= 1220
+     
+  */
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1380px) {
+  /* ========== About Page ========== */
+  .about-section-2,
+  .about-section-4 {
+    padding: 20px 10px;
+  }
+
+  .about-section-1,
+  .about-section-3 {
+    padding: 20px 9%;
+  }
+}
+
+@media (max-width: 1366px) {
+  /* ========== Home Page ========== */
+  .section-1,
+  .section-2 {
+    padding: 20px 9%;
+  }
+
+  .section-3 {
+    padding: 20px 7%;
+  }
+
+  footer {
+    padding: 20px 7%;
+  }
+}
+
+@media (max-width: 1355px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a-btns {
+    padding: 10px 18px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    padding: 12px;
+  }
+
+  .second-part-section-1-a-btns-div-div-special {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 1350px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    line-height: 1.2;
+    grid-auto-columns: 260px;
+  }
+
+  .about-section-div {
+    width: 87%;
+  }
+
+  .about-section-4 h1 {
+    right: 55.5%;
+  }
+
+  .about-section-4 {
+    grid-template-columns: repeat(3, 340px);
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-2 {
+    padding: 20px 200px;
+  }
+
+  .media-section-3 {
+    padding: 20px 25px;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 300px;
+  }
+
+  .media-section-1-embed-video-container iframe {
+    height: 650px;
+  }
+}
+
+@media (max-width: 1315px) {
+  /* ========== Media Center Page ========== */
+  .media-section-3 {
+    padding: 20px 1%;
+  }
+
+  .media-section-2 {
+    padding: 20px 15%;
+  }
+
+  .media-section-1-embed-video-container iframe {
+    height: 600px;
+  }
+}
+
+@media (max-width: 1291px) {
+  /* ========== Home Page ========== */
+  .section-2-header h1 {
+    font-size: 32px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 250px;
+    gap: 15px;
+  }
+
+  footer {
+    grid-auto-columns: 250px;
+  }
+}
+
+@media (max-width: 1280px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 247px;
+    grid-auto-rows: minmax(90px, 1fr);
+    line-height: 1.2;
+  }
+
+  .about-grid-5 h1 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1265px) {
+  /* ========== Home Page ========== */
+  .section-3 {
+    grid-auto-columns: 240px;
+  }
+
+  footer {
+    grid-auto-columns: 240px;
+  }
+}
+
+@media (max-width: 1250px) {
+  /* ========== About Page ========== */
+  .about-section-2 p {
+    font-size: 18px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-2 {
+    grid-auto-columns: 315px;
+  }
+
+  .giving-section-2 h1 {
+    font-size: 33px;
+  }
+
+  .giving-grid-2 {
+    padding-right: 60px;
+  }
+
+  .hideBelow1250 {
+    display: none;
+  }
+}
+
+@media (max-width: 1238px) and (min-width: 1215px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a-btns-div-div-special {
+    margin-left: 5px;
+  }
+}
+
+/* ========== KEY BREAKPOINT ========== */
+@media (max-width: 1220px) {
+}
+
+/* ========== KEY BREAKPOINT ========== */
+@media (max-width: 1219px) {
+}
+
+@media (max-width: 1214px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a-btns {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1210px) {
+  /* ========== About Page ========== */
+  .about-section-2 p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-buttons-container {
+    gap: 10px;
+  }
+
+  .media-section-1-button {
+    font-size: 12px;
+  }
+
+  .media-section-1-first-button i,
+  .media-section-1-second-button i,
+  .media-section-1-third-button i {
+    font-size: 10px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1,
+  .giving-section-2,
+  .giving-section-3 {
+    padding: 20px 9%;
+  }
+
+  .giving-section-2 {
+    max-width: 1210px;
+  }
+
+  .giving-section-3 {
+    max-width: 1210px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* ========== Home Page ========== */
+  .logo img {
+    top: -1%;
+    width: 110px;
+  }
+
+  .second-part-section-1-a-btns-div-div-special {
+    margin-left: 10px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-3-text-div h1 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 1190px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a-btns {
+    padding: 8px 16px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    padding: 10px;
+  }
+
+  .section-2-header h1 {
+    font-size: 30px;
+  }
+
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    padding: 35px;
+  }
+
+  .section-3 {
+    gap: 10px;
+  }
+
+  footer {
+    gap: 10px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-4 h1 {
+    right: 50%;
+  }
+
+  .about-section-4 {
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: 350px;
+  }
+
+  .about-section-4-div p {
+    font-size: 15px;
+    color: #1e1e1e;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 h1 {
+    top: 70px;
+    left: 170px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 305px;
+  }
+
+  .giving-grid-2 a {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1180px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 240px;
+  }
+}
+
+@media (max-width: 1175px) {
+  /* ========== Home Page ========== */
+  nav a {
+    font-size: 15px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 230px;
+  }
+
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    padding: 30px;
+  }
+
+  .grid-1 p {
+    font-size: 16px;
+  }
+
+  .grid-7 p,
+  .grid-8 p {
+    font-size: 18px;
+  }
+
+  footer {
+    grid-auto-columns: 230px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 550px;
+  }
+}
+
+@media (max-width: 1150px) {
+  /* ========== Home Page ========== */
+  header {
+    margin: 15px 7%;
+  }
+
+  .section-1,
+  .section-2 {
+    padding: 20px 7%;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-2,
+  .about-section-4 {
+    padding: 20px 1%;
+  }
+
+  .about-section-1,
+  .about-section-3 {
+    padding: 20px 7%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
+    padding: 15px 7%;
+  }
+
+  .info-section-form {
+    padding: 20px 7%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1,
+  .media-section-2 {
+    padding: 20px 7%;
+  }
+
+  .media-section-1-embed-video-container iframe {
+    height: 580px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1,
+  .giving-section-2,
+  .giving-section-3 {
+    padding: 20px 7%;
+  }
+}
+
+@media (max-width: 1125px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 230px;
+    grid-auto-rows: 100px;
+  }
+
+  .about-grid-1 h1 {
+    margin-top: 0;
+  }
+
+  .about-section-2 p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1105px) {
+  /* ========== Home Page ========== */
+  .section-3 {
+    padding: 20px 5%;
+  }
+
+  footer {
+    padding: 20px 5%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-3-grid {
+    grid-auto-columns: 290px;
+  }
+}
+
+@media (max-width: 1098px) {
+  /* ========== About Page ========== */
+  .about-section-3-text-div h1 {
+    font-size: 40px;
+  }
+
+  .about-section-3-text-div li,
+  .about-section-3-text-div p {
+    font-size: 16px;
+  }
+  /* ========== Giving Page ========== */
+  .giving-section-2 {
+    grid-auto-columns: 295px;
+  }
+
+  .giving-section-2 h1 {
+    font-size: 30px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(3, 285px);
+  }
+
+  .giving-grid-1 p {
+    font-size: 17.5px;
+  }
+}
+
+@media (max-width: 1075px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a-btns {
+    font-size: 13px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    padding: 9px;
+  }
+
+  .second-part-section-1-a h1 {
+    margin-bottom: 15px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 220px;
+    grid-auto-rows: 210px;
+  }
+
+  .grid-1 h3 {
+    font-size: 28px;
+  }
+
+  .section-2-header h1 {
+    font-size: 28px;
+  }
+
+  footer {
+    grid-auto-columns: 220px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 220px;
+  }
+
+  .about-section-3-text-div li,
+  .about-section-3-text-div p {
+    font-size: 15px;
+  }
+
+  .about-section-3-text-div p {
+    padding-block: 3px;
+  }
+}
+
+@media (max-width: 1063px) {
+  /* ========== Giving Page ========== */
+  .giving-section-1 h1 {
+    font-size: 35px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 285px;
+  }
+
+  .giving-grid-3 {
+    padding: 20px 30px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(3, 275px);
+  }
+}
+
+@media (max-width: 1060px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a h1 {
+    font-size: 30px;
+  }
+  .second-part-section-1-a h1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1049px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-b p {
+    font-size: 19px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 550px;
+  }
+}
+
+@media (max-width: 1045px) {
+  /* ========== Home Page ========== */
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 1040px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 210px;
+  }
+
+  .about-section-3-text-div h1 {
+    font-size: 36px;
+  }
+
+  .about-section-4 {
+    grid-template-columns: repeat(3, 250px);
+    grid-auto-rows: 300px;
+  }
+
+  .about-section-4-div {
+    padding: 25px;
+  }
+
+  .about-section-4-div p {
+    font-size: 14px;
+  }
+
+  .about-section-4 h1 {
+    right: 40%;
+  }
+}
+
+@media (max-width: 1028px) {
+  /* ========== Giving Page ========== */
+
+  .giving-section-2,
+  .giving-section-3 {
+    padding: 20px 1%;
+  }
+}
+
+@media (max-width: 1025px) {
+  /* ========== Home Page ========== */
+  nav a {
+    padding: 6px 15px;
+  }
+
+  nav a i {
+    margin-left: -19px;
+  }
+
+  .arrow-image {
+    width: 80px;
+  }
+  .second-part-section-1-a-btns-div-div-special {
+    margin-left: 5px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 210px;
+    grid-auto-rows: 200px;
+  }
+
+  .grid-btns i {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .grid-1 p {
+    font-size: 15px;
+  }
+
+  .grid-3-first-p {
+    font-size: 60px;
+  }
+
+  .grid-7 p,
+  .grid-8 p {
+    font-size: 16px;
+  }
+
+  .grid-7 h3,
+  .grid-8 h3 {
+    font-size: 32px;
+  }
+
+  footer {
+    grid-auto-columns: 210px;
+    grid-auto-rows: 55px;
+  }
+
+  .footer-grid-2 {
+    padding-top: 25px;
+  }
+
+  .footer-grid-4,
+  .footer-grid-5,
+  .footer-grid-6 {
+    line-height: 55px;
+  }
+
+  .footer-grid-7 p {
+    font-size: 22px;
+  }
+
+  .footer-grid-7 i {
+    padding: 15px;
+  }
+
+  .footer-grid-7 img {
+    bottom: 15%;
+  }
+
+  .footer-grid-2 a {
+    font-size: 16px;
+  }
+
+  .footer-grid-4 p,
+  .footer-grid-5 p,
+  .footer-grid-6 p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1015px) {
+  /* ========== Home Page ========== */
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    width: 280px;
+    height: 500px;
+    padding: 40px 17px;
+    border-radius: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-2-event-box-part-1 i,
+  .section-2-event-box-part-1 p {
+    font-size: 12px;
+  }
+
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    padding: 40px 20px;
+  }
+
+  .section-2-event-box-part-2-a,
+  .section-2-event-box-part-2-b,
+  .section-2-event-box-part-2-c {
+    margin-top: 70%;
+  }
+
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .section-2-event-box-part-1 h6 {
+    margin-top: 0;
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .section-2-event-box-part-1 h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1006px) {
+  /* ========== Home Page ========== */
+  nav a {
+    font-size: 14px;
+  }
+
+  .second-part-section-1-a-btns {
+    font-size: 12px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    padding: 9px;
+    font-size: 13px;
+  }
+
+  .second-part-section-1-b p {
+    font-size: 18px;
+  }
+
+  .section-2-header h1 {
+    font-size: 24px;
+  }
+
+  .section-2-header hr {
+    width: 65%;
+  }
+
+  .section-3 {
+    grid-auto-columns: 205px;
+    grid-auto-rows: 190px;
+  }
+
+  footer {
+    grid-auto-columns: 205px;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-form button {
+    width: 92%;
+    font-size: 17px;
+    padding: 12px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 500px;
+  }
+
+  .showBelow1006 {
+    display: block;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 260px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 h1 {
+    left: 140px;
+    font-size: 33px;
+  }
+  .giving-section-2 {
+    grid-auto-columns: 275px;
+  }
+
+  .giving-grid-1 h1 {
+    font-size: 27px;
+  }
+
+  .giving-grid-1 p {
+    font-size: 17px;
+  }
+
+  .giving-section-2 p {
+    font-size: 17px;
+  }
+
+  .giving-grid-3 p {
+    font-size: 14px;
+  }
+
+  .giving-section-3 h1 {
+    font-size: 32px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(3, 265px);
+  }
+
+  .second-giving-grid-child-circle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .second-giving-grid-child p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 985px) {
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 480px;
+  }
+
+  /* ========== Giving Page ========== */
+
+  .giving-section-1 h1 {
+    font-size: 32px;
+  }
+  .giving-section-2 {
+    grid-auto-columns: 255px;
+  }
+  .giving-grid-1 p {
+    font-size: 16px;
+  }
+
+  .giving-grid-2 h1 {
+    font-size: 29px;
+  }
+
+  .giving-grid-3 {
+    padding: 20px 25px;
+  }
+
+  .giving-grid-3 h1 {
+    font-size: 28px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(3, 245px);
+  }
+}
+
+@media (max-width: 980px) {
+  /* ========== About Page ========== */
+  .about-section-div {
+    width: 84%;
+  }
+
+  .about-section-2 {
+    grid-auto-columns: 200px;
+    grid-auto-rows: 90px;
+  }
+
+  .about-section-2 p {
+    font-size: 14px;
+  }
+
+  .about-grid-5 h1 {
+    margin-top: 10px;
+  }
+
+  .about-grid-1 {
+    padding-top: 15px;
+  }
+
+  .about-section-3-text-div h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 961px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a h1 {
+    margin-bottom: 10px;
+  }
+
+  .second-part-section-1-b p {
+    font-size: 16px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 195px;
+    grid-auto-rows: 180px;
+  }
+
+  .grid-1 h3 {
+    font-size: 24px;
+  }
+
+  .grid-1 p {
+    font-size: 14px;
+  }
+
+  .grid-7 h3,
+  .grid-8 h3 {
+    font-size: 28px;
+  }
+
+  .grid-7 p,
+  .grid-8 p {
+    font-size: 14px;
+  }
+
+  footer {
+    grid-auto-columns: 195px;
+  }
+}
+
+/* ========== KEY BREAKPOINT ========== */
+@media (max-width: 959px) {
+}
+
+@media (max-width: 948px) {
+  /* ========== Home Page ========== */
+  .logo img {
+    top: -1%;
+    width: 110px;
+  }
+
+  .second-part-section-1-a-btns {
+    font-size: 11px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    font-size: 11px;
+  }
+
+  .section-2-header h1 {
+    font-size: 22px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 460px;
+  }
+
+  .media-section-1-button {
+    padding: 12px 20px;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 240px;
+    grid-auto-rows: 200px;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
+    flex-direction: column;
+  }
+
+  .info-section-2-first-div {
+    width: 100%;
+  }
+
+  .info-section-2-second-div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 936px) {
+  /* ========== Home Page ========== */
+  nav a {
+    padding: 6px 10px;
+  }
+
+  nav a i {
+    padding: 9px;
+    font-size: 15px;
+    margin-left: -15px;
+  }
+
+  .second-part-section-1-a h1 {
+    font-size: 28px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 185px;
+    grid-auto-rows: 170px;
+  }
+
+  .grid-1 p {
+    font-size: 13px;
+  }
+
+  .grid-1 h3 {
+    font-size: 22px;
+  }
+
+  .grid-3-first-p {
+    font-size: 50px;
+  }
+
+  footer {
+    grid-auto-columns: 185px;
+    grid-auto-rows: 50px;
+  }
+
+  .footer-grid-4 p,
+  .footer-grid-5 p,
+  .footer-grid-6 p {
+    font-size: 14px;
+  }
+
+  .footer-grid-7 img {
+    width: 70px;
+  }
+
+  .footer-grid-4,
+  .footer-grid-5,
+  .footer-grid-6 {
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 930px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 190px;
+  }
+
+  .about-grid-1 {
+    padding: 20px;
+  }
+
+  .about-section-2 h1 {
+    font-size: 25px;
+  }
+
+  .about-section-3-text-div h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 915px) {
+  /* ========== Giving Page ========== */
+
+  .giving-section-1 h1 {
+    left: 120px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 225px;
+  }
+
+  .giving-grid-1 h1 {
+    font-size: 24px;
+  }
+
+  .giving-grid-1 p {
+    font-size: 15px;
+  }
+
+  .giving-grid-2 h1 {
+    font-size: 24px;
+  }
+
+  .giving-section-2 p {
+    font-size: 16px;
+  }
+
+  .giving-grid-3 h1 {
+    font-size: 24px;
+  }
+
+  .giving-grid-3 p {
+    font-size: 13.5px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(3, 215px);
+  }
+
+  .second-giving-grid-child-circle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .second-giving-grid-child p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 900px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a-btns {
+    padding: 8px 13px;
+  }
+
+  .arrow-image {
+    width: 70px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1 h1 {
+    border-radius: 20px;
+  }
+
+  .about-section-2 {
+    grid-auto-columns: 180px;
+  }
+
+  .about-section-2 p {
+    font-size: 13px;
+  }
+
+  .about-section-3-image-div {
+    display: none;
+  }
+
+  .about-section-3 {
+    display: block;
+  }
+
+  .about-section-4 h1 {
+    font-size: 32px;
+  }
+
+  .about-section-4-div p {
+    font-size: 13px;
+  }
+
+  .about-section-4 {
+    grid-template-columns: repeat(3, 230px);
+    grid-auto-rows: 290px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 888px) {
+  /* ========== Home Page ========== */
+
+  .giving-section-1 h1 {
+    left: 110px;
+    top: 60px;
+  }
+
+  .second-part-section-1-a h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .second-part-section-1-b p {
+    font-size: 15px;
+  }
+
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    padding: 40px 15px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 175px;
+    grid-auto-rows: 160px;
+  }
+
+  .grid-1 h3 {
+    font-size: 20px;
+  }
+
+  .grid-1 p {
+    font-size: 12px;
+  }
+
+  .grid-7 {
+    padding-top: 25px;
+  }
+
+  .grid-8 {
+    padding-top: 30px;
+  }
+
+  .grid-7 h3,
+  .grid-8 h3 {
+    font-size: 24px;
+  }
+
+  footer {
+    grid-auto-columns: 175px;
+  }
+
+  .footer-grid-4 p i,
+  .footer-grid-5 p i,
+  .footer-grid-6 p i {
+    padding: 5px;
+  }
+
+  .footer-grid-2 a {
+    font-size: 14px;
+  }
+
+  .footer-grid-2 p {
+    font-size: 14px;
+  }
+
+  .footer-grid-2 {
+    padding-top: 35px;
+  }
+
+  .footer-grid-7 p {
+    font-size: 20px;
+  }
+
+  .footer-grid-7 img {
+    width: 65px;
+  }
+
+  .footer-grid-7 i {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 865px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 170px;
+  }
+
+  .about-grid-5 {
+    padding: 20px;
+  }
+
+  .about-grid-5 h1 {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 863px) {
+  /* ========== Home Page ========== */
+  .section-2-header h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 860px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a-btns {
+    padding: 8px 12px;
+  }
+
+  .second-part-section-1-a h1 {
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 440px;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 220px;
+  }
+}
+
+@media (max-width: 845px) {
+  /* ========== Home Page ========== */
+  header {
+    padding: 30px 4%;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  .logo img {
+    top: -9%;
+  }
+
+  .arrow-image {
+    width: 60px;
+  }
+
+  .second-part-section-1-a-btns {
+    font-size: 10px;
+  }
+
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    height: 400px;
+  }
+
+  .section-2-event-box-part-1 h6 {
+    font-size: 11px;
+    width: 110px;
+  }
+
+  .section-2-event-box-part-1 h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .section-2-event-box-part-1 i,
+  .section-2-event-box-part-1 p {
+    font-size: 11px;
+  }
+
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    font-size: 12px;
+    padding: 8px 18px;
+  }
+
+  .second-part-section-1-b p {
+    font-size: 13px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 165px;
+    grid-auto-rows: 150px;
+  }
+
+  .grid-1 p {
+    font-size: 11px;
+  }
+
+  .grid-7 p,
+  .grid-8 p {
+    font-size: 12px;
+  }
+
+  .grid-3-first-p {
+    font-size: 40px;
+  }
+
+  .grid-3-second-p {
+    font-size: 14px;
+  }
+
+  footer {
+    grid-auto-columns: 165px;
+  }
+
+  .footer-grid-4 a,
+  .footer-grid-5 a,
+  .footer-grid-6 a {
+    font-size: 14px;
+  }
+
+  .footer-grid-4 p,
+  .footer-grid-5 p,
+  .footer-grid-6 p {
+    font-size: 13px;
+  }
+
+  .footer-grid-4 p i,
+  .footer-grid-5 p i,
+  .footer-grid-6 p i {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 819px) {
+  /* ========== About Page ========== */
+  .about-section-div {
+    width: 82%;
+  }
+
+  .about-section-2 {
+    grid-auto-columns: 160px;
+    grid-auto-rows: 80px;
+  }
+
+  .about-section-2 h1 {
+    font-size: 20px;
+  }
+
+  .about-section-2 p {
+    font-size: 12px;
+  }
+
+  .about-section-4 {
+    grid-template-columns: repeat(3, 220px);
+    grid-auto-rows: 280px;
+  }
+
+  .about-section-4-div p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 805px) {
+  /* ========== Home Page ========== */
+  nav a {
+    padding: 4px 10px;
+  }
+
+  nav a i {
+    font-size: 12px;
+    padding: 7px;
+    margin-left: -10px;
+  }
+
+  .second-part-section-1-a-btns {
+    font-size: 9px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    font-size: 9px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 h1 {
+    font-size: 28px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 205px;
+  }
+
+  .giving-grid-1 h1,
+  .giving-grid-2 h1,
+  .giving-grid-3 h1 {
+    font-size: 22px;
+  }
+
+  .giving-grid-1 p {
+    font-size: 15px;
+  }
+
+  .giving-grid-3 p {
+    font-size: 13px;
+  }
+
+  .giving-grid-2 a {
+    padding: 12px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(3, 205px);
+  }
+
+  .second-giving-grid-child p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 788px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-a h1 {
+    font-size: 22px;
+  }
+
+  .section-2-header h1 {
+    font-size: 18px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 400px;
+  }
+}
+
+@media (max-width: 780px) {
+  /* ========== About Page ========== */
+}
+
+/* ========== KEY BREAKPOINT ========== */
+@media (max-width: 767px) {
+  /* ========== Home Page ========== */
+  .section-3 {
+    grid-auto-columns: 155px;
+    grid-auto-rows: 140px;
+  }
+
+  .grid-btns i {
+    padding: 10px;
+  }
+
+  .grid-1 p {
+    font-size: 10.5px;
+  }
+
+  footer {
+    grid-auto-columns: 155px;
+    grid-auto-rows: 40px;
+  }
+
+  .footer-grid-2 {
+    padding-top: 27px;
+  }
+
+  .footer-grid-2 a {
+    font-size: 12px;
+  }
+
+  .footer-grid-2 p {
+    font-size: 13px;
+  }
+
+  .footer-grid-4,
+  .footer-grid-5,
+  .footer-grid-6 {
+    line-height: 40px;
+  }
+
+  .footer-grid-4 p,
+  .footer-grid-5 p,
+  .footer-grid-6 p {
+    font-size: 12px;
+  }
+
+  .footer-grid-4 a,
+  .footer-grid-5 a,
+  .footer-grid-6 a {
+    font-size: 12px;
+  }
+
+  .footer-grid-4 p i,
+  .footer-grid-5 p i,
+  .footer-grid-6 p i {
+    font-size: 10px;
+  }
+
+  .footer-grid-7 p {
+    font-size: 18px;
+  }
+
+  .footer-grid-7 img {
+    width: 50px;
+  }
+
+  .footer-grid-7 i {
+    padding: 10px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-image-1 {
+    margin-bottom: 0;
+  }
+
+  .about-section-2 {
+    grid-auto-columns: 200px;
+    grid-auto-rows: 80px;
+    grid-template-areas:
+      "about-grid-1 about-grid-3 about-grid-4"
+      "about-grid-1 about-grid-3 about-grid-5"
+      "about-grid-2 about-grid-2 about-grid-5"
+      "about-grid-2 about-grid-2 about-grid-5";
+  }
+
+  .about-grid-6 {
+    display: none;
+  }
+
+  .about-section-2 p {
+    font-size: 13px;
+  }
+
+  .about-grid-5 h1 {
+    margin-top: 25px;
+  }
+
+  .about-section-1 div,
+  .about-section-4 {
+    display: none;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-form button {
+    width: 90%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container {
+    margin-top: 0px;
+  }
+
+  .media-section-1-buttons-container {
+    margin-top: 10px;
+  }
+
+  .media-section-2 h1,
+  .media-section-3 h1 {
+    font-size: 38px;
+  }
+
+  .media-section-2 p {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .media-section-3 p {
+    font-size: 17px;
+    color: #1e1e1e;
+  }
+
+  .media-section-2 h1 {
+    margin-top: 0px;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 200px;
+    grid-auto-rows: 190px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-2 {
+    grid-template-areas:
+      "giving-grid-1 giving-grid-1 giving-grid-1"
+      "giving-grid-1 giving-grid-1 giving-grid-1"
+      "giving-grid-2 giving-grid-2 giving-grid-2"
+      "giving-grid-3 giving-grid-3 giving-grid-3"
+      "giving-grid-3 giving-grid-3 giving-grid-3";
+  }
+
+  .giving-grid-1 h1,
+  .giving-grid-2 h1,
+  .giving-grid-3 h1 {
+    font-size: 28px;
+  }
+
+  .giving-grid-1 p {
+    font-size: 17px;
+  }
+
+  .giving-grid-3 p {
+    font-size: 17px;
+  }
+
+  .second-giving-grid {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 753px) {
+  .second-part-section-1-a-btns-div-div-special {
+    margin-left: 2px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    margin-left: -2.5px;
+  }
+}
+
+@media (max-width: 740px) {
+  /* ========== Home Page ========== */
+  nav a i {
+    margin-left: -13px;
+  }
+
+  .second-part-section-1-a h1 {
+    font-size: 20px;
+  }
+
+  .second-part-section-1-b p {
+    font-size: 12px;
+  }
+
+  .second-part-section-1-a-btns {
+    padding: 6px 10px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    padding: 8px;
+  }
+
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    font-size: 10px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 150px;
+  }
+
+  .grid-btns i {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .grid-1 p {
+    font-size: 10.3px;
+  }
+
+  .grid-3 {
+    padding: 15px;
+  }
+
+  .grid-3 img {
+    width: 30px;
+  }
+
+  .grid-3-second-p {
+    margin-top: 0;
+  }
+
+  footer {
+    grid-auto-columns: 150px;
+  }
+
+  .footer-grid-7 {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 725px) {
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 380px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 h1 {
+    font-size: 26px;
+    left: 90px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 195px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(3, 195px);
+  }
+}
+
+@media (max-width: 715px) {
+  /* ========== Home Page ========== */
+  .logo img {
+    width: 100px;
+  }
+
+  nav a {
+    font-size: 11px;
+  }
+
+  .section-2-header h1 {
+    font-size: 16px;
+  }
+
+  .section-2-event-box-part-1 h2 {
+    font-size: 22px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 140px;
+    grid-auto-rows: 130px;
+  }
+
+  .grid-1 {
+    padding: 20px 15px;
+  }
+
+  .grid-1 p {
+    font-size: 10px;
+  }
+
+  .grid-8 {
+    padding-top: 20px;
+  }
+
+  .grid-7 h3,
+  .grid-8 h3 {
+    font-size: 20px;
+  }
+
+  .grid-7 p,
+  .grid-8 p {
+    font-size: 11px;
+  }
+
+  footer {
+    grid-auto-columns: 140px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-3-grid {
+    grid-auto-columns: 190px;
+  }
+}
+
+@media (max-width: 696px) {
+  /* ========== Home Page ========== */
+  .second-part-section-1-b p {
+    padding: 25px 30px;
+  }
+
+  .second-part-section-1-a h1 {
+    font-size: 18px;
+  }
+
+  .second-part-section-1-a-btns {
+    font-size: 8px;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    font-size: 8px;
+  }
+
+  /* ========== About Page ========== */
+  .about-grid-5 h1 {
+    margin-top: 15px;
+  }
+
+  .about-section-2 {
+    grid-auto-columns: 180px;
+  }
+
+  .about-grid-1 {
+    padding-top: 15px;
+  }
+
+  .about-section-1 h1 {
+    padding: 0.7% 5%;
+    border-radius: 10px;
+  }
+
+  .about-section-3-text-div h1 {
+    font-size: 30px;
+  }
+
+  .about-section-3-text-div li,
+  .about-section-3-text-div p {
+    font-size: 13px;
+  }
+}
+
+/* ========== GRID COLLAPSE ========== */
+@media (max-width: 675px) {
+  /* ========== Home Page ========== */
+  header {
+    padding: 15px 4%;
+    margin: 15px 9%;
+  }
+
+  nav a {
+    padding: 0;
+  }
+
+  .logo img {
+    top: -9%;
+    width: 60px;
+  }
+
+  .desk-link {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    width: 20px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.836),
+        rgba(0, 0, 0, 0),
+        rgba(0, 153, 248, 0.5)
+      ),
+      #032b44;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+    z-index: 111;
+    display: none;
+  }
+
+  .sidebar a {
+    color: #fff;
+    padding: 15px 40px;
+  }
+
+  .section-1,
+  .section-2 {
+    padding: 20px 9%;
+  }
+
+  .arrow-image {
+    width: 50px;
+  }
+
+  .second-part-section-1-a-btns,
+  .second-part-section-1-a-btns-div i {
+    font-size: 7px;
+  }
+
+  .second-part-section-1-b p {
+    font-size: 11px;
+  }
+
+  .section-2-event-boxes-arrow i {
+    display: none;
+  }
+
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    width: 320px;
+    height: 350px;
+  }
+
+  .section-2-event-box-part-1 h2 {
+    font-size: 20px;
+  }
+
+  .section-2-event-box-part-1 i,
+  .section-2-event-box-part-1 p {
+    font-size: 8px;
+  }
+
+  .section-2-event-box-part-1 h6 {
+    width: 80px;
+    font-size: 8px;
+  }
+
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    font-size: 8px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 170px;
+    grid-auto-rows: 150px;
+    grid-template-areas:
+      "grid-1 grid-2 grid-4"
+      "grid-1 grid-3 grid-4"
+      "grid-6 grid-5 grid-8"
+      "grid-7 grid-7 grid-8";
+  }
+
+  footer {
+    grid-auto-columns: 170px;
+    grid-template-areas:
+      "footer-grid-1 footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1 footer-grid-1"
+      "footer-grid-2 footer-grid-4 footer-grid-5"
+      "footer-grid-2 footer-grid-6 footer-grid-3"
+      "footer-grid-2 footer-grid-7 footer-grid-7"
+      "footer-grid-2 footer-grid-7 footer-grid-7"
+      "footer-grid-2 footer-grid-7 footer-grid-7";
+  }
+
+  .grid-1 {
+    padding: 20px;
+  }
+
+  .grid-1 h3 {
+    font-size: 20px;
+  }
+
+  .grid-1 p {
+    font-size: 12px;
+  }
+
+  .grid-7 h3 {
+    font-size: 25px;
+  }
+
+  .grid-7 p {
+    font-size: 14px;
+  }
+
+  .grid-8 {
+    padding: 20px;
+    padding-top: 30px;
+  }
+
+  .grid-8 h3 {
+    font-size: 25px;
+    /* line-height: 1.3; */
+  }
+
+  .grid-8 p {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .second-part-section-1-a h1 {
+    padding: 20px 10px;
+  }
+
+  .section-2-header h1 {
+    margin-right: 10px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1,
+  .about-section-3 {
+    padding: 20px 9%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
+    padding: 15px 9%;
+  }
+
+  .info-section-form {
+    padding: 20px 9%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1,
+  .media-section-2 {
+    padding: 20px 9%;
+  }
+
+  .media-section-1-embed-video-container iframe {
+    height: 340px;
+  }
+
+  .media-section-1-button {
+    padding: 12px 15px;
+    font-size: 9px;
+  }
+
+  .media-section-1-first-button i,
+  .media-section-1-second-button i,
+  .media-section-1-third-button i {
+    font-size: 9px;
+    padding: 13px;
+  }
+
+  .media-section-2 h1,
+  .media-section-3 h1 {
+    font-size: 28px;
+  }
+
+  .media-section-2 p,
+  .media-section-3 p,
+  .media-section-2 ul li {
+    font-size: 14px;
+  }
+
+  .showBelow675 {
+    display: block;
+  }
+
+  .media-section-2-button,
+  .media-section-2-button i {
+    font-size: 12px;
+  }
+
+  .media-section-2-button {
+    padding: 5px 10px;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 180px;
+    grid-auto-rows: 180px;
+    gap: 10px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 20px 9%;
+  }
+
+  .giving-section-2,
+  .giving-section-3 {
+    padding: 20px 1%;
+  }
+
+  .giving-section-1 h1 {
+    font-size: 24px;
+    top: 45px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 170px;
+  }
+
+  .giving-grid-3 p {
+    font-size: 16px;
+  }
+
+  .giving-grid-3 {
+    padding: 25px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(3, 170px);
+  }
+
+  .second-giving-grid-child-circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .second-giving-grid-child p {
+    font-size: 11px;
+    padding-block: 5px;
+  }
+}
+
+@media (max-width: 655px) {
+  /* ========== Home Page ========== */
+  .section-2-header h1 {
+    margin-right: 9px;
+  }
+
+  .section-2-header hr {
+    width: 60%;
+  }
+
+  .second-part-section-1-b p {
+    padding: 25px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 170px;
+  }
+
+  .about-section-2 p {
+    font-size: 12px;
+  }
+
+  .about-grid-1 {
+    padding: 20px;
+  }
+
+  .about-grid-5 h1 {
+    margin-top: 20px;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2-first-div {
+    padding-right: 30px;
+  }
+
+  .info-section-2-first-div a i {
+    bottom: 72%;
+  }
+
+  .info-section-form button {
+    width: 88%;
+  }
+}
+
+@media (max-width: 630px) {
+  /* ========== Home Page ========== */
+  header {
+    margin: 15px 8%;
+  }
+
+  .section-1,
+  .section-2 {
+    padding: 15px 8%;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1,
+  .about-section-3 {
+    padding: 20px 8%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
+    padding: 15px 8%;
+  }
+
+  .info-section-form {
+    padding: 20px 8%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1,
+  .media-section-2 {
+    padding: 20px 8%;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 160px;
+    grid-auto-rows: 160px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1,
+  .giving-section-2,
+  .giving-section-3 {
+    padding: 20px 8%;
+  }
+}
+
+@media (max-width: 628px) {
+  /* ========== Home Page ========== */
+  header {
+    margin: 15px 6%;
+  }
+
+  .section-1,
+  .section-2 {
+    padding: 15px 6%;
+  }
+
+  .second-part-section-1-a-btns-div i {
+    padding: 6px;
+    margin-left: -2px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1,
+  .about-section-3 {
+    padding: 20px 6%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
+    padding: 15px 6%;
+  }
+
+  .info-section-form {
+    padding: 20px 6%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1,
+  .media-section-2 {
+    padding: 20px 6%;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 20px 6%;
+  }
+
+  .giving-section-2,
+  .giving-section-3 {
+    padding: 20px 1%;
+  }
+
+  .giving-section-1 h1 {
+    left: 80px;
+  }
+}
+
+@media (max-width: 588px) {
+  /* ========== Home Page ========== */
+  header {
+    margin: 15px 5%;
+  }
+
+  .second-part-section-1-b p {
+    padding: 25px 4% 15px;
+  }
+
+  .second-part-section-1-a h1 {
+    font-size: 16px;
+  }
+
+  .second-part-section-1-a-btns {
+    padding: 6px 8px;
+  }
+
+  .second-part-section-1-b p {
+    font-size: 10px;
+  }
+
+  .section-1,
+  .section-2 {
+    padding: 15px 5%;
+  }
+
+  .second-part-section-1 {
+    gap: 10px;
+  }
+
+  .section-2-event-box-a,
+  .section-2-event-box-b,
+  .section-2-event-box-c {
+    padding: 40px 10px;
+  }
+
+  .section-3 {
+    padding: 20px 1%;
+    grid-auto-columns: 160px;
+  }
+
+  .grid-1 p {
+    font-size: 11px;
+  }
+
+  .grid-7 p,
+  .grid-8 p {
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 20px 1%;
+    grid-auto-columns: 160px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1,
+  .about-section-3 {
+    padding: 20px 5%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
+    padding: 15px 5%;
+  }
+
+  .info-section-form {
+    padding: 20px 5%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1,
+  .media-section-2 {
+    padding: 20px 5%;
+  }
+
+  .media-section-1-embed-video-container iframe {
+    height: 320px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 20px 5%;
+  }
+
+  .giving-section-2,
+  .giving-section-3 {
+    padding: 20px 1%;
+  }
+
+  .giving-section-1 h1 {
+    left: 65px;
+    font-size: 22px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 160px;
+  }
+
+  .second-giving-grid {
+    gap: 10px;
+  }
+
+  .giving-grid-1 h1 {
+    font-size: 24px;
+  }
+
+  .giving-grid-1 p {
+    font-size: 16px;
+  }
+
+  .giving-grid-3 h1 {
+    font-size: 24px;
+  }
+
+  .giving-grid-3 p {
+    font-size: 15.4px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 160px;
+    grid-auto-rows: 70px;
+  }
+
+  .about-grid-5 h1 {
+    margin-top: 10px;
+  }
+
+  .about-section-2 p {
+    font-size: 11px;
+  }
+
+  .about-grid-1 {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  /* ========== Giving Page ========== */
+  .giving-section-2 {
+    column-gap: 0;
+    row-gap: 15px;
+  }
+
+  .giving-grid-1 p {
+    font-size: 15.4px;
+  }
+
+  .giving-grid-2 h1 {
+    font-size: 24px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(3, 150px);
+  }
+
+  .second-giving-grid-child {
+    padding: 15px;
+  }
+
+  .second-giving-grid-child p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 150px;
+  }
+
+  .about-section-2 h1 {
+    font-size: 18px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-3-grid {
+    grid-auto-columns: 150px;
+    grid-auto-rows: 150px;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 525px) {
+  /* ========== Home Page ========== */
+  header {
+    margin: 15px 2%;
+  }
+
+  .section-1,
+  .section-2 {
+    padding: 15px 2%;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1,
+  .about-section-3 {
+    padding: 20px 2%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
+    padding: 15px 2%;
+  }
+
+  .info-section-form {
+    padding: 20px 2%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1,
+  .media-section-2 {
+    padding: 20px 2%;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 20px 2%;
+  }
+
+  .giving-section-2,
+  .giving-section-3 {
+    padding: 20px 1%;
+  }
+
+  .giving-section-1 h1 {
+    left: 45px;
+  }
+}
+
+@media (max-width: 515px) {
+  /* ========== Home Page ========== */
+  .arrow-image {
+    width: 40px;
+  }
+
+  .section-2-header h1 {
+    font-size: 15px;
+  }
+
+  .section-3 {
+    grid-auto-columns: 150px;
+    grid-auto-rows: 140px;
+  }
+
+  .grid-1 h3 {
+    font-size: 16px;
+  }
+
+  .grid-1 p {
+    font-size: 10.5px;
+  }
+
+  footer {
+    grid-auto-columns: 150px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1 h1 {
+    padding: 0.7% 6%;
+  }
+}
+
+@media (max-width: 500px) {
+  /* ========== Information Desk Page ========== */
+  .info-section-1-slider {
+    padding-block: 1rem;
+  }
+
+  .info-section-1 p {
+    font-size: 12px;
+  }
+
+  .info-section-1 img {
+    width: 20px;
+  }
+
+  .info-section-2-first-div h1 {
+    font-size: 28px;
+    padding-bottom: 8px;
+  }
+
+  .info-section-2-first-div p {
+    font-size: 12px;
+  }
+
+  .info-section-2-first-div {
+    padding: 20px;
+  }
+
+  .info-section-2-first-div a i {
+    font-size: 16px;
+    padding: 7px;
+  }
+
+  .info-section-2-second-div {
+    padding: 20px;
+  }
+
+  .info-section-2-second-div p {
+    font-size: 12px;
+  }
+
+  .info-section-form label {
+    font-size: 12px;
+    padding: 10px 15px 1px;
+  }
+
+  .info-section-form input,
+  .info-section-form select {
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+
+  .info-section-form input {
+    margin-bottom: 0px;
+  }
+
+  .info-section-form button {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .info-section-form i {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 489px) {
+  /* ========== Giving Page ========== */
+  .giving-section-2 {
+    grid-auto-columns: 150px;
+  }
+
+  .giving-grid-1 h1 {
+    font-size: 22px;
+  }
+
+  .giving-grid-1 p {
+    font-size: 15px;
+  }
+}
+
+/* ========== KEY BREAKPOINT ========== */
+@media (max-width: 483px) {
+  /* ========== Home Page ========== */
+  header {
+    padding: 10px;
+    background: transparent;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
+  .section-1 {
+    padding: 0;
+  }
+
+  .arrow-image,
+  .hero-image {
+    display: none;
+  }
+
+  .hero-image-two {
+    display: block;
+    width: 100%;
+  }
+
+  .second-part-section-1 {
+    margin-top: 0px;
+  }
+
+  .second-part-section-1-a {
+    display: none;
+  }
+
+  .second-part-section-1-b {
+    background: none;
+    width: 100%;
+  }
+
+  .second-part-section-1-b p {
+    color: #030303;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .section-2 {
+    display: none;
+  }
+
+  .section-3 {
+    grid-auto-columns: 180px;
+    grid-auto-rows: 160px;
+    margin-top: 0;
+    padding-top: 0;
+    grid-template-areas:
+      "grid-1 grid-2"
+      "grid-1 grid-3"
+      "grid-4 grid-8"
+      "grid-4 grid-8"
+      "grid-6 grid-5"
+      "grid-7 grid-7";
+  }
+
+  .grid-1 h3 {
+    font-size: 22px;
+  }
+
+  .grid-1 p {
+    font-size: 13px;
+  }
+
+  .grid-7 {
+    padding: 30px 20px 20px;
+  }
+
+  .grid-8 p,
+  .grid-7 p {
+    font-size: 13px;
+  }
+
+  .grid-8 {
+    padding-top: 40px;
+  }
+
+  .grid-3-first-p {
+    font-size: 40px;
+  }
+
+  .grid-3-second-p {
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 20px 2%;
+    grid-auto-columns: 180px;
+    grid-auto-rows: 50px;
+    grid-template-areas:
+      "footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1"
+      "footer-grid-1 footer-grid-1"
+      "footer-grid-2 footer-grid-4"
+      "footer-grid-2 footer-grid-5"
+      "footer-grid-2 footer-grid-6"
+      "footer-grid-2 footer-grid-3"
+      "footer-grid-7 footer-grid-7"
+      "footer-grid-7 footer-grid-7";
+  }
+  .footer-grid-4,
+  .footer-grid-5,
+  .footer-grid-6 {
+    line-height: 50px;
+  }
+
+  .footer-grid-2 p,
+  .footer-grid-2 a,
+  a {
+    font-size: 12px;
+  }
+
+  .footer-grid-2 a {
+    font-size: 12px;
+  }
+
+  .footer-grid-2 {
+    padding-top: 20px;
+  }
+
+  .footer-credit h3,
+  .footer-credit a {
+    font-size: 10px;
+  }
+
+  .footer-grid-7 p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .footer-grid-7 img {
+    left: 5%;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-1 h1 {
+    display: none;
+  }
+
+  .about-section-1 {
+    padding: 0px;
+  }
+
+  .about-section-image-1 {
+    display: none;
+  }
+
+  .about-section-image-1-mobile {
+    display: inline;
+    width: 100%;
+  }
+
+  .about-section-2 {
+    grid-auto-columns: 170px;
+    grid-auto-rows: 80px;
+    grid-template-areas:
+      "about-grid-1 about-grid-3"
+      "about-grid-1 about-grid-3"
+      "about-grid-4 about-grid-5"
+      "about-grid-4 about-grid-5"
+      "about-grid-4 about-grid-5"
+      "about-grid-2 about-grid-2"
+      "about-grid-2 about-grid-2";
+  }
+
+  .about-grid-5 h1 {
+    margin-top: 20px;
+  }
+
+  .about-section-2 p {
+    font-size: 12.7px;
+  }
+
+  .about-section-3 {
+    padding: 20px 6%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2 {
+    padding: 15px 5%;
+  }
+
+  .info-section-form {
+    padding: 20px 5%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 280px;
+  }
+
+  .media-section-1-button {
+    font-size: 8px;
+    padding: 8px 12px;
+  }
+
+  .media-section-1-first-button i,
+  .media-section-1-second-button i,
+  .media-section-1-third-button i {
+    padding: 8px;
+  }
+
+  .media-section-2 h1,
+  .media-section-3 h1 {
+    font-size: 24px;
+  }
+
+  .media-section-2 p,
+  .media-section-3 p,
+  .media-section-2 ul li {
+    font-size: 13px;
+  }
+
+  .media-section-3-grid {
+    grid-template-areas:
+      "media-grid-1 media-grid-5"
+      "media-grid-4 media-grid-5"
+      "media-grid-2 media-grid-2"
+      "media-grid-3 media-grid-3";
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 180px;
+    grid-auto-rows: 180px;
+    gap: 10px;
+  }
+
+  .media-grid-6 {
+    display: none;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 20px 5%;
+  }
+
+  .giving-section-1 h1 {
+    font-size: 20px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 140px;
+    grid-auto-rows: 130px;
+  }
+
+  .giving-grid-1 {
+    padding: 30px 25px;
+  }
+
+  .giving-grid-1 h1 {
+    font-size: 21px;
+  }
+  .giving-grid-1 p {
+    font-size: 14px;
+  }
+
+  .giving-grid-2 h1 {
+    font-size: 22px;
+  }
+
+  .giving-section-2 p {
+    font-size: 14px;
+  }
+
+  .giving-grid-3 {
+    padding: 20px;
+  }
+
+  .giving-grid-3 {
+    padding: 20px;
+  }
+
+  .giving-grid-3 p {
+    margin-bottom: 2px;
+  }
+
+  .hideBelow483 {
+    display: none;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(2, 150px);
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(2, 180px);
+  }
+
+  .second-giving-grid-child-circle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .second-giving-grid-child p {
+    font-size: 11px;
+    padding-block: 10px;
+  }
+}
+
+@media (max-width: 460px) {
+  /* ========== About Page ========== */
+  .about-section-3-text-div h1 {
+    font-size: 26px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 260px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 0 8%;
+  }
+
+  .giving-section-1 h1 {
+    font-size: 17px;
+    left: 60px;
+    top: 15px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 125px;
+    grid-auto-rows: 100px;
+  }
+
+  .giving-grid-1 {
+    padding: 20px;
+  }
+
+  .giving-grid-1 h1,
+  .giving-grid-2 h1,
+  .giving-grid-3 h1 {
+    font-size: 18px;
+  }
+
+  .giving-grid-1 p,
+  .giving-grid-2 p,
+  .giving-grid-3 p {
+    font-size: 11px;
+  }
+
+  .giving-grid-2 a {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .giving-grid-2 {
+    padding-right: 50px;
+  }
+
+  .second-giving-grid {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 430px) {
+  /* ========== Media Center Page ========== */
+  .media-section-2 p,
+  .media-section-3 p,
+  .media-section-2 ul li {
+    font-size: 12px;
+  }
+
+  .media-section-3 p{
+    padding-inline: 7px;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 0 4%;
+  }
+
+  .giving-section-1 h1 {
+    font-size: 16px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  /* ========== About Page ========== */
+  .about-section-3 {
+    padding: 20px 5%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 240px;
+  }
+
+  .media-section-1-button {
+    font-size: 7px;
+    padding: 6px 10px;
+  }
+
+  .media-section-1-buttons-container {
+    gap: 5px;
+  }
+
+  .media-section-1-first-button i,
+  .media-section-1-second-button i,
+  .media-section-1-third-button i {
+    font-size: 7px;
+    padding: 7px;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-form button {
+    width: 86%;
+  }
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 0 7%;
+  }
+
+  .giving-section-1 h1 {
+    font-size: 15px;
+    left: 45px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 110px;
+  }
+
+  .giving-grid-1 h1,
+  .giving-grid-2 h1,
+  .giving-grid-3 h1 {
+    font-size: 16px;
+  }
+
+  .giving-grid-2 {
+    padding: 20px;
+    padding-right: 50px;
+  }
+
+  .giving-grid-2 p {
+    font-size: 10px;
+  }
+
+  .second-giving-grid {
+    grid-template-columns: repeat(2, 150px);
+  }
+
+  .second-giving-grid-child p {
+    font-size: 10px;
+    padding-block: 5px;
+  }
+
+  .second-giving-grid-child-circle {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 395px) {
+  /* ========== Home Page ========== */
+  .section-3 {
+    padding: 0 4% 4%;
+    grid-auto-columns: 170px;
+    grid-auto-rows: 150px;
+  }
+
+  .grid-1 h3 {
+    font-size: 20px;
+  }
+
+  .grid-1 p {
+    font-size: 12px;
+  }
+
+  footer {
+    grid-auto-columns: 170px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .showBelow1006{
+    display: none;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 160px;
+    grid-auto-rows: 160px;
+  }
+}
+
+@media (max-width: 379px) {
+  /* ========== Home Page ========== */
+  .section-3 {
+    grid-auto-columns: 160px;
+    grid-auto-rows: 140px;
+  }
+
+  footer {
+    grid-auto-columns: 160px;
+  }
+
+  .grid-1 {
+    padding-top: 15px;
+  }
+
+  .grid-1 h3 {
+    font-size: 18px;
+  }
+
+  .grid-1 p {
+    font-size: 11px;
+  }
+
+  .grid-7 {
+    padding: 20px;
+  }
+
+  .grid-8 {
+    padding-top: 20px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-2 {
+    grid-auto-columns: 150px;
+    grid-auto-rows: 70px;
+    gap: 15px;
+  }
+
+  .about-grid-5 h1 {
+    margin-top: 10px;
+  }
+
+  .about-section-2 p {
+    font-size: 11px;
+  }
+
+  .about-section-3-text-div h1 {
+    font-size: 24px;
+  }
+
+  .about-section-3-text-div li,
+  .about-section-3-text-div p {
+    font-size: 12px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 210px;
+  }
+}
+
+@media (max-width: 369px) {
+  /* ========== Giving Page ========== */
+  .giving-section-1 h1 {
+    font-size: 14px;
+  }
+
+  .giving-section-2 {
+    grid-auto-columns: 100px;
+  }
+
+  .giving-grid-1 h1,
+  .giving-grid-2 h1,
+  .giving-grid-3 h1 {
+    font-size: 15px;
+  }
+
+  .giving-grid-1 p,
+  .giving-grid-2 p,
+  .giving-grid-3 p {
+    font-size: 10.6px;
+  }
+
+  .second-giving-grid {
+    gap: 7px;
+  }
+}
+
+@media (max-width: 359px) {
+  /* ========== Home Page ========== */
+  .section-3 {
+    grid-auto-columns: 155px;
+    grid-auto-rows: 145px;
+  }
+
+  .grid-1 {
+    padding: 15px;
+  }
+
+  footer {
+    grid-auto-columns: 155px;
+  }
+
+  /* ========== About Page ========== */
+  .about-section-3-text-div h1 {
+    font-size: 22px;
+  }
+
+  .about-section-3-text-div li,
+  .about-section-3-text-div p {
+    font-size: 11px;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-form button {
+    width: 84%;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-3-grid {
+    grid-auto-columns: 150px;
+    grid-auto-rows: 150px;
+  }
+}
+
+@media (max-width: 349px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    gap: 10px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 200px;
+  }
+
+  .media-section-2 h1, .media-section-3 h1 {
+    font-size: 22px;
+}
+
+  /* ========== Giving Page ========== */
+  .giving-section-1 {
+    padding: 0 5.5%;
+  }
+
+  .giving-section-1 h1 {
+    top: 12px;
+    left: 35px;
+  }
+
+  .giving-grid-2 {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 347px) {
+  /* ========== Home Page ========== */
+  .section-3 {
+    padding: 0 3% 4%;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-2-first-div a i {
+    bottom: 75%;
+  }
+
+  .info-section-form button {
+    width: 85%;
+  }
+}
+
+@media (max-width: 340px) {
+  /* ========== Home Page ========== */
+  .section-3 {
+    grid-auto-columns: 145px;
+    grid-auto-rows: 140px;
+  }
+
+  .second-part-section-1-b p {
+    padding: 25px 4.7% 15px;
+  }
+
+  .grid-1 p {
+    font-size: 10.8px;
+  }
+
+  .grid-8 h3 {
+    font-size: 24px;
+  }
+
+  .grid-8 p,
+  .grid-7 p {
+    font-size: 12px;
+  }
+
+  footer {
+    grid-auto-columns: 145px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-button {
+    font-size: 7px;
+    padding: 6px 8px;
+  }
+}
+
+@media (max-width: 330px) {
+  /* ========== About Page ========== */
+  .about-section-2 {
+    gap: 7px;
+  }
+
+  /* ========== Media Center Page ========== */
+  .media-section-1-embed-video-container iframe {
+    height: 190px;
+  }
+
+  .media-section-1-first-button i,
+  .media-section-1-second-button i,
+  .media-section-1-third-button i {
+    margin-left: -3px;
+  }
+
+  .media-section-3-grid {
+    grid-auto-columns: 140px;
+    grid-auto-rows: 140px;
+  }
+
+  /* ========== Information Desk Page ========== */
+  .info-section-form button {
+    width: 82%;
+  }
+
+  .giving-section-1 {
+    padding: 0 3.5%;
+  }
+
+  .giving-section-1 h1 {
+    left: 30px;
+  }
+}

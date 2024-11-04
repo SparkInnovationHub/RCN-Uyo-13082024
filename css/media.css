@@ -246,16 +246,8 @@
   }
 
   /* ========== Media Center Page ========== */
-  .media-section-1 {
-    max-width: 1210px;
-    padding: 20px 35px;
-  }
-
-  .media-section-2 {
-    max-width: 1210px;
-    padding: 20px 35px;
-  }
-
+  .media-section-1,
+  .media-section-2,
   .media-section-3 {
     max-width: 1210px;
     padding: 20px 35px;
@@ -1846,7 +1838,6 @@
 
   /* ========== About Page ========== */
   .about-section-1 h1 {
-    /* font-size: 19px; */
     display: none;
   }
 
@@ -1992,37 +1983,37 @@
     font-size: 14px;
   }
 
-  .about-section-2 p{
+  .about-section-2 p {
     font-size: 11px;
   }
 
-  .about-section-3-text-div h1{
+  .about-section-3-text-div h1 {
     font-size: 20px;
   }
 
   /* ========== Information Desk Page ========== */
-  .info-section-2-first-div a i{
+  .info-section-2-first-div a i {
     bottom: 75%;
   }
 
-  .info-section-form button{
+  .info-section-form button {
     width: 85%;
   }
 
   /* ========== Media Center Page ========== */
   .media-section-1-embed-video-container iframe {
-    height:180px;
+    height: 180px;
   }
 
-  .media-section-3-grid{
+  .media-section-3-grid {
     padding-inline: 0;
   }
   /* ========== Giving Page ========== */
-  .giving-section-1 h1{
+  .giving-section-1 h1 {
     font-size: 13px;
   }
 
-  .giving-section-2{
+  .giving-section-2 {
     grid-auto-columns: 145px;
   }
 }

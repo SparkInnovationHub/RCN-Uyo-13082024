@@ -106,22 +106,22 @@ nav a i {
 
 .second-part-section-1-a h1 {
   background-color: #d02a29;
-  border-radius: 40px;
+  border-radius: 30px;
   padding: 20px;
   color: #ffffff;
   font-size: 35px;
   font-weight: 200;
   text-align: center;
   letter-spacing: 1px;
+  margin-bottom: 9px;
 }
 
 .second-part-section-1-a div {
-  display: flex;
-  justify-content: space-between;
+  display: inline;
 }
 
-.second-part-section-1-a-btns-div {
-  margin-top: 9px; /* DO NOT DELETE */
+.second-part-section-1-a-btns-div-div-special{
+  margin-left: 30px;
 }
 
 .second-part-section-1-a-btns {
@@ -131,18 +131,16 @@ nav a i {
   border-radius: 30px;
   font-size: 15px;
   font-weight: 100;
+  display: inline-block;
 }
 
 .second-part-section-1-a-btns-div i {
+  width: fit-content;
   background-color: #f79e3d;
   color: #fffaf0;
   padding: 15px;
   border-radius: 50%;
   text-align: center;
-}
-
-.second-part-section-1-a-btns-div a {
-  display: flex;
 }
 
 .second-part-section-1-b {
@@ -350,6 +348,7 @@ nav a i {
 
 .grid-1 p {
   font-size: 17px;
+  font-weight: 200;
 }
 
 .grid-2 {
@@ -427,7 +426,7 @@ nav a i {
   background-size: cover;
   background-position: center;
   padding: 20px;
-  padding-top: 40px;
+  padding-top: 35px;
   border-radius: 30px;
   position: relative;
 }
@@ -444,6 +443,7 @@ nav a i {
 
 .grid-7 p {
   font-size: 20px;
+  font-weight: 200;
 }
 
 .grid-8 {
@@ -471,12 +471,13 @@ nav a i {
 .grid-8 p {
   font-size: 20px;
   margin-top: 10px;
+  font-weight: 200;
 }
 
 .grid-btns i {
   background-color: #fffaf0;
   color: #1e1e1e;
-  padding: 20px;
+  padding: 15px;
   font-size: 20px;
   border-radius: 50%;
 }
@@ -484,13 +485,13 @@ nav a i {
 .grid-1-btn i {
   position: absolute;
   right: 10%;
-  bottom: 2%;
+  bottom: 5%;
 }
 
 .grid-7-btn i {
   position: absolute;
   left: 80%;
-  bottom: 12%;
+  bottom: 5%;
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
   border: none;
 }
@@ -498,7 +499,7 @@ nav a i {
 .grid-8-btn i {
   position: absolute;
   right: 10%;
-  bottom: 12%;
+  bottom: 5%;
 }
 
 /* ========== Footer ========== */
@@ -1138,6 +1139,23 @@ a {
   margin-bottom: 45px;
 }
 
+.showBelow675{
+  display: none;
+}
+
+.media-section-2 ul{
+  margin-bottom: 20px;
+}
+
+.media-section-2 ul li{
+  text-align: left;
+  margin-left: 5%;
+}
+
+.media-section-2 ul li a{
+  color: #1e1e1e;
+}
+
 .media-section-2-headers {
   margin-block: 25px;
 }
@@ -1203,6 +1221,10 @@ a {
 .media-section-3 p {
   font-size: 17px;
   color: #1e1e1e;
+}
+
+.showBelow1006{
+  display: none;
 }
 
 .media-section-3-grid {
@@ -1306,8 +1328,10 @@ a {
   padding: 20px 125px;
   display: grid;
   grid-auto-columns: 325px;
+  grid-auto-rows: 150px;
   gap: 15px;
   grid-template-areas:
+    "giving-grid-1 giving-grid-1 giving-grid-3"
     "giving-grid-1 giving-grid-1 giving-grid-3"
     "giving-grid-2 giving-grid-2 giving-grid-3";
 }
@@ -1328,7 +1352,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 40px 25px;
+  padding: 20px 25px;
   border-radius: 30px;
   position: relative;
 }
@@ -1339,7 +1363,7 @@ a {
   right: 20px;
   background-color: #fffaf0;
   color: #1e1e1e;
-  padding: 20px;
+  padding: 15px;
   font-size: 15px;
   border-radius: 50%;
 }
@@ -1350,7 +1374,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 40px;
+  padding: 20px 40px;
   border-radius: 30px;
 }
 
@@ -1365,7 +1389,7 @@ p {
 }
 
 .giving-section-2 p {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .giving-grid-3 p {
@@ -1382,6 +1406,7 @@ p {
 .giving-section-3 h1 {
   text-align: center;
   font-size: 48px;
+  margin-bottom: 20px;
 }
 
 .second-giving-grid {
