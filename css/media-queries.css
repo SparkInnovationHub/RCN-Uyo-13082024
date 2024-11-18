@@ -2671,7 +2671,7 @@
   }
 
   .grid-1 p {
-    font-size: 13px;
+    font-size: 13px;  
   }
 
   .grid-7 {
@@ -3114,10 +3114,12 @@
 
   .grid-1 h3 {
     font-size: 18px;
+    font-size: 12%; 
   }
 
   .grid-1 p {
     font-size: 11px;
+    font-size: 12%; 
   }
 
   .grid-7 {
