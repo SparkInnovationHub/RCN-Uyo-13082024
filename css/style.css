@@ -350,12 +350,14 @@ nav a i {
 }
 
 .grid-1 h3 {
-  font-size: 2.188rem;
+  /* font-size: 2.188rem; */
+  font-size: clamp(1.125rem, 0.8102rem + 1.5741vw, 2.1875rem);
   font-weight: 500;
 }
 
 .grid-1 p {
-  font-size: 1.063rem;
+  /* font-size: 1.063rem; */
+  font-size: clamp(0.625rem, 0.4954rem + 0.6481vw, 1.0625rem);
   font-weight: 200;
 }
 
