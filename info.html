@@ -49,6 +49,9 @@
       href="/assets/Favicon RCN Uyo Colored Logo.png"
       type="image/x-icon"
     />
+
+    <!-- AOS ANIMATION -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Header -->
@@ -81,8 +84,8 @@
       </nav>
     </header>
 
-    <section class="info-section-1">
-      <div class="info-section-1-slider">
+    <section class="info-section-1" >
+      <div class="info-section-1-slider" data-aos="zoom-in" data-aos-duration="1400">
         <p>Contact Us Today</p>
         <img src="/assets/spacer.png" alt="Spacer icon" />
         <p>Contact Us Today</p>
@@ -102,7 +105,7 @@
       </div>
     </section>
 
-    <section class="info-section-2">
+    <section class="info-section-2" data-aos="zoom-in-up" data-aos-duration="1400">
       <div class="info-section-2-first-div">
         <h1>Get in touch</h1>
         <p>
@@ -125,7 +128,7 @@
       </div>
     </section>
 
-    <section class="info-section-form">
+    <section class="info-section-form" data-aos="zoom-in-up" data-aos-duration="1400">
       <form action="#">
         <label for="name">Name</label>
         <input type="text" name="name" id="name" required />
@@ -157,7 +160,7 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer data-aos="zoom-in-up" data-aos-duration="1400">
       <div class="footer-grid-1">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.8478172454043!2d7.925150273966899!3d5.024246338769915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105d57177883077b%3A0x9d82b2c6cc53e0c4!2sRemnant%20Christian%20Network%2C%20Uyo!5e1!3m2!1sen!2sng!4v1726576747204!5m2!1sen!2sng"
@@ -226,5 +229,12 @@
         sidebar.style.display = "none";
       }
     </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:1,
+  });
+</script>
   </body>
 </html>

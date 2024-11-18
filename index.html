@@ -49,6 +49,9 @@
       href="/assets/Favicon RCN Uyo Colored Logo.png"
       type="image/x-icon"
     />
+
+    <!-- AOS ANIMATION -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Header -->
@@ -59,13 +62,23 @@
 
       <nav>
         <a href="#" onclick="showSidebar()"
-            ><img
-              src="./assets/burger.png"
-              alt="Menu icon"
-              class="hamburger-menu"
-          /></a>
+          ><img
+            src="./assets/burger.png"
+            alt="Menu icon"
+            class="hamburger-menu"
+        /></a>
         <div class="sidebar">
-          <a href="#" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+          <a href="#" onclick="hideSidebar()"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#fff"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg></a>
           <a href="about.html" class="nav__link">Who We Are</a>
           <a href="info.html" class="nav__link">Information Desk</a>
           <a href="media.html" class="nav__link">Media Center</a>
@@ -77,12 +90,13 @@
         <a href="media.html" class="nav__link desk-link">Media Center</a>
         <a href="blog.html" class="nav__link desk-link">Blog</a>
         <a href="giving.html" class="giving-nav-link desk-link">Give</a>
-        <a href="giving.html"><i class="ri-arrow-right-up-line desk-link"></i></a>
+        <a href="giving.html"
+          ><i class="ri-arrow-right-up-line desk-link"></i></a>
       </nav>
     </header>
 
     <!-- First Section -->
-    <section class="section-1">
+    <section class="section-1" data-aos="zoom-in-down" data-aos-duration="1400">
       <div class="first-part-section-1">
         <img
           src="/assets/hero-image.png"
@@ -90,7 +104,11 @@
           class="hero-image"
         />
         <img src="assets/ArrowDown.png" alt="Arrow image" class="arrow-image" />
-        <img src="assets/hero-image-two.jpg" alt="Pastor Victor Anaele" class="hero-image-two">
+        <img
+          src="assets/hero-image-two.jpg"
+          alt="Pastor Victor Anaele"
+          class="hero-image-two"
+        />
       </div>
       <div class="second-part-section-1">
         <div class="second-part-section-1-a">
@@ -102,7 +120,9 @@
               </a>
               <a href="about.html"><i class="ri-arrow-right-up-line"></i></a>
             </div>
-            <div class="second-part-section-1-a-btns-div-div second-part-section-1-a-btns-div-div-special">
+            <div
+              class="second-part-section-1-a-btns-div-div second-part-section-1-a-btns-div-div-special"
+            >
               <a href="media.html" class="second-part-section-1-a-btns"
                 >Latest Sermons</a
               >
@@ -112,9 +132,10 @@
         </div>
         <div class="second-part-section-1-b">
           <p>
-            To strive for the rebirth of Apostolic Christianity in our <br class="showAbove550">
+            To strive for the rebirth of Apostolic Christianity in our
+            <br class="showAbove550" />
             generation. Preservation of biblical doctrine and living out the
-            <br class="showAbove550">
+            <br class="showAbove550" />
             truth of God’s word as it is in the Holy Scriptures.
           </p>
         </div>
@@ -122,7 +143,7 @@
     </section>
 
     <!-- Second Section -->
-    <section class="section-2">
+    <section class="section-2" data-aos="zoom-in-up" data-aos-duration="1400">
       <div class="section-2-header">
         <h1>Our Programs and Events</h1>
         <hr />
@@ -215,7 +236,7 @@
     </section>
 
     <!-- Third Section -->
-    <section class="section-3">
+    <section class="section-3" data-aos="zoom-in-up" data-aos-duration="1400">
       <div class="grid-1 item-1">
         <h3>Statement of Faith</h3>
         <p>
@@ -262,7 +283,7 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer data-aos="zoom-in-up" data-aos-duration="1400">
       <div class="footer-grid-1">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.8478172454043!2d7.925150273966899!3d5.024246338769915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105d57177883077b%3A0x9d82b2c6cc53e0c4!2sRemnant%20Christian%20Network%2C%20Uyo!5e1!3m2!1sen!2sng!4v1726576747204!5m2!1sen!2sng"
@@ -315,7 +336,9 @@
       <!-- <h3>Designed and developed with love by <a href="https://sparkinnovationhub.com/">Spark Innovation Hub</a></h3> -->
       <h3>
         Your dreams, our code – Powered by
-        <a href="https://sparkinnovationhub.com/" target="_blank">Spark Innovation Hub</a>
+        <a href="https://sparkinnovationhub.com/" target="_blank"
+          >Spark Innovation Hub</a
+        >
       </h3>
     </div>
 
@@ -328,6 +351,13 @@
         const sidebar = document.querySelector(".sidebar");
         sidebar.style.display = "none";
       }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:1,
+      });
     </script>
   </body>
 </html>

@@ -50,6 +50,9 @@
       href="/assets/Favicon RCN Uyo Colored Logo.png"
       type="image/x-icon"
     />
+
+    <!-- AOS ANIMATION -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Header -->
@@ -82,7 +85,7 @@
       </nav>
     </header>
 
-    <section class="giving-section-1">
+    <section class="giving-section-1" data-aos="zoom-in-down" data-aos-duration="1400">
       <img src="/assets/give-1.png" alt="Coins" />
       <h1>
         <span>Giving;</span> a joyful response to a life changed <br>
@@ -90,7 +93,7 @@
       </h1>
     </section>
 
-    <section class="giving-section-2">
+    <section class="giving-section-2" data-aos="zoom-in-up" data-aos-duration="1400">
       <div class="giving-grid-1">
         <h1>Want to give towards the work of God?</h1>
         <p>
@@ -130,7 +133,7 @@
       </div>
     </section>
 
-    <section class="giving-section-3">
+    <section class="giving-section-3" data-aos="zoom-in-down" data-aos-duration="1400">
       <h1>Bank Transfers</h1>
       <div class="second-giving-grid">
         <div class="second-giving-grid-1 second-giving-grid-child">
@@ -168,7 +171,7 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer data-aos="zoom-in-up" data-aos-duration="1400">
       <div class="footer-grid-1">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.8478172454043!2d7.925150273966899!3d5.024246338769915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105d57177883077b%3A0x9d82b2c6cc53e0c4!2sRemnant%20Christian%20Network%2C%20Uyo!5e1!3m2!1sen!2sng!4v1726576747204!5m2!1sen!2sng"
@@ -235,5 +238,12 @@
         sidebar.style.display = "none";
       }
     </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:1,
+  });
+</script>
   </body>
 </html>
