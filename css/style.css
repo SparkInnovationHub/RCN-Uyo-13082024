@@ -143,6 +143,14 @@ nav a i {
   text-align: center;
 }
 
+.second-part-section-1-a-btns:hover,
+.second-part-section-1-a-btns-div i:hover{
+  color: #f79e3d;
+  background: transparent;
+  border: 1px solid #f79e3d;
+  transition: .7s;
+}
+
 .second-part-section-1-b {
   background: url("/assets/hero-copy-bg.png");
   background-size: cover;
@@ -342,12 +350,12 @@ nav a i {
 }
 
 .grid-1 h3 {
-  font-size: 35px;
+  font-size: 2.188rem;
   font-weight: 500;
 }
 
 .grid-1 p {
-  font-size: 17px;
+  font-size: 1.063rem;
   font-weight: 200;
 }
 
@@ -482,6 +490,13 @@ nav a i {
   border-radius: 50%;
 }
 
+.grid-btns i:hover{
+  color: #fffaf0;
+  background: transparent;
+  border: 1px solid #fffaf0;
+  transition: .5s;
+}
+
 .grid-1-btn i {
   position: absolute;
   right: 10%;
@@ -492,7 +507,6 @@ nav a i {
   position: absolute;
   left: 80%;
   bottom: 5%;
-  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.75);
   border: none;
 }
 
@@ -652,6 +666,13 @@ a {
   position: absolute;
   right: 10%;
   bottom: 10%;
+}
+
+.footer-grid-7 i:hover{
+  color: #fffaf0;
+  background: transparent;
+  border: 1px solid #fffaf0;
+  transition: .5s;
 }
 
 .footer-grid-7 img {
@@ -1070,6 +1091,14 @@ a {
   cursor: pointer;
 }
 
+.info-section-form button:hover,
+.info-section-form i:hover{
+  color: #f79e3d;
+  background: transparent;
+  border: 1px solid #f79e3d;
+  transition: .5s;
+}
+
 /* ========== Media Center Page ========== */
 /* ========== Media Section 1 ========== */
 .media-section-1 {
@@ -1117,6 +1146,16 @@ a {
   color: #fffaf0;
   padding: 15px;
   border-radius: 30px;
+}
+
+.media-section-1-button:hover,
+.media-section-1-first-button i:hover,
+.media-section-1-second-button i:hover,
+.media-section-1-third-button i:hover{
+  color: #f79e3d;
+  background: transparent;
+  border: 1px solid #f79e3d;
+  transition: .5s;
 }
 
 /* ========== Media Section 2 ========== */
@@ -1366,6 +1405,17 @@ a {
   padding: 15px;
   font-size: 15px;
   border-radius: 50%;
+}
+
+.giving-grid-2 a:hover{
+  color: #fffaf0;
+  background: transparent;
+  border: 1px solid #fffaf0;
+  transition: .5s;
+}
+
+.giving-grid-2 a i:hover{
+  color: #fffaf0;
 }
 
 .giving-grid-3 {
