@@ -45,6 +45,12 @@ nav a i {
   margin-left: -23px;
 }
 
+a:is(:link, :active, :visited).active {
+  /* background-color: #f79e3d; */
+  color: #f79e3d;
+  font-weight: 500;
+}
+
 .logo img {
   position: absolute;
   top: -20%;
