@@ -939,7 +939,6 @@ a {
 
 .info-section-1 {
   overflow: clip;
-  max-width: 1440px;
   margin-inline: auto;
   background-color: #1e1e1e;
 }
