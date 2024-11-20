@@ -149,6 +149,13 @@
 }
 
 @media (max-width: 1250px) {
+  /* ========== Home Page ========== */
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    right: 19%;
+  }
+
   /* ========== About Page ========== */
   .about-section-2 p {
     font-size: 18px;
@@ -308,6 +315,13 @@
 }
 
 @media (max-width: 1180px) {
+  /* ========== Home Page ========== */
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    right: 17%;
+  }
+
   /* ========== About Page ========== */
   .about-section-2 {
     grid-auto-columns: 240px;
@@ -483,6 +497,12 @@
 
   .section-2-header h1 {
     font-size: 28px;
+  }
+
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    right: 14%;
   }
 
   footer {
@@ -710,6 +730,7 @@
   .section-2-event-box-part-2-c a {
     font-size: 14px;
     padding: 10px 20px;
+    right: 17%;
   }
 
   .section-2-event-box-part-1 h6 {
@@ -946,6 +967,12 @@
     font-size: 22px;
   }
 
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    right: 15%;
+  }
+
   /* ========== Media Center Page ========== */
   .media-section-1-embed-video-container iframe {
     height: 460px;
@@ -1165,6 +1192,12 @@
     padding: 40px 15px;
   }
 
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    right: 12%;
+  }
+
   .section-3 {
     grid-auto-columns: 175px;
     grid-auto-rows: 160px;
@@ -1295,6 +1328,12 @@
   .section-2-event-box-b,
   .section-2-event-box-c {
     height: 400px;
+  }
+
+  .section-2-event-box-part-2-a a,
+  .section-2-event-box-part-2-b a,
+  .section-2-event-box-part-2-c a {
+    right: 15%;
   }
 
   .section-2-event-box-part-1 h6 {
@@ -2671,7 +2710,7 @@
   }
 
   .grid-1 p {
-    font-size: 13px;  
+    font-size: 13px;
   }
 
   .grid-7 {
@@ -2975,7 +3014,7 @@
     font-size: 12px;
   }
 
-  .media-section-3 p{
+  .media-section-3 p {
     padding-inline: 7px;
   }
 
@@ -3087,7 +3126,7 @@
   }
 
   /* ========== Media Center Page ========== */
-  .showBelow1006{
+  .showBelow1006 {
     display: none;
   }
 
@@ -3117,7 +3156,7 @@
   }
 
   .grid-1 p {
-    font-size: 11px; 
+    font-size: 11px;
   }
 
   .grid-7 {
@@ -3233,9 +3272,10 @@
     height: 200px;
   }
 
-  .media-section-2 h1, .media-section-3 h1 {
+  .media-section-2 h1,
+  .media-section-3 h1 {
     font-size: 22px;
-}
+  }
 
   /* ========== Giving Page ========== */
   .giving-section-1 {
