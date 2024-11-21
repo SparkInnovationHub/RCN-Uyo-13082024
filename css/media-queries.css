@@ -20,7 +20,8 @@
   }
 
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 9%;
   }
 }
@@ -381,7 +382,8 @@
   }
 
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 7%;
   }
 
@@ -2039,7 +2041,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 9%;
   }
 
@@ -2200,7 +2203,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 8%;
   }
 
@@ -2250,7 +2254,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 6%;
   }
 
@@ -2342,7 +2347,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 5%;
   }
 
@@ -2484,7 +2490,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 2%;
   }
 
@@ -2813,7 +2820,8 @@
     font-size: 12.7px;
   }
 
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 6%;
   }
 
@@ -3021,7 +3029,8 @@
 
 @media (max-width: 400px) {
   /* ========== About Page ========== */
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 5%;
   }
 

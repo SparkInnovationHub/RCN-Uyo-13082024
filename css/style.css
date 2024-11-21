@@ -49,7 +49,6 @@ a:is(:link, :active, :visited).active {
   background-color: #94919167;
   border-radius: 30px;
   color: #1e1e1e;
-  font-weight: 500;
 }
 
 .logo img {
@@ -942,6 +941,18 @@ a {
   border-radius: 30px;
 }
 
+/* ========== About Intermediate Section ========== */
+.about-intermediate-section {
+  max-width: 1400px;
+  width: fit-content;
+  margin: 15px auto;
+  padding: 20px 125px;
+}
+
+.about-intermediate-section a{
+  color: #1e1e1e;
+}
+
 /* ========== About Section 3 ========== */
 .about-section-3 {
   max-width: 1400px;
@@ -1563,6 +1574,7 @@ p {
   border-radius: 30px;
   padding: 20px;
   background-color: #a4a4a452;
+  position: relative;
 }
 
 .second-giving-grid-child p {
