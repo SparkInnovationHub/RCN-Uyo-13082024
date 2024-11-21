@@ -96,6 +96,7 @@ a:is(:link, :active, :visited).active {
   background-color: #070658;
   border-radius: 30px;
   padding: 10px 20px;
+  animation: float 3s infinite;
 }
 
 .second-part-section-1 {
@@ -122,6 +123,18 @@ a:is(:link, :active, :visited).active {
   margin-bottom: 9px;
 }
 
+@keyframes float{
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .second-part-section-1-a div {
   display: inline;
 }
@@ -138,6 +151,7 @@ a:is(:link, :active, :visited).active {
   font-size: 15px;
   font-weight: 100;
   display: inline-block;
+  animation: fadeIn 3s infinite;
 }
 
 .second-part-section-1-a-btns-div i {
@@ -147,6 +161,7 @@ a:is(:link, :active, :visited).active {
   padding: 15px;
   border-radius: 50%;
   text-align: center;
+  animation: fadeIn 3s infinite;
 }
 
 .second-part-section-1-a-btns:hover,
@@ -295,6 +310,7 @@ a:is(:link, :active, :visited).active {
   font-size: 17px;
   padding: 15px 20px;
   border-radius: 30px;
+  animation: fadeIn 3s infinite;
 }
 
 .section-2-event-box-part-2-b a {
@@ -303,6 +319,7 @@ a:is(:link, :active, :visited).active {
   font-size: 17px;
   padding: 15px 20px;
   border-radius: 30px;
+  animation: fadeIn 3s infinite;
 }
 
 .section-2-event-box-part-2-c a {
@@ -311,6 +328,7 @@ a:is(:link, :active, :visited).active {
   font-size: 17px;
   padding: 15px 20px;
   border-radius: 30px;
+  animation: fadeIn 3s infinite;  
 }
 
 .section-2-event-boxes-arrow i {
@@ -320,6 +338,7 @@ a:is(:link, :active, :visited).active {
   height: 118px;
   padding: 20px;
   border-radius: 50%;
+  animation: fadeIn 3s infinite;
 }
 
 /* ========== Section 3 ========== */
@@ -498,6 +517,7 @@ a:is(:link, :active, :visited).active {
   padding: 15px;
   font-size: 20px;
   border-radius: 50%;
+  animation: float 3s infinite;
 }
 
 .grid-btns i:hover{
@@ -505,6 +525,7 @@ a:is(:link, :active, :visited).active {
   background: transparent;
   border: 1px solid #fffaf0;
   transition: .5s;
+  animation: float 3s infinite;
 }
 
 .grid-1-btn i {
@@ -650,6 +671,19 @@ a {
   color: #fffaf0;
   padding: 9px;
   border-radius: 50%;
+  animation: fadeIn 3s infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: .3;
+  }
+  50%{
+    opacity: 1;
+  }
+  100% {
+    opacity: .5;
+  }
 }
 
 .footer-grid-4 p,
@@ -689,6 +723,7 @@ a {
   position: absolute;
   left: 10%;
   bottom: 20%;
+  animation: float 3s infinite;
 }
 
 .footer-credit {
@@ -740,6 +775,7 @@ a {
   background-color: #f79e3d;
   border-radius: 30px;
   padding: 10px 20px;
+  animation: fadeIn 3s infinite;
 }
 
 .about-section-div {
@@ -1020,6 +1056,7 @@ a {
   position: absolute;
   bottom: 60px;
   right: 40px;
+  animation: float 3s infinite;
 }
 
 .info-section-2-second-div {
@@ -1035,6 +1072,7 @@ a {
 
 .info-section-2-second-div img {
   display: inline-block;
+  animation: float 3s infinite;
 }
 
 .info-section-2-second-div p {
@@ -1086,6 +1124,7 @@ a {
   background-color: #f79e3d;
   margin-top: 10px;
   cursor: pointer;
+  animation: fadeIn 3s infinite;
 }
 
 .info-section-form i {
@@ -1098,6 +1137,7 @@ a {
   background-color: #f79e3d;
   margin-top: 10px;
   cursor: pointer;
+  animation: fadeIn 3s infinite;
 }
 
 .info-section-form button:hover,
@@ -1106,6 +1146,7 @@ a {
   background: transparent;
   border: 1px solid #f79e3d;
   transition: .5s;
+  animation: fadeIn 3s infinite;
 }
 
 /* ========== Media Center Page ========== */
@@ -1139,6 +1180,7 @@ a {
   color: #fffaf0;
   padding: 12px 60px;
   border-radius: 30px;
+  animation: fadeIn 3s infinite;
 }
 
 .media-section-1-first-button i,
@@ -1148,6 +1190,7 @@ a {
   color: #fffaf0;
   padding: 15px;
   border-radius: 30px;
+  animation: fadeIn 3s infinite;
 }
 
 .media-section-1-third-button i {
@@ -1251,6 +1294,7 @@ a {
   padding: 10px 20px;
   border: 1px solid #f79e3d;
   border-radius: 30px;
+  animation: fadeIn 3s infinite;
 }
 
 /* ========== Media Section 3 ========== */
