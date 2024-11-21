@@ -782,7 +782,6 @@
 
   /* ========== Information Desk Page ========== */
   .info-section-form button {
-    width: 92%;
     font-size: 17px;
     padding: 12px;
   }
@@ -1613,11 +1612,6 @@
     display: none;
   }
 
-  /* ========== Information Desk Page ========== */
-  .info-section-form button {
-    width: 90%;
-  }
-
   /* ========== Media Center Page ========== */
   .media-section-1-embed-video-container {
     margin-top: 0px;
@@ -2190,10 +2184,6 @@
 
   .info-section-2-first-div a i {
     bottom: 72%;
-  }
-
-  .info-section-form button {
-    width: 88%;
   }
 }
 
@@ -3056,11 +3046,6 @@
     padding: 7px;
   }
 
-  /* ========== Information Desk Page ========== */
-  .info-section-form button {
-    width: 86%;
-  }
-
   /* ========== Giving Page ========== */
   .giving-section-1 {
     padding: 0 7%;
@@ -3249,11 +3234,6 @@
     font-size: 11px;
   }
 
-  /* ========== Information Desk Page ========== */
-  .info-section-form button {
-    width: 84%;
-  }
-
   /* ========== Media Center Page ========== */
   .media-section-3-grid {
     grid-auto-columns: 150px;
@@ -3301,10 +3281,6 @@
   /* ========== Information Desk Page ========== */
   .info-section-2-first-div a i {
     bottom: 75%;
-  }
-
-  .info-section-form button {
-    width: 85%;
   }
 }
 
@@ -3365,11 +3341,7 @@
     grid-auto-rows: 140px;
   }
 
-  /* ========== Information Desk Page ========== */
-  .info-section-form button {
-    width: 82%;
-  }
-
+  /* ========== Giving Page ========== */
   .giving-section-1 {
     padding: 0 3.5%;
   }

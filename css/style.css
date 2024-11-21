@@ -214,6 +214,11 @@ a:is(:link, :active, :visited).active {
   margin-top: 30px;
 }
 
+.section-2-event-box-part-1, .section-2-event-box-part-2-a a{
+  position: relative;
+  z-index: 5;
+}
+
 .section-2-event-box-a {
   width: 330px;
   height: 640px;
@@ -225,6 +230,21 @@ a:is(:link, :active, :visited).active {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
+}
+
+.section-2-event-box-a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Blur the background */
+  background: inherit; /* Use the same background image */
+  filter: blur(2px); /* Adjust the blur strength */
+  z-index: 1;
 }
 
 .section-2-event-box-b {
@@ -238,6 +258,21 @@ a:is(:link, :active, :visited).active {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
+}
+
+.section-2-event-box-b::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Blur the background */
+  background: inherit; /* Use the same background image */
+  filter: blur(2px); /* Adjust the blur strength */
+  z-index: 1;
 }
 
 .section-2-event-box-c {
@@ -251,6 +286,21 @@ a:is(:link, :active, :visited).active {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
+}
+
+.section-2-event-box-c::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Blur the background */
+  background: inherit; /* Use the same background image */
+  filter: blur(4px); /* Adjust the blur strength */
+  z-index: 1;
 }
 
 .section-2-event-box-part-1 h6 {
@@ -302,6 +352,7 @@ a:is(:link, :active, :visited).active {
   bottom: 12%;
   right: 20%;
   transition: 0.7s ease;
+  z-index: 5;
 }
 
 .section-2-event-box-part-2-a a:hover{
@@ -323,6 +374,7 @@ a:is(:link, :active, :visited).active {
   bottom: 12%;
   right: 20%;
   transition: 0.7s ease;
+  z-index: 5;
 }
 
 .section-2-event-box-part-2-b a:hover{
@@ -344,6 +396,7 @@ a:is(:link, :active, :visited).active {
   bottom: 12%;
   right: 20%;
   transition: 0.7s ease;
+  z-index: 5;
 }
 
 .section-2-event-box-part-2-c a:hover{
@@ -1119,7 +1172,7 @@ a {
 }
 
 .info-section-form button {
-  width: 94%;
+  width: 100%;
   border-radius: 30px;
   font-size: 17px;
   padding: 15px;
@@ -1130,20 +1183,7 @@ a {
   cursor: pointer;
 }
 
-.info-section-form i {
-  width: 10%;
-  border-radius: 30px;
-  font-size: 19px;
-  padding: 15px;
-  border: none;
-  color: #fffaf0;
-  background-color: #f79e3d;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
-.info-section-form button:hover,
-.info-section-form i:hover{
+.info-section-form button:hover{
   color: #f79e3d;
   background: transparent;
   border: 1px solid #f79e3d;
