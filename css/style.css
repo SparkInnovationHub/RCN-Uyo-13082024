@@ -49,7 +49,6 @@ a:is(:link, :active, :visited).active {
   background-color: #94919167;
   border-radius: 30px;
   color: #1e1e1e;
-  font-weight: 500;
 }
 
 .logo img {
@@ -232,6 +231,11 @@ a:is(:link, :active, :visited).active {
   margin-top: 30px;
 }
 
+.section-2-event-box-part-1, .section-2-event-box-part-2-a a{
+  position: relative;
+  z-index: 5;
+}
+
 .section-2-event-box-a {
   width: 330px;
   height: 640px;
@@ -243,6 +247,21 @@ a:is(:link, :active, :visited).active {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
+}
+
+.section-2-event-box-a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Blur the background */
+  background: inherit; /* Use the same background image */
+  filter: blur(2px); /* Adjust the blur strength */
+  z-index: 1;
 }
 
 .section-2-event-box-b {
@@ -256,6 +275,21 @@ a:is(:link, :active, :visited).active {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
+}
+
+.section-2-event-box-b::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Blur the background */
+  background: inherit; /* Use the same background image */
+  filter: blur(2px); /* Adjust the blur strength */
+  z-index: 1;
 }
 
 .section-2-event-box-c {
@@ -269,6 +303,21 @@ a:is(:link, :active, :visited).active {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
+}
+
+.section-2-event-box-c::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Blur the background */
+  background: inherit; /* Use the same background image */
+  filter: blur(4px); /* Adjust the blur strength */
+  z-index: 1;
 }
 
 .section-2-event-box-part-1 h6 {
@@ -320,6 +369,7 @@ a:is(:link, :active, :visited).active {
   bottom: 12%;
   right: 20%;
   transition: 0.7s ease;
+  z-index: 5;
 }
 
 .section-2-event-box-part-2-a a:hover{
@@ -341,6 +391,7 @@ a:is(:link, :active, :visited).active {
   bottom: 12%;
   right: 20%;
   transition: 0.7s ease;
+  z-index: 5;
 }
 
 .section-2-event-box-part-2-b a:hover{
@@ -362,6 +413,7 @@ a:is(:link, :active, :visited).active {
   bottom: 12%;
   right: 20%;
   transition: 0.7s ease;
+  z-index: 5;
 }
 
 .section-2-event-box-part-2-c a:hover{
@@ -922,6 +974,18 @@ a {
   border-radius: 30px;
 }
 
+/* ========== About Intermediate Section ========== */
+.about-intermediate-section {
+  max-width: 1400px;
+  width: fit-content;
+  margin: 15px auto;
+  padding: 20px 125px;
+}
+
+.about-intermediate-section a{
+  color: #1e1e1e;
+}
+
 /* ========== About Section 3 ========== */
 .about-section-3 {
   max-width: 1400px;
@@ -1154,7 +1218,7 @@ a {
 }
 
 .info-section-form button {
-  width: 94%;
+  width: 100%;
   border-radius: 30px;
   font-size: 17px;
   padding: 15px;
@@ -1166,6 +1230,7 @@ a {
   animation: fadeIn 3s infinite;
 }
 
+<<<<<<< HEAD
 .info-section-form i {
   width: 10%;
   border-radius: 30px;
@@ -1181,6 +1246,9 @@ a {
 
 .info-section-form button:hover,
 .info-section-form i:hover{
+=======
+.info-section-form button:hover{
+>>>>>>> 48d6186493a1e3c09922c34e5f2c185fa139d13c
   color: #f79e3d;
   background: transparent;
   border: 1px solid #f79e3d;
@@ -1564,6 +1632,7 @@ p {
   border-radius: 30px;
   padding: 20px;
   background-color: #a4a4a452;
+  position: relative;
 }
 
 .second-giving-grid-child p {

@@ -20,7 +20,8 @@
   }
 
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 9%;
   }
 }
@@ -381,7 +382,8 @@
   }
 
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 7%;
   }
 
@@ -782,7 +784,6 @@
 
   /* ========== Information Desk Page ========== */
   .info-section-form button {
-    width: 92%;
     font-size: 17px;
     padding: 12px;
   }
@@ -1613,11 +1614,6 @@
     display: none;
   }
 
-  /* ========== Information Desk Page ========== */
-  .info-section-form button {
-    width: 90%;
-  }
-
   /* ========== Media Center Page ========== */
   .media-section-1-embed-video-container {
     margin-top: 0px;
@@ -2045,7 +2041,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 9%;
   }
 
@@ -2191,10 +2188,6 @@
   .info-section-2-first-div a i {
     bottom: 72%;
   }
-
-  .info-section-form button {
-    width: 88%;
-  }
 }
 
 @media (max-width: 630px) {
@@ -2210,7 +2203,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 8%;
   }
 
@@ -2260,7 +2254,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 6%;
   }
 
@@ -2352,7 +2347,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 5%;
   }
 
@@ -2494,7 +2490,8 @@
 
   /* ========== About Page ========== */
   .about-section-1,
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 2%;
   }
 
@@ -2823,7 +2820,8 @@
     font-size: 12.7px;
   }
 
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 6%;
   }
 
@@ -3031,7 +3029,8 @@
 
 @media (max-width: 400px) {
   /* ========== About Page ========== */
-  .about-section-3 {
+  .about-section-3,
+  .about-intermediate-section {
     padding: 20px 5%;
   }
 
@@ -3054,11 +3053,6 @@
   .media-section-1-third-button i {
     font-size: 7px;
     padding: 7px;
-  }
-
-  /* ========== Information Desk Page ========== */
-  .info-section-form button {
-    width: 86%;
   }
 
   /* ========== Giving Page ========== */
@@ -3249,11 +3243,6 @@
     font-size: 11px;
   }
 
-  /* ========== Information Desk Page ========== */
-  .info-section-form button {
-    width: 84%;
-  }
-
   /* ========== Media Center Page ========== */
   .media-section-3-grid {
     grid-auto-columns: 150px;
@@ -3301,10 +3290,6 @@
   /* ========== Information Desk Page ========== */
   .info-section-2-first-div a i {
     bottom: 75%;
-  }
-
-  .info-section-form button {
-    width: 85%;
   }
 }
 
@@ -3365,11 +3350,7 @@
     grid-auto-rows: 140px;
   }
 
-  /* ========== Information Desk Page ========== */
-  .info-section-form button {
-    width: 82%;
-  }
-
+  /* ========== Giving Page ========== */
   .giving-section-1 {
     padding: 0 3.5%;
   }
