@@ -1230,7 +1230,6 @@ a {
   animation: fadeIn 3s infinite;
 }
 
-<<<<<<< HEAD
 .info-section-form i {
   width: 10%;
   border-radius: 30px;
@@ -1244,11 +1243,7 @@ a {
   animation: fadeIn 3s infinite;
 }
 
-.info-section-form button:hover,
-.info-section-form i:hover{
-=======
 .info-section-form button:hover{
->>>>>>> 48d6186493a1e3c09922c34e5f2c185fa139d13c
   color: #f79e3d;
   background: transparent;
   border: 1px solid #f79e3d;
