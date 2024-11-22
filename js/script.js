@@ -16,6 +16,8 @@
 //     x:20
 // })
 
+
+
 // const menu_items = document.querySelector('nav')
 // gsap.from(menu_items.children ,{
 //     opacity:0,
@@ -27,20 +29,78 @@
 //     }
 // })
 
-// gsap.utils.toArray('.section-1 div').forEach(secdiv=>{
-//     gsap.fromTo(secdiv, {
-//         rotation:450,
-//         opacity:0,
-//         y:100,
-//     },{
-//         rotation:0,
-//         opacity:1,
-//         y:0,
-//         duration:3,
-//         delay:2.5,
-//         scrollTrigger:secdiv
-//     })
+// // gsap.utils.toArrays('sec').forEach(sec=>{
+// //     gsap.fromTo(sec,{
+// //         opacity:0
+// //     },{
+// //         opacity:0,
+// //     delay:2.5,
+// //     x:20,
+// //         ScrollTrigger:sec
+// //     })
+// // })
+
+// gsap.from('.arrow-image',{
+//     opacity:0,
+//     delay:2,
+//     x:-20
 // })
+
+// gsap.from('.hero-image',{
+//     opacity:0,
+//     delay:2,
+//     x:20
+// })
+
+// gsap.from('.second-part-section-1-a',{
+//     opacity:0,
+//     delay:2.5,
+//     x: -20
+// })
+
+// gsap.from('.second-part-section-1-b',{
+//     opacity:0,
+//     delay:2.5,
+//     x:20
+
+// })
+
+// gsap.from('.section-2-header',{
+//     opacity:0,
+//     delay:3,
+//     duration:3,
+//     x:1000
+// })
+
+// gsap.from('.section-2-event-box-a',{
+//     opacity:0,
+//     delay:3,
+//     duration:3,
+//     x:-1000,
+//     ScrollTrigger:'.section-2-header'
+// })
+
+
+// gsap.from('.section-2-event-box-b',{
+//     opacity:0,
+//     delay:3,
+//     duration:3,
+//     y:1000,
+//     ScrollTrigger:'.section-2-header'
+// })
+
+// gsap.from('.section-2-event-box-c',{
+//     opacity:0,
+//     delay:3,
+//     duration:3,
+//     x:1000,
+//     ScrollTrigger:'.section-2-header'
+// })
+
+// // Set up ScrollTrigger
+
+  
+
 
 
 // // gsap.utils.toArrays('.second-part-section-1-b p').forEach(title=>{
