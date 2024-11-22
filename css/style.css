@@ -46,8 +46,9 @@ nav a i {
 }
 
 a:is(:link, :active, :visited).active {
-  /* background-color: #f79e3d; */
-  color: #f79e3d;
+  background-color: #94919167;
+  border-radius: 30px;
+  color: #1e1e1e;
   font-weight: 500;
 }
 
@@ -234,10 +235,11 @@ a:is(:link, :active, :visited).active {
   padding: 40px;
   border: none;
   border-radius: 40px;
-  background: url("/assets/event-1.png");
+  background: url("/assets/event-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .section-2-event-box-b {
@@ -246,10 +248,11 @@ a:is(:link, :active, :visited).active {
   padding: 40px;
   border: none;
   border-radius: 40px;
-  background: url("/assets/event-2.png");
+  background: url("/assets/event-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .section-2-event-box-c {
@@ -258,10 +261,11 @@ a:is(:link, :active, :visited).active {
   padding: 40px;
   border: none;
   border-radius: 40px;
-  background: url("/assets/event-3.png");
+  background: url("/assets/event-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .section-2-event-box-part-1 h6 {
@@ -301,7 +305,6 @@ a:is(:link, :active, :visited).active {
 .section-2-event-box-part-2-b,
 .section-2-event-box-part-2-c {
   text-align: center;
-  margin-top: 110%;
 }
 
 .section-2-event-box-part-2-a a {
@@ -310,6 +313,19 @@ a:is(:link, :active, :visited).active {
   font-size: 17px;
   padding: 15px 20px;
   border-radius: 30px;
+  position: absolute;
+  bottom: 12%;
+  right: 20%;
+  transition: 0.7s ease;
+}
+
+.section-2-event-box-part-2-a a:hover{
+  border: 1px solid #f4e13d;
+  background: transparent;
+  color: #f4e13d;
+  font-weight: 700;
+  transform: scale(1.1);
+  backdrop-filter: blur(10px);
   animation: fadeIn 3s infinite;
 }
 
@@ -319,6 +335,19 @@ a:is(:link, :active, :visited).active {
   font-size: 17px;
   padding: 15px 20px;
   border-radius: 30px;
+  position: absolute;
+  bottom: 12%;
+  right: 20%;
+  transition: 0.7s ease;
+}
+
+.section-2-event-box-part-2-b a:hover{
+  border: 1px solid #03bf56;
+  background: transparent;
+  color: #03bf56;
+  font-weight: 700;
+  transform: scale(1.1);
+  backdrop-filter: blur(10px);
   animation: fadeIn 3s infinite;
 }
 
@@ -328,6 +357,19 @@ a:is(:link, :active, :visited).active {
   font-size: 17px;
   padding: 15px 20px;
   border-radius: 30px;
+  position: absolute;
+  bottom: 12%;
+  right: 20%;
+  transition: 0.7s ease;
+}
+
+.section-2-event-box-part-2-c a:hover{
+  border: 1px solid #ed5608;
+  background: transparent;
+  color: #ed5608;
+  font-weight: 700;
+  transform: scale(1.1);
+  backdrop-filter: blur(10px);
   animation: fadeIn 3s infinite;  
 }
 
@@ -399,7 +441,7 @@ a:is(:link, :active, :visited).active {
 
 .grid-3 {
   grid-area: grid-3;
-  background: url("/assets/grid-3.png");
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url("/assets/grid-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -441,7 +483,7 @@ a:is(:link, :active, :visited).active {
 
 .grid-5 {
   grid-area: grid-5;
-  background: url("/assets/grid-5.png");
+  background: url("/assets/grid-5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -450,7 +492,7 @@ a:is(:link, :active, :visited).active {
 
 .grid-6 {
   grid-area: grid-6;
-  background: url("/assets/grid-6.png");
+  background: url("/assets/grid-6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -876,7 +918,7 @@ a {
 
 .about-grid-6 {
   grid-area: about-grid-6;
-  background: url("/assets/about-10.png");
+  background: url("/assets/about-10a.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -917,7 +959,7 @@ a {
   height: 559px;
   width: 300px;
   display: inline-block;
-  background: url(/assets/about-3.png);
+  background: url("/assets/about-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 30px;
