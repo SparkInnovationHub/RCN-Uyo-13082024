@@ -45,7 +45,18 @@ nav a i {
   margin-left: -23px;
 }
 
-a:is(:link, :active, :visited).active {
+nav .nav__link:hover,
+nav .giving-nav-link:hover{
+  border-radius: 20px;
+  border: 1px solid #f79e3d;
+background: transparent;
+color: #1e1e1e;
+font-weight: 700;
+transform: scale(1.1);
+backdrop-filter: blur(10px);
+}
+
+a:is(:link, :visited, :active).active {
   background-color: #94919167;
   border-radius: 30px;
   color: #1e1e1e;

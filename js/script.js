@@ -30,6 +30,7 @@ gsap.from(menu_items.children ,{
     }
 })
 
+// home page   header animation  
 gsap.from('.arrow-image',{
     opacity:0,
     delay:2,
@@ -43,6 +44,7 @@ gsap.from('.hero-image',{
     scrollTrigger:".hero-image"
 })
 
+ // home page section_1 anim ation
 gsap.from('.second-part-section-1-a',{
     opacity:0,
     delay:2.5,
@@ -58,6 +60,7 @@ gsap.from('.second-part-section-1-b',{
 
 })
 
+// home page section-2
 gsap.from('.section-2-header',{
     opacity:0,
     delay:3,
@@ -91,6 +94,7 @@ gsap.from('.section-2-event-box-c',{
     scrollTrigger:'.section-2-header'
 })
 
+//home page section-3 animation
 gsap.from('.grid-1',{
     opacity:0,
     delay:-1,
@@ -156,6 +160,7 @@ gsap.from('.grid-8',{
     scrollTrigger:'.grid-1'
 })
 
+//footer animation
 gsap.from('footer',{
     opacity:0,
     delay:-1,
@@ -164,7 +169,134 @@ gsap.from('footer',{
     scrollTrigger:'footer'
 })
 
+//about page animation
 
+gsap.from('.about-section-1 h1',{
+    opacity:0,
+    delay:2,
+    duration:3,
+    x:-50
+})
+
+gsap.from('.about-section-image-1',{
+    opacity:0,
+    delay:2,
+    duration:3,
+    x:50
+})
+
+gsap.from('.about-section-arrow-image',{
+    opacity:0,
+    delay:1,
+    duration:2,
+    x:-50,
+    scrollTrigger:".about-section-image-1"
+})
+
+gsap.from('.about-section-1 div',{
+    opacity:0,
+    duration:2,
+    x:100,
+    scrollTrigger:".about-section-arrow-image"
+})
+
+
+gsap.from('.about-section-2',{
+    opacity:0,
+    delay:1,
+    duration:1.5,
+    x:-50,
+    y:-100,
+    scrollTrigger:".about-section-1 div"
+})
+gsap.from('.about-section-3-image-div',{
+    opacity:0,
+    duration:2,
+    delay:4,
+    scrollTrigger:".about-p"
+})
+
+gsap.utils.toArray('.about-p').forEach(interSec =>{
+    gsap.from(interSec, {
+        letterSpacing:20,
+        opacity:0,
+        duration:1.5,
+        delay:1,
+        x:50,
+        skewX:65,
+        scrollTrigger:interSec
+    })
+})
+
+gsap.utils.toArray('.about-heading').forEach(heading => {
+    gsap.fromTo(heading,{
+        letterSpacing:10,
+        opacity:0,
+        x:50,
+        skewX:65
+    },  {
+        letterSpacing:0,
+        opacity:1,
+        x:0,
+        skewX:0,
+        duration:1,
+        delay:1,
+        scrollTrigger:heading
+    })
+    
+});
+
+// Animation of infomation page
+gsap.from('.info-section-1',{
+    opacity:0,
+    duration:7,
+})
+
+gsap.from('.info-section-2-first-div',{
+    opacity:0,
+    delay:2,
+    x:-20
+})
+
+gsap.from('.info-section-2-second-div',{
+    opacity:0,
+    delay:2,
+    duration:7,
+    x:20
+})
+
+gsap.from('.info-section-2-second-div',{
+    opacity:0,
+    delay:2,
+    x:50
+})
+
+gsap.from('.info-section-form',{
+    opacity:0,
+    duration:5,
+    y:100,
+    scrollTrigger:'.info-section-form'
+})
+
+
+
+
+// gsap.utils.toArray('.about-p').forEach(aboutP => {
+//     gsap.fromTo(aboutP,{
+//         letterSpacing:10,
+//         opacity:0,
+//         y:300,
+//         skewY:65
+//     },  {
+//         letterSpacing:0,
+//         opacity:1,
+//         y:0,
+//         skewY:0,
+//         duration:1,
+//         scrollTrigger:aboutP
+//     })
+    
+// });
 
 
 
@@ -172,15 +304,12 @@ gsap.from('footer',{
 
 
 
-// gsap.utils.toArrays('.leftAnimation').forEach(title=>{
-//     gsap.fromTo(title,{
+// gsap.utils.toArrays('.about-section-2').forEach(title=>{
+//     gsap.from(title,{
 //         opacity:0,
-//         x:-300
-//     },{
-//         opacity:1,
-//         x:0,
-//         duration:1,
-//         delay:6.5,
-//         scrollTrigger:title
+//     delay:3,
+//     duration:2,
+//     skewX:65,
+//     scrollTrigger:'.about-section-2'
 //     })
 // })
