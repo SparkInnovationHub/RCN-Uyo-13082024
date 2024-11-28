@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.from('.logo img',{
     opacity:0,
     delay:1,
-    x:20
+    x:50
 })
 
 
@@ -73,7 +73,7 @@ gsap.from('.section-2-event-box-a',{
     opacity:0,
     delay:1,
     duration:2,
-    x:-1000,
+    x:-100,
     scrollTrigger:'.section-2-header'
 })
 
@@ -82,7 +82,7 @@ gsap.from('.section-2-event-box-b',{
     opacity:0,
     delay:1,
     duration:2,
-    y:100,
+    y:50,
     scrollTrigger:'.section-2-header'
 })
 
@@ -90,7 +90,7 @@ gsap.from('.section-2-event-box-c',{
     opacity:0,
     delay:1,
     duration:2,
-    x:500,
+    x:100,
     scrollTrigger:'.section-2-header'
 })
 
@@ -99,7 +99,7 @@ gsap.from('.grid-1',{
     opacity:0,
     delay:-1,
     duration:2,
-    x:-500,
+    x:-50,
     scrollTrigger:'.grid-1'
 })
 
@@ -107,7 +107,7 @@ gsap.from('.grid-6 ',{
     opacity:0,
     delay:1,
     duration:2,
-    y:500,
+    y:100,
     scrollTrigger:'.grid-1'
 })
 
@@ -139,8 +139,8 @@ gsap.from('.grid-5',{
     opacity:0,
     delay:1,
     duration:2,
-    y:-100,
-    x:100,
+    y:-50,
+    x:50,
     scrollTrigger:'.grid-1'
 })
 
@@ -156,7 +156,7 @@ gsap.from('.grid-8',{
     opacity:0,
     delay:1,
     duration:2,
-    x:100,
+    x:50,
     scrollTrigger:'.grid-1'
 })
 
@@ -173,15 +173,15 @@ gsap.from('footer',{
 
 gsap.from('.about-section-1 h1',{
     opacity:0,
-    delay:2,
-    duration:3,
+    delay:1,
+    duration:2,
     x:-50
 })
 
 gsap.from('.about-section-image-1',{
     opacity:0,
-    delay:2,
-    duration:3,
+    delay:1,
+    duration:2,
     x:50
 })
 
@@ -190,7 +190,8 @@ gsap.from('.about-section-arrow-image',{
     delay:1,
     duration:2,
     x:-50,
-    scrollTrigger:".about-section-image-1"
+    scrollTrigger:".about-section-image-1",
+    
 })
 
 gsap.from('.about-section-1 div',{
@@ -222,8 +223,7 @@ gsap.utils.toArray('.about-p').forEach(interSec =>{
         opacity:0,
         duration:1.5,
         delay:1,
-        x:50,
-        skewX:65,
+        y:50,
         scrollTrigger:interSec
     })
 })
@@ -232,13 +232,11 @@ gsap.utils.toArray('.about-heading').forEach(heading => {
     gsap.fromTo(heading,{
         letterSpacing:10,
         opacity:0,
-        x:50,
-        skewX:65
+        y:50
     },  {
         letterSpacing:0,
         opacity:1,
-        x:0,
-        skewX:0,
+        y:0,
         duration:1,
         delay:1,
         scrollTrigger:heading
@@ -277,6 +275,16 @@ gsap.from('.info-section-form',{
     y:100,
     scrollTrigger:'.info-section-form'
 })
+
+//Animating Media page
+
+gsap.from('.media-section-3-grid',{
+    opacity:0,
+    duration:5,
+    y:100,
+    scrollTrigger:'.media-section-3-grid'
+})
+
 
 
 
