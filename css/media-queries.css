@@ -1481,7 +1481,7 @@
   }
 
   .giving-grid-2 a {
-    padding: 12px;
+    padding: 10px 12px;
   }
 
   .second-giving-grid {
@@ -2702,6 +2702,17 @@
       "grid-7 grid-7";
   }
 
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6,
+  .grid-7,
+  .grid-8 {
+    border-radius: 15px;
+  }
+
   .grid-1 h3 {
     font-size: 22px;
   }
@@ -2747,10 +2758,20 @@
       "footer-grid-7 footer-grid-7"
       "footer-grid-7 footer-grid-7";
   }
+
   .footer-grid-4,
   .footer-grid-5,
   .footer-grid-6 {
     line-height: 50px;
+  }
+
+  .footer-grid-2,
+  .footer-grid-7 {
+    border-radius: 15px;
+  }
+
+  .footer-grid-1 iframe {
+    border-radius: 15px;
   }
 
   .footer-grid-2 p,
@@ -2812,6 +2833,14 @@
       "about-grid-2 about-grid-2";
   }
 
+  .about-grid-1,
+  .about-grid-2,
+  .about-grid-3,
+  .about-grid-4,
+  .about-grid-5 {
+    border-radius: 15px;
+  }
+
   .about-grid-5 h1 {
     margin-top: 20px;
   }
@@ -2830,13 +2859,23 @@
     padding: 15px 5%;
   }
 
+  .info-section-2-first-div,
+  .info-section-2-second-div,.info-section-form form {
+    border-radius: 15px;
+  }
+
   .info-section-form {
     padding: 20px 5%;
   }
 
   /* ========== Media Center Page ========== */
+  .media-section-1{
+    padding: 20px 0;
+  }
+
   .media-section-1-embed-video-container iframe {
     height: 280px;
+    border-radius: 0;
   }
 
   .media-section-1-button {
@@ -2869,6 +2908,10 @@
       "media-grid-3 media-grid-3";
   }
 
+  .media-grid-1, .media-grid-2, .media-grid-3, .media-grid-4, .media-grid-5{
+    border-radius: 15px;
+  }
+
   .media-section-3-grid {
     grid-auto-columns: 180px;
     grid-auto-rows: 180px;
@@ -2881,7 +2924,11 @@
 
   /* ========== Giving Page ========== */
   .giving-section-1 {
-    padding: 20px 5%;
+    padding: 20px 5% 0;
+  }
+
+  .giving-section-1 img{
+    border-radius: 15px;
   }
 
   .giving-section-1 h1 {
@@ -2889,8 +2936,13 @@
   }
 
   .giving-section-2 {
+    padding-top: 0;
     grid-auto-columns: 140px;
     grid-auto-rows: 130px;
+  }
+
+  .giving-grid-1, .giving-grid-2,.giving-grid-3, .second-giving-grid-child{
+    border-radius: 15px;
   }
 
   .giving-grid-1 {
