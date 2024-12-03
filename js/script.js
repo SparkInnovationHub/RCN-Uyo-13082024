@@ -9,7 +9,7 @@ gsap.from('.logo img',{
 
 
 const menu_items = document.querySelector('nav')
-gsap.from(menu_items.children ,{
+gsap.from(menu_items ,{
     opacity:0,
     x:0,
     duration:1,
