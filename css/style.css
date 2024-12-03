@@ -98,6 +98,11 @@ a:is(:link, :visited, :active).active {
 
 .hero-image {
   width: 100%;
+  transition: filter 0.3s ease;
+}
+
+.hero-image:hover {
+  filter: brightness(1.3);
 }
 
 .hero-image-two{
@@ -136,7 +141,14 @@ a:is(:link, :visited, :active).active {
   text-align: center;
   letter-spacing: 1px;
   margin-bottom: 9px;
+  transition: filter 0.3s ease;
 }
+
+.second-part-section-1-a h1:hover {
+  filter: brightness(1.3);
+}
+
+
 
 @keyframes float{
   0% {
@@ -194,6 +206,11 @@ a:is(:link, :visited, :active).active {
   background-repeat: no-repeat;
   border-radius: 30px;
   width: 70%;
+  transition: filter 0.3s ease;
+}
+
+.second-part-section-1-b:hover {
+  filter: brightness(1.5);
 }
 
 .second-part-section-1-b p {
@@ -203,6 +220,8 @@ a:is(:link, :visited, :active).active {
   line-height: 1.5;
   font-weight: 100;
 }
+
+
 
 .showAbove550 {
   display: none;
@@ -483,6 +502,11 @@ a:is(:link, :visited, :active).active {
   padding: 20px;
   border-radius: 30px;
   position: relative;
+  transition: filter 0.3s ease;
+}
+
+.grid-1:hover {
+  filter: brightness(1.3);
 }
 
 .grid-1 h3,
@@ -511,6 +535,11 @@ a:is(:link, :visited, :active).active {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.grid-2:hover {
+  filter: brightness(1.3);
 }
 
 .grid-3 {
@@ -523,6 +552,11 @@ a:is(:link, :visited, :active).active {
   padding: 20px;
   line-height: 1;
   position: relative;
+  transition: filter 0.3s ease;
+}
+
+.grid-3:hover {
+  filter: brightness(1.3);
 }
 
 .grid-3-paragraphs {
@@ -553,6 +587,11 @@ a:is(:link, :visited, :active).active {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.grid-4:hover {
+  filter: brightness(1.3);
 }
 
 .grid-5 {
@@ -562,6 +601,11 @@ a:is(:link, :visited, :active).active {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.grid-5:hover {
+  filter: brightness(1.3);
 }
 
 .grid-6 {
@@ -571,6 +615,11 @@ a:is(:link, :visited, :active).active {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.grid-6:hover {
+  filter: brightness(1.3);
 }
 
 .grid-7 {
@@ -582,6 +631,11 @@ a:is(:link, :visited, :active).active {
   padding-top: 35px;
   border-radius: 30px;
   position: relative;
+  transition: filter 0.3s ease;
+}
+
+.grid-7:hover {
+  filter: brightness(1.3);
 }
 
 .grid-7 h3,
@@ -608,6 +662,11 @@ a:is(:link, :visited, :active).active {
   padding-top: 40px;
   border-radius: 30px;
   position: relative;
+  transition: filter 0.3s ease;
+}
+
+.grid-8:hover {
+  filter: brightness(1.3);
 }
 
 .grid-8 h3,
@@ -704,6 +763,11 @@ footer {
   border-radius: 30px;
   padding: 50px 25px;
   line-height: 3;
+  transition: filter 0.3s ease;
+}
+
+.footer-grid-2:hover {
+  filter: brightness(1.3);
 }
 
 .footer-grid-2 p,
@@ -727,6 +791,11 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.footer-grid-3:hover {
+  filter: brightness(1.3);
 }
 
 .footer-grid-4 {
@@ -789,6 +858,11 @@ transition: .5s;
   border-radius: 30px;
   padding: 25px;
   position: relative;
+  transition: filter 0.3s ease;
+}
+
+.footer-grid-7:hover {
+  filter: brightness(1.5);
 }
 
 .footer-grid-4 p i,
@@ -879,6 +953,11 @@ a {
 .about-section-image-1 {
   width: 100%;
   margin-bottom: 10px;
+  transition: filter 0.3s ease;
+}
+
+.about-section-image-1:hover {
+  filter: brightness(1.5);
 }
 
 .about-section-1 h1 {
@@ -945,6 +1024,11 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.about-grid-1:hover {
+  filter: brightness(1.3);
 }
 
 .about-grid-1 {
@@ -962,6 +1046,11 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.about-grid-2:hover {
+  filter: brightness(1.3);
 }
 
 .about-grid-3 {
@@ -971,6 +1060,11 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.about-grid-3:hover {
+  filter: brightness(1.3);
 }
 
 .about-grid-4 {
@@ -989,6 +1083,11 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.about-grid-5:hover {
+  filter: brightness(1.5);
 }
 
 .about-grid-5 {
@@ -1006,6 +1105,11 @@ a {
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+  transition: filter 0.3s ease;
+}
+
+.about-grid-6:hover {
+  filter: brightness(1.3);
 }
 
 /* ========== About Intermediate Section ========== */
@@ -1059,8 +1163,12 @@ a {
   background-repeat: no-repeat;
   border-radius: 30px;
   object-fit: cover;
+  transition: filter 0.3s ease;
 }
 
+.about-section-3-image-div:hover {
+  filter: brightness(1.5);
+}
 /* ========== About Section 4 ========== */
 
 .about-section-4 {

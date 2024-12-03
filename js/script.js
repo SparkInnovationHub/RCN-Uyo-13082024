@@ -1,14 +1,3 @@
-// ACTIVE NAVIGATION STATE
-
-// const navLinkEls = document.querySelectorAll('.nav__link');
-
-// navLinkEls.forEach(navLinkEl => {
-//     navLinkEl.addEventListener('click', () => {
-//         document.querySelector('.active')?.classList.remove('active');
-//         navLinkEl.classList.add('active');
-//     });
-// });
-
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.from('.logo img',{
@@ -55,7 +44,7 @@ gsap.from('.second-part-section-1-a',{
 gsap.from('.second-part-section-1-b',{
     opacity:0,
     delay:2.5,
-    x:20,
+    y:20,
     scrollTrigger:".second-part-section-1-b"
 
 })
@@ -206,8 +195,7 @@ gsap.from('.about-section-2',{
     opacity:0,
     delay:1,
     duration:1.5,
-    x:-50,
-    y:-100,
+    y:50,
     scrollTrigger:".about-section-1 div"
 })
 gsap.from('.about-section-3-image-div',{
@@ -278,46 +266,21 @@ gsap.from('.info-section-form',{
 
 //Animating Media page
 
-gsap.from('.media-section-3-grid',{
+gsap.from('.media-section-1',{
     opacity:0,
     duration:5,
     y:100,
-    scrollTrigger:'.media-section-3-grid'
+    scrollTrigger:'.media-section-1'
 })
 
-
-
-
-
-// gsap.utils.toArray('.about-p').forEach(aboutP => {
-//     gsap.fromTo(aboutP,{
-//         letterSpacing:10,
-//         opacity:0,
-//         y:300,
-//         skewY:65
-//     },  {
-//         letterSpacing:0,
-//         opacity:1,
-//         y:0,
-//         skewY:0,
-//         duration:1,
-//         scrollTrigger:aboutP
-//     })
-    
-// });
-
-
-
-  
-
-
-
-// gsap.utils.toArrays('.about-section-2').forEach(title=>{
-//     gsap.from(title,{
-//         opacity:0,
-//     delay:3,
-//     duration:2,
-//     skewX:65,
-//     scrollTrigger:'.about-section-2'
-//     })
-// })
+//Animation of giving page
+gsap.utils.toArray('.giving-sec').forEach(interSec =>{
+    gsap.from(interSec, {
+        letterSpacing:20,
+        opacity:0,
+        duration:1.5,
+        delay:1,
+        y:50,
+        scrollTrigger:interSec
+    })
+})
