@@ -1916,7 +1916,7 @@
       #032b44;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     transition: 1s;
-    z-index: 111;
+    z-index: 1111;
     display: none;
   }
 
