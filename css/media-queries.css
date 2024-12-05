@@ -1891,6 +1891,10 @@
     display: none;
   }
 
+  .mobile-nav-link {
+    display: block;
+  }
+
   .hamburger-menu {
     display: block;
     width: 20px;
@@ -2860,7 +2864,8 @@
   }
 
   .info-section-2-first-div,
-  .info-section-2-second-div,.info-section-form form {
+  .info-section-2-second-div,
+  .info-section-form form {
     border-radius: 15px;
   }
 
@@ -2869,7 +2874,7 @@
   }
 
   /* ========== Media Center Page ========== */
-  .media-section-1{
+  .media-section-1 {
     padding: 20px 0;
   }
 
@@ -2908,7 +2913,11 @@
       "media-grid-3 media-grid-3";
   }
 
-  .media-grid-1, .media-grid-2, .media-grid-3, .media-grid-4, .media-grid-5{
+  .media-grid-1,
+  .media-grid-2,
+  .media-grid-3,
+  .media-grid-4,
+  .media-grid-5 {
     border-radius: 15px;
   }
 
@@ -2927,7 +2936,7 @@
     padding: 20px 5% 0;
   }
 
-  .giving-section-1 img{
+  .giving-section-1 img {
     border-radius: 15px;
   }
 
@@ -2941,7 +2950,10 @@
     grid-auto-rows: 130px;
   }
 
-  .giving-grid-1, .giving-grid-2,.giving-grid-3, .second-giving-grid-child{
+  .giving-grid-1,
+  .giving-grid-2,
+  .giving-grid-3,
+  .second-giving-grid-child {
     border-radius: 15px;
   }
 

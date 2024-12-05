@@ -52,8 +52,8 @@ nav a i {
   background: transparent;
   color: #1e1e1e;
   font-weight: 700;
-  /* transform: scale(1.1); */
   backdrop-filter: blur(10px);
+  /* transform: scale(1.1); */
 }
 
 a:is(:link, :visited, :active).active {
@@ -73,7 +73,8 @@ a:is(:link, :visited, :active).active {
   filter: brightness(2);
 }
 
-.hamburger-menu {
+.hamburger-menu,
+.mobile-nav-link {
   display: none;
 }
 
@@ -1378,6 +1379,9 @@ a {
 .media-section-2 ul li {
   text-align: left;
   margin-left: 5%;
+  /* list-style: none;
+  border: 1px solid #ed5608;
+  padding: 5px; */
 }
 
 .media-section-2 ul li a {
