@@ -8,8 +8,8 @@ gsap.from('.logo img',{
 
 
 
-const menu_items = document.querySelector('nav')
-gsap.from(menu_items ,{
+const menu_items = document.querySelector('.dLink')
+gsap.from(menu_items.children ,{
     opacity:0,
     x:0,
     duration:1,
@@ -284,3 +284,4 @@ gsap.utils.toArray('.giving-sec').forEach(interSec =>{
         scrollTrigger:interSec
     })
 })
+
