@@ -535,7 +535,7 @@ a:is(:link, :visited, :active).active {
 
 .grid-2 {
   grid-area: grid-2;
-  background: url("/assets/grid-2.png");
+  background: url("/assets/grid-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -588,7 +588,7 @@ a:is(:link, :visited, :active).active {
 
 .grid-4 {
   grid-area: grid-4;
-  background: url("/assets/grid-4.png");
+  background: url("/assets/grid-4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
