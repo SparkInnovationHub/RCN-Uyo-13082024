@@ -19,6 +19,12 @@ gsap.from(menu_items.children ,{
     }
 })
 
+gsap.from('.givingI',{
+    opacity:0,
+    delay:1,
+    duration:3
+})
+
 // home page   header animation  
 gsap.from('.arrow-image',{
     opacity:0,
