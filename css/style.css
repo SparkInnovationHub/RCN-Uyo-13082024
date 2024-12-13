@@ -60,11 +60,11 @@ nav a i {
   /* transform: scale(1.1); */
 }
 
-a:is(:link, :visited, :active).active {
+/* a:is(:link, :visited, :active).active {
   background-color: #94919167;
   border-radius: 30px;
   color: #1e1e1e;
-}
+} */
 
 .logo img {
   position: absolute;
