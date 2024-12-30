@@ -412,6 +412,11 @@
   .giving-section-3 {
     padding: 20px 7%;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 7%;
+  }
 }
 
 @media (max-width: 1125px) {
@@ -472,6 +477,11 @@
   .giving-grid-1 p {
     font-size: 17.5px;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 1075px) {
@@ -523,6 +533,11 @@
 
   .about-section-3-text-div p {
     padding-block: 3px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 p {
+    font-size: 15px;
   }
 }
 
@@ -1406,6 +1421,11 @@
   .footer-grid-6 p i {
     font-size: 11px;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 4%;
+  }
 }
 
 @media (max-width: 819px) {
@@ -2151,6 +2171,16 @@
     font-size: 11px;
     padding-block: 5px;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 9%;
+    grid-template-columns: 1fr;
+  }
+
+  .about-pst-section-1 img {
+    justify-self: center;
+  }
 }
 
 @media (max-width: 655px) {
@@ -2238,6 +2268,11 @@
   .giving-section-3 {
     padding: 20px 8%;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 8%;
+  }
 }
 
 @media (max-width: 628px) {
@@ -2290,6 +2325,11 @@
 
   .giving-section-1 h1 {
     left: 80px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 6%;
   }
 }
 
@@ -2413,6 +2453,11 @@
   .giving-grid-3 p {
     font-size: 15.4px;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 5%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -2526,6 +2571,11 @@
 
   .giving-section-1 h1 {
     left: 45px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 2%;
   }
 }
 
@@ -3008,6 +3058,11 @@
   .second-giving-grid-child p {
     font-size: 11px;
     padding-block: 10px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 p {
+    font-size: 14px;
   }
 }
 
