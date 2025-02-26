@@ -3061,6 +3061,9 @@
   }
 
   /* ========== PstVictor Page ========== */
+  .about-pst-section-1{
+    padding: 20px 5%;
+  }
   .about-pst-section-1 p {
     font-size: 14px;
   }
