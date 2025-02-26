@@ -2705,7 +2705,8 @@
 }
 
 /* ========== KEY BREAKPOINT ========== */
-@media (max-width: 483px) {
+@media 
+(max-width: 483px) {
   /* ========== Home Page ========== */
   header {
     padding: 10px;
@@ -2921,6 +2922,10 @@
 
   .special-about-pst-section img {
     width: 100%;
+  }
+
+   .special-about-pst-section {
+    padding: 20px 6%;
   }
 
   /* ========== Information Desk Page ========== */
