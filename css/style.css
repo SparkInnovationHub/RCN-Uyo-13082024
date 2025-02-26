@@ -1827,13 +1827,20 @@ p {
   max-width: 1400px;
   margin: 15px auto;
   padding: 20px 125px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 25px;
-  grid-template-columns: 250px 1fr;
+  align-items: center;
 }
 
 .about-pst-section-1 img {
-  width: 250px;
+  width: 300px;
+  /* display: inline-block; */
+}
+
+.about-pst-section-1 h2{
+  /* display: inline; */
+  /* margin-top: -100px; */
 }
 
 .about-pst-section-1 p {
