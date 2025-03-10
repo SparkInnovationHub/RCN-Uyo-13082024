@@ -1160,9 +1160,34 @@ a {
   margin: 15px auto;
   padding: 20px 125px;
 }
+
 .outreach:hover {
   font-weight: 600;
   transition: 0.5s;
+}
+
+.about-section-3-text-div {
+  margin-bottom: 25px;
+}
+
+.readmore{
+    
+    background-color: rgb(247, 158, 61);
+    color: rgb(255, 250, 240);
+    border-radius: 30px;
+    padding: 10px 15px;
+    transition: 0.5s ease-in-out;
+
+}
+.readmore:hover {
+    background-color: transparent;
+    color: #f79e3d;
+    border: 1px solid #f79e3d;
+}
+.about-pst-button:hover {
+  background-color: transparent;
+  color: #f79e3d;
+  border: 1px solid #f79e3d;
 }
 
 .about-intermediate-section a {
