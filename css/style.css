@@ -1125,6 +1125,10 @@ a {
   margin: 15px auto;
   padding: 20px 125px;
 }
+.outreach:hover {
+  font-weight: 600;
+  transition: 0.5s;
+}
 
 .about-intermediate-section a {
   color: #1e1e1e;
