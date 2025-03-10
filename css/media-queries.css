@@ -412,6 +412,11 @@
   .giving-section-3 {
     padding: 20px 7%;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 7%;
+  }
 }
 
 @media (max-width: 1125px) {
@@ -437,6 +442,10 @@
   }
 
   footer {
+    padding: 20px 5%;
+  }
+  /* ========== Special About Pastor Victor Section ========== */
+  .special-about-pst-section {
     padding: 20px 5%;
   }
 
@@ -471,6 +480,11 @@
 
   .giving-grid-1 p {
     font-size: 17.5px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 p {
+    font-size: 16px;
   }
 }
 
@@ -523,6 +537,11 @@
 
   .about-section-3-text-div p {
     padding-block: 3px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 p {
+    font-size: 15px;
   }
 }
 
@@ -974,6 +993,12 @@
     right: 15%;
   }
 
+  /* ========== Special About Pastor Victor Section ========== */
+  .special-about-pst-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
   /* ========== Media Center Page ========== */
   .media-section-1-embed-video-container iframe {
     height: 460px;
@@ -1405,6 +1430,11 @@
   .footer-grid-5 p i,
   .footer-grid-6 p i {
     font-size: 11px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 4%;
   }
 }
 
@@ -1865,7 +1895,8 @@
   }
 
   .about-section-3-text-div li,
-  .about-section-3-text-div p {
+  .about-section-3-text-div p,
+  .special-about-pst-section p {
     font-size: 13px;
   }
 }
@@ -2151,6 +2182,16 @@
     font-size: 11px;
     padding-block: 5px;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 9%;
+    grid-template-columns: 1fr;
+  }
+
+  .about-pst-section-1 img {
+    justify-self: center;
+  }
 }
 
 @media (max-width: 655px) {
@@ -2238,6 +2279,11 @@
   .giving-section-3 {
     padding: 20px 8%;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 8%;
+  }
 }
 
 @media (max-width: 628px) {
@@ -2290,6 +2336,11 @@
 
   .giving-section-1 h1 {
     left: 80px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 6%;
   }
 }
 
@@ -2413,6 +2464,11 @@
   .giving-grid-3 p {
     font-size: 15.4px;
   }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 5%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -2526,6 +2582,11 @@
 
   .giving-section-1 h1 {
     left: 45px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 2%;
   }
 }
 
@@ -2644,7 +2705,8 @@
 }
 
 /* ========== KEY BREAKPOINT ========== */
-@media (max-width: 483px) {
+@media 
+(max-width: 483px) {
   /* ========== Home Page ========== */
   header {
     padding: 10px;
@@ -2858,6 +2920,14 @@
     padding: 20px 6%;
   }
 
+  .special-about-pst-section img {
+    width: 100%;
+  }
+
+   .special-about-pst-section {
+    padding: 20px 6%;
+  }
+
   /* ========== Information Desk Page ========== */
   .info-section-2 {
     padding: 15px 5%;
@@ -3008,6 +3078,19 @@
   .second-giving-grid-child p {
     font-size: 11px;
     padding-block: 10px;
+  }
+
+  /* ========== PstVictor Page ========== */
+  .about-pst-section-1 {
+    padding: 20px 5%;
+  }
+
+  .about-pst-section-1 h2 {
+    font-size: 18px;
+  }
+
+  .about-pst-section-1 p {
+    font-size: 14px;
   }
 }
 
